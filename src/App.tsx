@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import PokemonTable from './PokemonTable'
 import Pokedex from "./pokedex.json"
 

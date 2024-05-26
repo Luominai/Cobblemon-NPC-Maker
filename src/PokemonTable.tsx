@@ -5,9 +5,9 @@ import initSqlJs, { Database } from "sql.js"
 import { useEffect, useState } from "react";
 
 
-function query({filters}: {filters: {name: string, type: string, ability: string, move: string}}) {
+// function query({filters}: {filters: {name: string, type: string, ability: string, move: string}}) {
     
-}
+// }
 
 function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {   
     const [db, setDb] = useState<Database|null>(null)

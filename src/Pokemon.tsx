@@ -27,7 +27,7 @@ type Pokemon = {
         tutor: Array<string>,
         egg: Array<string>
     },
-    form: string
+    // form: string
 }
 
 export default Pokemon

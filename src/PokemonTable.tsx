@@ -20,24 +20,14 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
                 // You can omit locateFile completely when running in node
                 locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${file}`
             });
-            setDb(new SQL.Database())
+            // const database = new SQL.Database()
+            const pokedexFile = new Uint8Array(await (await fetch('src/pokedex.db')).arrayBuffer());
+            setDb(new SQL.Database(pokedexFile))
         }
         setup()
     }, [])
 
-    // Execute a single SQL string that contains multiple statements
-    let sqlstr = "CREATE TABLE IF NOT EXISTS hello (a int, b char); \
-    INSERT INTO hello VALUES (0, 'hello'); \
-    INSERT INTO hello VALUES (1, 'world');";
-    db?.run(sqlstr); // Run the query without returning anything
-
-    // Prepare an sql statement
-    const stmt = db?.prepare("SELECT * FROM hello WHERE a=:aval AND b=:bval");
-
-    // Bind values to the parameters and fetch the results of the query
-    const result = stmt?.getAsObject({':aval' : 1, ':bval' : 'world'});
-    console.log(result); // Will print {a:1, b:'world'}
-    const res = db?.exec("SELECT * FROM hello");
+    const res = db?.exec("SELECT * FROM pokemon");
     console.log(res)
 
     return (

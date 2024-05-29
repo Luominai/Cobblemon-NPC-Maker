@@ -1,5 +1,6 @@
 type Pokemon = {
     name: string,
+    minisprite: string,
     nationalPokedexNumber: number,
     typing: {
         primaryType: string,

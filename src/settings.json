@@ -1,4 +1,6 @@
 {
     "smallFont" : 12,
-    "mediumFont" : 14
+    "mediumFont" : 14,
+    "cellHeight" : 50,
+    "cellWidth": 120
 }

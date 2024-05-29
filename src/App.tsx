@@ -1,10 +1,10 @@
 import PokemonTable from './PokemonTable'
-import Pokedex from "./pokedex.json"
+import pokedex from "./data/pokemon_implemented.json"
 
 function App() {
     return (
         <>
-            <PokemonTable listOfPokemon={Pokedex.pokemon}/>
+            <PokemonTable listOfPokemon={pokedex}/>
         </>
     )
 }

@@ -1,12 +1,14 @@
 type Pokemon = {
     name: string,
     nationalPokedexNumber: number,
-    primaryType: string,
-    secondaryType: string,
+    typing: {
+        primaryType: string,
+        secondaryType: string,
+    },
     abilities: {
-        ability1: string,
-        ability2: string,
-        hidden: string
+        primaryAbility: string,
+        secondaryAbility: string,
+        hiddenAbility: string
     },
     baseStats: {
         hp: number, 
@@ -19,7 +21,7 @@ type Pokemon = {
     moves: {
         levelup: Array<
             {
-                movename: string,
+                name: string,
                 level: number
             }
         >,

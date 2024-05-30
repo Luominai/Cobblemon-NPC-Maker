@@ -1,33 +1,51 @@
-import { Table, TableCell, TableHead, TableRow, Typography } from "@mui/material"
+import { Pagination, Table, TableCell, TableHead, TableRow, Typography } from "@mui/material"
 import PokemonTableRow from "./PokemonTableRow";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { CellStyle } from "./PokemonTableStyles";
 import Pokemon from "./types/Pokemon";
 
-export default function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {   
+function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {   
     const [page, setPage] = useState<number>(1)
     const pokemonPerPage = 8
     const pokemonOnThisPage = listOfPokemon.slice(pokemonPerPage * (page - 1), pokemonPerPage * page)
+
+    // When the list of pokemon changes, set the page back to 1
+    useEffect(() => {
+        setPage(1)
+    }, [listOfPokemon])
     
     return (
-        <Table>
-            {/* The labels for the table columns */}
-            <TableHead>
-                <TableRow>
-                    {["Name", "Type", "Ability", "Hidden Ability", "Hp", "Atk", "Def", "SpA", "SpD", "Spe"].map((field) => {
-                        return (
-                        <Fragment key={field}>
-                            <TableCell sx={CellStyle}>
-                                <Typography sx={{fontSize: "12px"}} textAlign={"center"}>{field}</Typography>
-                            </TableCell>
-                        </Fragment>
-                        )
-                    })}
-                </TableRow>
-            </TableHead>
+        <Fragment>
+            <Table>
+                {/* The labels for the table columns */}
+                <TableHead>
+                    <TableRow>
+                        {["Name", "Type", "Ability", "Hidden Ability", "Hp", "Atk", "Def", "SpA", "SpD", "Spe"].map((field) => {
+                            return (
+                            <Fragment key={field}>
+                                <TableCell sx={CellStyle}>
+                                    <Typography sx={{fontSize: "12px"}} textAlign={"center"}>{field}</Typography>
+                                </TableCell>
+                            </Fragment>
+                            )
+                        })}
+                    </TableRow>
+                </TableHead>
 
-            {/* Map each pokemon in the list to a TableCell containing the information */}
-            {pokemonOnThisPage.map((pokemon) => <PokemonTableRow pokemon={pokemon} key={pokemon.name}/>)}
-        </Table>
+                {/* Map each pokemon in the list to a TableCell containing the information */}
+                {pokemonOnThisPage.map((pokemon) => <PokemonTableRow pokemon={pokemon} key={pokemon.name}/>)}
+            </Table>
+            <Pagination 
+            count={Math.ceil(listOfPokemon.length / pokemonPerPage)}
+            onChange={(event, value) => {
+                setPage(value)
+            }}
+            page={page}
+            siblingCount={5}
+            sx={{"button:focus": {outline: "none"}}}
+            />
+        </Fragment>
     )
 }
+
+export default PokemonTable

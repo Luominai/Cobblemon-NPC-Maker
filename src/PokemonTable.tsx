@@ -1,6 +1,6 @@
 import { Table, TableCell, TableHead, TableRow, Typography } from "@mui/material"
 import PokemonTableRow from "./PokemonTableRow";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { CellStyle } from "./PokemonTableStyles";
 import Pokemon from "./types/Pokemon";
 
@@ -16,18 +16,18 @@ export default function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Poke
                 <TableRow>
                     {["Name", "Type", "Ability", "Hidden Ability", "Hp", "Atk", "Def", "SpA", "SpD", "Spe"].map((field) => {
                         return (
-                            <>
-                                <TableCell sx={CellStyle}>
-                                    <Typography sx={{fontSize: "12px"}} textAlign={"center"}>{field}</Typography>
-                                </TableCell>
-                            </>
+                        <Fragment key={field}>
+                            <TableCell sx={CellStyle}>
+                                <Typography sx={{fontSize: "12px"}} textAlign={"center"}>{field}</Typography>
+                            </TableCell>
+                        </Fragment>
                         )
                     })}
                 </TableRow>
             </TableHead>
 
             {/* Map each pokemon in the list to a TableCell containing the information */}
-            {pokemonOnThisPage.map((pokemon) => <PokemonTableRow pokemon={pokemon}/>)}
+            {pokemonOnThisPage.map((pokemon) => <PokemonTableRow pokemon={pokemon} key={pokemon.name}/>)}
         </Table>
     )
 }

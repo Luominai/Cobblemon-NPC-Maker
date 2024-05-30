@@ -4,6 +4,7 @@ import Pokemon from "./types/Pokemon"
 import { CellStyle, TypographyStyle } from "./PokemonTableStyles"
 import Ability from "./types/Ability"
 import abilitiesJSON from "./data/abilities.json"
+import { Fragment } from "react/jsx-runtime"
 const listOfAbilities = abilitiesJSON as Record<string, Ability>
 
 const statsMap: {[key: string]: string} = {
@@ -83,12 +84,12 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                 {/* stats */}
                 {Object.entries(pokemon.baseStats).map(([stat, value]) => {
                     return (
-                        <>
-                        <TableCell sx={CellStyle}>
-                            <Typography fontSize={10} color={"lightgray"}>{statsMap[stat]}</Typography>
-                            <Typography fontSize={settings.smallFont}>{value}</Typography>
-                        </TableCell>
-                        </>
+                        <Fragment key={statsMap[stat]}>
+                            <TableCell sx={CellStyle}>
+                                <Typography fontSize={10} color={"lightgray"}>{statsMap[stat]}</Typography>
+                                <Typography fontSize={settings.smallFont}>{value}</Typography>
+                            </TableCell>
+                        </Fragment>
                     )
                 })}
             </TableRow>

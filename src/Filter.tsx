@@ -52,6 +52,7 @@ function applyNameFilter(name: string, listOfPokemon: Array<Pokemon>) {
                 } else {
                     matchOtherParts.push(pokemon)
                 }
+                break
             }
         }
     }

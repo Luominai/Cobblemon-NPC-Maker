@@ -16,7 +16,7 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
     
     return (
         <Fragment>
-            <Table>
+            <Table sx={{width: "0%"}}>
                 {/* The labels for the table columns */}
                 <TableHead>
                     <TableRow>

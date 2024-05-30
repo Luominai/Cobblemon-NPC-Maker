@@ -34,7 +34,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
 
                 {/* typing */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"85px"}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"60px"}>
                         <div style={{margin: "auto"}}>
                             {pokemon.typing.primaryType}
                         </div>

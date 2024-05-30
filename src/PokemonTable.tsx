@@ -1,17 +1,13 @@
 import { Table, TableCell, TableHead, TableRow, Typography } from "@mui/material"
 import PokemonTableRow from "./PokemonTableRow";
 import { useState } from "react";
-import Pokedex from "./Pokedex";
-import { HeadStyle } from "./PokemonTableStyles";
+import { CellStyle } from "./PokemonTableStyles";
+import Pokemon from "./types/Pokemon";
 
-
-// function query({filters}: {filters: {name: string, type: string, ability: string, move: string}}) {
-    
-// }
-
-export default function PokemonTable({listOfPokemon}: {listOfPokemon: Pokedex}) {   
+export default function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {   
     const [page, setPage] = useState<number>(1)
-
+    const pokemonPerPage = 8
+    const pokemonOnThisPage = listOfPokemon.slice(pokemonPerPage * (page - 1), pokemonPerPage * page)
     
     return (
         <Table>
@@ -21,8 +17,8 @@ export default function PokemonTable({listOfPokemon}: {listOfPokemon: Pokedex}) 
                     {["Name", "Type", "Ability", "Hidden Ability", "Hp", "Atk", "Def", "SpA", "SpD", "Spe"].map((field) => {
                         return (
                             <>
-                                <TableCell sx={HeadStyle}>
-                                    <Typography sx={{fontSize: "12px"}}>{field}</Typography>
+                                <TableCell sx={CellStyle}>
+                                    <Typography sx={{fontSize: "12px"}} textAlign={"center"}>{field}</Typography>
                                 </TableCell>
                             </>
                         )
@@ -31,7 +27,7 @@ export default function PokemonTable({listOfPokemon}: {listOfPokemon: Pokedex}) 
             </TableHead>
 
             {/* Map each pokemon in the list to a TableCell containing the information */}
-            {Object.entries(listOfPokemon).map(([name, data]) => <PokemonTableRow pokemon={data}/>)}
+            {pokemonOnThisPage.map((pokemon) => <PokemonTableRow pokemon={pokemon}/>)}
         </Table>
     )
 }

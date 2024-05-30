@@ -1,16 +1,14 @@
 const CellStyle = {
     paddingTop: 0,
-    paddingLeft: "5px",
+    paddingLeft: "3px",
     paddingBottom: 0,
-    paddingRight: "5px",
-    minHeight: "50px"
+    paddingRight: "3px",
 }
 
-const HeadStyle = {
-    paddingTop: 0,
-    paddingLeft: "5px",
-    paddingBottom: 0,
-    paddingRight: "5px"
+const TypographyStyle = {
+    display: "flex", 
+    flexDirection: "column", 
+    justifyContent: "center"
 }
 
-export {CellStyle, HeadStyle}
+export {CellStyle, TypographyStyle}

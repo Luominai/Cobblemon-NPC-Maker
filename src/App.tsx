@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import PokemonTable from './PokemonTable'
 import pokedex from "./data/pokemon_implemented.json"
-import Pokemon from './types/Pokemon'
 import Filter from './Filter'
 
 const listOfPokemon = Object.values(pokedex)

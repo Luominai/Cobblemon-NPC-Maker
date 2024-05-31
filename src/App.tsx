@@ -3,7 +3,7 @@ import pokedex from "./data/pokemon_implemented.json"
 import PokemonTable from './PokemonTable'
 import Filter from './Filter'
 import PokemonCard from './PokemonCard'
-import { Box, Grid, Stack } from '@mui/material'
+import { Box, Grid, Stack, TextField, styled} from '@mui/material'
 import { GridStyle } from './styles/Grid'
 
 const listOfPokemon = Object.values(pokedex)
@@ -38,7 +38,7 @@ function App() {
 
                     {/* ========== LOWER ========== */}
                     <Box margin={"auto"}>
-                        {/* <Filter listOfPokemon={listOfPokemon} setDisplayedPokemon={setDisplayedPokemon}/> */}
+                        <PokemonCard pokemon={null}/>
                         <PokemonTable listOfPokemon={displayedPokemon}/>
                     </Box>
                 </Box>

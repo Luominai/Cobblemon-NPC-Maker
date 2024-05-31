@@ -6,31 +6,33 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
     // if no pokemon is selected
     if (pokemon == null) {
         return (
-            <Box>
-                <Grid container margin={"5px"} padding={"5px"} border={"1px solid black"} borderRadius={"10px"}>
-                    <Stack marginLeft={"3px"} marginRight={"3px"}>
-                        <Input placeholder="name"/>
-                        <Box height={"160px"}>
+            <Box display={"flex"} justifyContent={"space-evenly"}>
+                <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"}>
+                    <Input placeholder="name"/>
+                    <Box height={"160px"}>
 
-                        </Box>
-                        <Input placeholder="ability"/>
-                    </Stack>
+                    </Box>
+                    <Input placeholder="ability"/>
+                </Box>
 
-                    <Stack marginLeft={"3px"} marginRight={"3px"}>
-                        <Input placeholder="move1" />
-                        <Input placeholder="move2" />
-                        <Input placeholder="move3" />
-                        <Input placeholder="move4" />
-                        <Box height={"64px"}>
+                <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"33.3%"}>
+                    <Input placeholder="move1" />
+                    <Input placeholder="move2" />
+                    <Input placeholder="move3" />
+                    <Input placeholder="move4" />
+                    <Box height={"64px"} display={"flex"}>
+                        <Input placeholder="type1" sx={{width: "50%"}}/>
+                        <Input placeholder="type2" sx={{width: "50%"}}/>
+                    </Box>
+                    <Input placeholder="item" />
+                </Box>
 
-                        </Box>
-                        <Input placeholder="item" />
-                    </Stack>
-
-                    <Stack>
-                        
-                    </Stack>
-                </Grid>
+                <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"}>
+                    <Input placeholder="move1" />
+                    <Input placeholder="move2" />
+                    <Input placeholder="move3" />
+                    <Input placeholder="move4" />
+                </Box>
             </Box>
         )
     }

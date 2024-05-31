@@ -1,7 +1,7 @@
 import { TableRow, TableCell, Typography } from "@mui/material"
 import settings from "./settings.json"
 import Pokemon from "./types/Pokemon"
-import { CellStyle, TypographyStyle } from "./PokemonTableStyles"
+import { CellStyle, TypographyStyle } from "./styles/PokemonTableStyles"
 import Ability from "./types/Ability"
 import abilitiesJSON from "./data/abilities.json"
 import { Fragment } from "react/jsx-runtime"
@@ -18,7 +18,7 @@ const statsMap: {[key: string]: string} = {
 
 export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
     return (
-        <>
+        <Fragment>
             <TableRow>
                 {/* name */}
                 <TableCell sx={CellStyle}>
@@ -93,6 +93,6 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                     )
                 })}
             </TableRow>
-        </>
+        </Fragment>
     )
 }

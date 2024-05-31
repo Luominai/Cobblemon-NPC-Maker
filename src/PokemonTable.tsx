@@ -1,7 +1,7 @@
-import { Pagination, Table, TableCell, TableHead, TableRow, Typography } from "@mui/material"
+import { Box, Pagination, Table, TableCell, TableHead, TableRow, Typography } from "@mui/material"
 import PokemonTableRow from "./PokemonTableRow";
 import { Fragment, useEffect, useState } from "react";
-import { CellStyle } from "./PokemonTableStyles";
+import { CellStyle } from "./styles/PokemonTableStyles";
 import Pokemon from "./types/Pokemon";
 
 function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {   
@@ -15,8 +15,8 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
     }, [listOfPokemon])
     
     return (
-        <Fragment>
-            <Table sx={{width: "0%"}}>
+        <Box>
+            <Table sx={{width: "100%", margin: "auto"}}>
                 {/* The labels for the table columns */}
                 <TableHead>
                     <TableRow>
@@ -41,10 +41,10 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
                 setPage(value)
             }}
             page={page}
-            siblingCount={5}
-            sx={{"button:focus": {outline: "none"}}}
+            siblingCount={4}
+            sx={{"button:focus": {outline: "none"}, padding: "auto"}}
             />
-        </Fragment>
+        </Box>
     )
 }
 

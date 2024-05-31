@@ -1,6 +1,6 @@
 import { TextField } from "@mui/material";
 import Pokemon from "./types/Pokemon";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 
 function Filter({listOfPokemon, setDisplayedPokemon}: {listOfPokemon: Array<Pokemon>, setDisplayedPokemon: Function}) {
     const [nameFilter, setNameFilter] = useState<string>("")
@@ -14,7 +14,7 @@ function Filter({listOfPokemon, setDisplayedPokemon}: {listOfPokemon: Array<Poke
     }, [nameFilter, typeFilter, abilityFilter])
     
     return (
-        <>
+        <Fragment>
             <TextField 
             onChange={(event) => {
                 setNameFilter(event.target.value)
@@ -27,7 +27,7 @@ function Filter({listOfPokemon, setDisplayedPokemon}: {listOfPokemon: Array<Poke
             onChange={(event) => {
                 setAbilityFilter(event.target.value)
             }}/>
-        </>
+        </Fragment>
     )
 }
 

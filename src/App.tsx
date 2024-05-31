@@ -14,14 +14,14 @@ function App() {
     return (
         <Box height={"100vh"} width={"100vw"} display={"flex"}>
             {/*========== COLUMN 1 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} width={"192px"} height={"100%"}>
+            <Box display={"flex"} flexDirection={"column"} width={"256px"} height={"100%"}>
                 {/* ========== UPPER ========== */}
-                <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
+                <Box height={"50%"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
 
                 </Box>
 
                 {/* ========== LOWER ========== */}
-                <Box height={"100%"} borderRight={"1px solid gray"}>
+                <Box height={"50%"} width={"100%"} borderRight={"1px solid gray"}>
 
                 </Box>
             </Box>
@@ -37,7 +37,7 @@ function App() {
                     </Box>
 
                     {/* ========== LOWER ========== */}
-                    <Box margin={"auto"}>
+                    <Box>
                         <PokemonCard pokemon={null}/>
                         <PokemonTable listOfPokemon={displayedPokemon}/>
                     </Box>
@@ -52,24 +52,24 @@ function App() {
 
                     {/* ========== LOWER ========== */}
                     <Box margin={"auto"}>
-                        <PokemonTable listOfPokemon={displayedPokemon}/>
+                        {/* <PokemonTable listOfPokemon={displayedPokemon}/> */}
                     </Box>
                 </Box>
             </Box>
 
 
             {/*========== COLUMN 3 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} width={"192px"} height={"100%"}>
+            {/* <Box display={"flex"} flexDirection={"column"} width={"192px"} height={"100%"}> */}
                 {/* ========== UPPER ========== */}
-                <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
+                {/* <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
-                </Box>
+                </Box> */}
 
                 {/* ========== LOWER ========== */}
-                <Box height={"100%"} borderLeft={"1px solid gray"}>
+                {/* <Box height={"100%"} borderLeft={"1px solid gray"}>
 
-                </Box>
-            </Box>
+                </Box> */}
+            {/* </Box> */}
         </Box>
     )
 }

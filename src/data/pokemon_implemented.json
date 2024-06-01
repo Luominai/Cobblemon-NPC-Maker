@@ -21,8 +21,8 @@
             "speed": 90
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -478,8 +478,8 @@
             "speed": 120
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -997,8 +997,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -1638,9 +1638,9 @@
             "speed": 78
         },
         "presets": [
+            "natural",
             "underwater",
-            "river",
-            "natural"
+            "river"
         ],
         "moves": {
             "levelup": [
@@ -2372,8 +2372,8 @@
         },
         "presets": [
             "natural",
-            "treetop",
-            "foliage"
+            "foliage",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -2426,8 +2426,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -5436,8 +5436,8 @@
             "speed": 48
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -5906,9 +5906,9 @@
             "speed": 70
         },
         "presets": [
-            "underwater",
             "water_surface",
-            "ocean_ruins"
+            "ocean_ruins",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -6125,9 +6125,9 @@
             "speed": 80
         },
         "presets": [
-            "underwater",
             "natural",
-            "ocean_ruins"
+            "ocean_ruins",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -6448,9 +6448,9 @@
             "speed": 50
         },
         "presets": [
-            "underwater",
             "water_surface",
-            "ocean_ruins"
+            "ocean_ruins",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -6683,8 +6683,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -7402,8 +7402,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -8103,8 +8103,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -8310,9 +8310,9 @@
             "speed": 150
         },
         "presets": [
-            "apricorns",
             "natural",
             "village",
+            "apricorns",
             "urban"
         ],
         "moves": {
@@ -9203,7 +9203,7 @@
     },
     "farfetchd": {
         "name": "Farfetch\u2019d",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s2656.png",
         "nationalPokedexNumber": 83,
         "typing": {
             "primaryType": "normal",
@@ -9470,7 +9470,7 @@
     },
     "farfetchdgalar": {
         "name": "Farfetch\u2019d Galar",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s2657-vsmogon.png",
         "nationalPokedexNumber": 83,
         "typing": {
             "primaryType": "fighting",
@@ -9806,8 +9806,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -10078,8 +10078,8 @@
             "speed": 80
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -10334,8 +10334,8 @@
             "speed": 110
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -11060,8 +11060,8 @@
             "speed": 90
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -11481,8 +11481,8 @@
             "speed": 85
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -12227,8 +12227,8 @@
         },
         "presets": [
             "water_surface",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -12476,8 +12476,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -12720,8 +12720,8 @@
             "speed": 81
         },
         "presets": [
-            "underwater",
             "water_surface",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -12989,8 +12989,8 @@
             "speed": 95
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -14001,8 +14001,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -14823,8 +14823,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -15089,8 +15089,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -15374,8 +15374,8 @@
             "speed": 55
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -15606,8 +15606,8 @@
             "speed": 80
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -15871,8 +15871,8 @@
             "speed": 105
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -16708,8 +16708,8 @@
             "speed": 35
         },
         "presets": [
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -18480,8 +18480,8 @@
             "speed": 80
         },
         "presets": [
-            "underwater",
             "water_surface",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -20257,8 +20257,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -20423,8 +20423,8 @@
         },
         "presets": [
             "natural",
-            "treetop",
-            "foliage"
+            "foliage",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -20449,7 +20449,7 @@
     },
     "mrmime": {
         "name": "Mr. Mime",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s3904.png",
         "nationalPokedexNumber": 122,
         "typing": {
             "primaryType": "psychic",
@@ -20470,8 +20470,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -20817,8 +20817,8 @@
         },
         "presets": [
             "water_surface",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -21629,7 +21629,7 @@
     },
     "nidoranf": {
         "name": "Nidoran-F",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s928.png",
         "nationalPokedexNumber": 29,
         "typing": {
             "primaryType": "poison",
@@ -21847,7 +21847,7 @@
     },
     "nidoranm": {
         "name": "Nidoran-M",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s1024.png",
         "nationalPokedexNumber": 32,
         "typing": {
             "primaryType": "poison",
@@ -23151,8 +23151,8 @@
             "speed": 35
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -23382,8 +23382,8 @@
             "speed": 55
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -26043,8 +26043,8 @@
             "speed": 90
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -26268,8 +26268,8 @@
             "speed": 90
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -26499,8 +26499,8 @@
             "speed": 70
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -27605,8 +27605,8 @@
             "speed": 55
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -28753,8 +28753,8 @@
             "speed": 97
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -28962,8 +28962,8 @@
             "speed": 77
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -29136,8 +29136,8 @@
             "speed": 72
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -29340,8 +29340,8 @@
             "speed": 72
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -32005,8 +32005,8 @@
             "speed": 15
         },
         "presets": [
-            "river",
-            "natural"
+            "natural",
+            "river"
         ],
         "moves": {
             "levelup": [
@@ -32831,9 +32831,9 @@
             "speed": 43
         },
         "presets": [
+            "natural",
             "underwater",
-            "river",
-            "natural"
+            "river"
         ],
         "moves": {
             "levelup": [
@@ -33092,8 +33092,8 @@
             "speed": 115
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -33328,8 +33328,8 @@
             "speed": 85
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -34529,12 +34529,12 @@
             "speed": 65
         },
         "presets": [
-            "underwater",
-            "urban",
             "natural",
-            "village",
+            "underwater",
             "freshwater",
-            "mansion"
+            "village",
+            "mansion",
+            "urban"
         ],
         "moves": {
             "levelup": [
@@ -35876,8 +35876,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -36078,9 +36078,9 @@
             "speed": 100
         },
         "presets": [
-            "apricorns",
             "natural",
             "village",
+            "apricorns",
             "urban"
         ],
         "moves": {
@@ -36726,9 +36726,9 @@
             "speed": 58
         },
         "presets": [
+            "natural",
             "underwater",
-            "river",
-            "natural"
+            "river"
         ],
         "moves": {
             "levelup": [
@@ -37205,8 +37205,8 @@
             "speed": 60
         },
         "presets": [
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -37759,8 +37759,8 @@
             "speed": 55
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -38489,11 +38489,11 @@
             "speed": 40
         },
         "presets": [
-            "natural",
-            "treetop",
-            "webs",
             "derelict",
-            "mansion"
+            "natural",
+            "webs",
+            "mansion",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -39138,8 +39138,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -40115,8 +40115,8 @@
             "speed": 130
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -40336,8 +40336,8 @@
             "speed": 58
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -41239,8 +41239,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -41505,8 +41505,8 @@
             "speed": 78
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -42714,8 +42714,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -42986,8 +42986,8 @@
             "speed": 85
         },
         "presets": [
-            "wild",
             "natural",
+            "wild",
             "treetop"
         ],
         "moves": {
@@ -44846,8 +44846,8 @@
             "speed": 30
         },
         "presets": [
-            "natural",
-            "lava_surface"
+            "lava_surface",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -45756,8 +45756,8 @@
             "speed": 85
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -46246,8 +46246,8 @@
         },
         "presets": [
             "natural",
-            "treetop",
-            "trail_ruins"
+            "trail_ruins",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -47568,8 +47568,8 @@
             "speed": 70
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -48235,8 +48235,8 @@
             "speed": 35
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -48668,8 +48668,8 @@
             "speed": 85
         },
         "presets": [
-            "underwater",
-            "ocean_monument"
+            "ocean_monument",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -48936,8 +48936,8 @@
             "speed": 85
         },
         "presets": [
-            "underwater",
-            "ocean_monument"
+            "ocean_monument",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -50384,8 +50384,8 @@
             "speed": 20
         },
         "presets": [
-            "natural",
-            "lava_surface"
+            "lava_surface",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -50595,8 +50595,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -51245,8 +51245,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -51523,11 +51523,11 @@
             "speed": 30
         },
         "presets": [
-            "natural",
-            "treetop",
-            "webs",
             "derelict",
-            "mansion"
+            "natural",
+            "webs",
+            "mansion",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -53002,8 +53002,8 @@
             "speed": 43
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -54120,8 +54120,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -54638,8 +54638,8 @@
             "speed": 15
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -54870,8 +54870,8 @@
             "speed": 15
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -55012,8 +55012,8 @@
         },
         "presets": [
             "natural",
-            "treetop",
-            "trail_ruins"
+            "trail_ruins",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -55711,8 +55711,8 @@
             "speed": 75
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -55890,8 +55890,8 @@
             "speed": 45
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -56275,8 +56275,8 @@
             "speed": 55
         },
         "presets": [
-            "desert_pyramid",
-            "natural"
+            "natural",
+            "desert_pyramid"
         ],
         "moves": {
             "levelup": [
@@ -58395,8 +58395,8 @@
             "speed": 75
         },
         "presets": [
-            "desert_pyramid",
-            "natural"
+            "natural",
+            "desert_pyramid"
         ],
         "moves": {
             "levelup": [
@@ -59988,8 +59988,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -61015,10 +61015,10 @@
             "speed": 85
         },
         "presets": [
-            "water_surface",
             "natural",
-            "treetop",
-            "freshwater"
+            "freshwater",
+            "water_surface",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -61238,8 +61238,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -63685,8 +63685,8 @@
             "speed": 50
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -65261,8 +65261,8 @@
             "speed": 40
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -67118,8 +67118,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -67371,8 +67371,8 @@
             "speed": 55
         },
         "presets": [
-            "underwater",
-            "ocean_ruins"
+            "ocean_ruins",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -67762,8 +67762,8 @@
             "speed": 50
         },
         "presets": [
-            "gemstones",
-            "natural"
+            "natural",
+            "gemstones"
         ],
         "moves": {
             "levelup": [
@@ -69989,8 +69989,8 @@
             "speed": 60
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -71879,10 +71879,10 @@
             "speed": 85
         },
         "presets": [
-            "water_surface",
             "natural",
-            "treetop",
-            "freshwater"
+            "freshwater",
+            "water_surface",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -73992,8 +73992,8 @@
             "speed": 31
         },
         "presets": [
-            "natural",
             "water_surface",
+            "natural",
             "freshwater"
         ],
         "moves": {
@@ -74621,10 +74621,10 @@
             "speed": 85
         },
         "presets": [
-            "underwater",
-            "water_surface",
             "natural",
-            "freshwater"
+            "underwater",
+            "freshwater",
+            "water_surface"
         ],
         "moves": {
             "levelup": [
@@ -75156,8 +75156,8 @@
         },
         "presets": [
             "natural",
-            "treetop",
-            "foliage"
+            "foliage",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -77524,8 +77524,8 @@
             "speed": 60
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -77757,10 +77757,10 @@
             "speed": 115
         },
         "presets": [
-            "underwater",
-            "water_surface",
             "natural",
-            "freshwater"
+            "underwater",
+            "freshwater",
+            "water_surface"
         ],
         "moves": {
             "levelup": [
@@ -78195,8 +78195,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -79112,8 +79112,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -79737,8 +79737,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -81036,8 +81036,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -83597,7 +83597,7 @@
     },
     "mimejr": {
         "name": "Mime Jr.",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s14048.png",
         "nationalPokedexNumber": 439,
         "typing": {
             "primaryType": "psychic",
@@ -83618,8 +83618,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -83913,8 +83913,8 @@
             "speed": 105
         },
         "presets": [
-            "natural",
-            "derelict"
+            "derelict",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -84868,8 +84868,8 @@
             "speed": 40
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -85052,7 +85052,7 @@
     },
     "porygonz": {
         "name": "Porygon-Z",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s15168.png",
         "nationalPokedexNumber": 474,
         "typing": {
             "primaryType": "normal",
@@ -85326,8 +85326,8 @@
             "speed": 50
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -87274,13 +87274,13 @@
             "speed": 35
         },
         "presets": [
+            "trail_ruins",
+            "ruins",
             "natural",
-            "underground_ruins",
             "jungle_pyramid",
             "desert_pyramid",
-            "ancient_city",
-            "ruins",
-            "trail_ruins"
+            "underground_ruins",
+            "ancient_city"
         ],
         "moves": {
             "levelup": [
@@ -91069,8 +91069,8 @@
             "speed": 32
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -91255,8 +91255,8 @@
             "speed": 80
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -91438,8 +91438,8 @@
             "speed": 30
         },
         "presets": [
-            "desert_pyramid",
-            "natural"
+            "natural",
+            "desert_pyramid"
         ],
         "moves": {
             "levelup": [
@@ -91624,8 +91624,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -92520,9 +92520,9 @@
         },
         "presets": [
             "natural",
+            "ruins",
             "jungle_pyramid",
-            "desert_pyramid",
-            "ruins"
+            "desert_pyramid"
         ],
         "moves": {
             "levelup": [
@@ -92728,9 +92728,9 @@
         },
         "presets": [
             "natural",
+            "ruins",
             "jungle_pyramid",
-            "desert_pyramid",
-            "ruins"
+            "desert_pyramid"
         ],
         "moves": {
             "levelup": [
@@ -94701,8 +94701,8 @@
             "speed": 40
         },
         "presets": [
-            "underwater",
-            "water_surface"
+            "water_surface",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -95210,11 +95210,11 @@
         },
         "presets": [
             "natural",
+            "ruins",
+            "trail_ruins",
             "jungle_pyramid",
             "desert_pyramid",
-            "ancient_city",
-            "ruins",
-            "trail_ruins"
+            "ancient_city"
         ],
         "moves": {
             "levelup": [
@@ -95425,11 +95425,11 @@
         },
         "presets": [
             "natural",
+            "ruins",
+            "trail_ruins",
             "jungle_pyramid",
             "desert_pyramid",
-            "ancient_city",
-            "ruins",
-            "trail_ruins"
+            "ancient_city"
         ],
         "moves": {
             "levelup": [
@@ -95665,8 +95665,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -96044,8 +96044,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -96434,8 +96434,8 @@
             "speed": 60
         },
         "presets": [
-            "underwater",
-            "water_surface"
+            "water_surface",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -97689,8 +97689,8 @@
             "speed": 55
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -97866,9 +97866,9 @@
         },
         "presets": [
             "natural",
-            "treetop",
             "jungle_pyramid",
-            "desert_pyramid"
+            "desert_pyramid",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -98383,8 +98383,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -98546,8 +98546,8 @@
             "speed": 20
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -101174,11 +101174,11 @@
         },
         "presets": [
             "natural",
+            "ruins",
             "jungle_pyramid",
-            "desert_pyramid",
-            "end_city",
             "trail_ruins",
-            "ruins"
+            "desert_pyramid",
+            "end_city"
         ],
         "moves": {
             "levelup": [
@@ -101558,8 +101558,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -102095,8 +102095,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -102286,8 +102286,8 @@
             "speed": 22
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -102919,9 +102919,9 @@
         },
         "presets": [
             "natural",
-            "treetop",
             "jungle_pyramid",
-            "desert_pyramid"
+            "desert_pyramid",
+            "treetop"
         ],
         "moves": {
             "levelup": [
@@ -103848,8 +103848,8 @@
             "speed": 30
         },
         "presets": [
-            "desert_pyramid",
-            "natural"
+            "natural",
+            "desert_pyramid"
         ],
         "moves": {
             "levelup": [
@@ -104254,8 +104254,8 @@
         },
         "presets": [
             "wild",
-            "nether_fossil",
-            "natural"
+            "natural",
+            "nether_fossil"
         ],
         "moves": {
             "levelup": [
@@ -104611,8 +104611,8 @@
         },
         "presets": [
             "wild",
-            "nether_fossil",
-            "natural"
+            "natural",
+            "nether_fossil"
         ],
         "moves": {
             "levelup": [
@@ -104934,9 +104934,9 @@
             "speed": 60
         },
         "presets": [
-            "nether_structures",
             "natural",
             "ruins",
+            "nether_structures",
             "stronghold"
         ],
         "moves": {
@@ -107248,9 +107248,9 @@
             "speed": 35
         },
         "presets": [
-            "nether_structures",
             "natural",
             "ruins",
+            "nether_structures",
             "stronghold"
         ],
         "moves": {
@@ -107735,7 +107735,7 @@
     },
     "flabebe": {
         "name": "Flabe\u0301be\u0301",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s21408.png",
         "nationalPokedexNumber": 669,
         "typing": {
             "primaryType": "fairy",
@@ -107755,13 +107755,13 @@
             "speed": 42
         },
         "presets": [
-            "natural",
-            "orange_flowers",
-            "white_flowers",
-            "pink_flowers",
             "blue_flowers",
+            "white_flowers",
+            "natural",
+            "yellow_flowers",
             "red_flowers",
-            "yellow_flowers"
+            "orange_flowers",
+            "pink_flowers"
         ],
         "moves": {
             "levelup": [
@@ -108250,13 +108250,13 @@
             "speed": 52
         },
         "presets": [
-            "natural",
-            "orange_flowers",
-            "white_flowers",
-            "pink_flowers",
             "blue_flowers",
+            "white_flowers",
+            "natural",
+            "yellow_flowers",
             "red_flowers",
-            "yellow_flowers"
+            "orange_flowers",
+            "pink_flowers"
         ],
         "moves": {
             "levelup": [
@@ -108417,13 +108417,13 @@
             "speed": 75
         },
         "presets": [
-            "natural",
-            "orange_flowers",
-            "white_flowers",
-            "pink_flowers",
             "blue_flowers",
+            "white_flowers",
+            "natural",
+            "yellow_flowers",
             "red_flowers",
-            "yellow_flowers"
+            "orange_flowers",
+            "pink_flowers"
         ],
         "moves": {
             "levelup": [
@@ -108585,8 +108585,8 @@
             "speed": 71
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -108762,8 +108762,8 @@
             "speed": 97
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -109622,8 +109622,8 @@
             "speed": 122
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -109832,9 +109832,9 @@
             "speed": 28
         },
         "presets": [
-            "nether_structures",
             "natural",
             "ruins",
+            "nether_structures",
             "stronghold"
         ],
         "moves": {
@@ -109983,8 +109983,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -111255,8 +111255,8 @@
         },
         "presets": [
             "mansion",
-            "urban",
             "natural",
+            "urban",
             "village"
         ],
         "moves": {
@@ -112228,10 +112228,10 @@
         },
         "presets": [
             "natural",
+            "freshwater",
             "village",
-            "urban",
             "flowers",
-            "freshwater"
+            "urban"
         ],
         "moves": {
             "levelup": [
@@ -112693,9 +112693,9 @@
             "speed": 50
         },
         "presets": [
-            "underwater",
             "water_surface",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -114141,8 +114141,8 @@
             "speed": 40
         },
         "presets": [
-            "underwater",
-            "shipwreck"
+            "shipwreck",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -114625,7 +114625,7 @@
     },
     "hakamoo": {
         "name": "Hakamo-o",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s25056.png",
         "nationalPokedexNumber": 783,
         "typing": {
             "primaryType": "dragon",
@@ -115045,7 +115045,7 @@
     },
     "jangmoo": {
         "name": "Jangmo-o",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s25024.png",
         "nationalPokedexNumber": 782,
         "typing": {
             "primaryType": "dragon",
@@ -115369,7 +115369,7 @@
     },
     "kommoo": {
         "name": "Kommo-o",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s25088.png",
         "nationalPokedexNumber": 784,
         "typing": {
             "primaryType": "dragon",
@@ -115956,8 +115956,8 @@
             "speed": 96
         },
         "presets": [
-            "natural",
-            "mansion"
+            "mansion",
+            "natural"
         ],
         "moves": {
             "levelup": [
@@ -116618,9 +116618,9 @@
             "speed": 40
         },
         "presets": [
-            "underwater",
             "water_surface",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -116790,9 +116790,9 @@
             "speed": 60
         },
         "presets": [
-            "underwater",
             "water_surface",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -116984,8 +116984,8 @@
             "speed": 5
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -119743,8 +119743,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -121369,8 +121369,8 @@
             "speed": 90
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -121844,8 +121844,8 @@
             "speed": 75
         },
         "presets": [
-            "nether_structures",
-            "natural"
+            "natural",
+            "nether_structures"
         ],
         "moves": {
             "levelup": [
@@ -122532,8 +122532,8 @@
             "speed": 120
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -123352,8 +123352,8 @@
             "speed": 85
         },
         "presets": [
-            "underwater",
-            "ocean_monument"
+            "ocean_monument",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -123506,8 +123506,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -124203,7 +124203,7 @@
     },
     "sirfetchd": {
         "name": "Sirfetch\u2019d",
-        "minisprite": "",
+        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s27680-vsmogon.png",
         "nationalPokedexNumber": 865,
         "typing": {
             "primaryType": "fighting",
@@ -124623,8 +124623,8 @@
             "speed": 70
         },
         "presets": [
-            "underwater",
             "natural",
+            "underwater",
             "freshwater"
         ],
         "moves": {
@@ -125549,8 +125549,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -125834,9 +125834,9 @@
             "speed": 75
         },
         "presets": [
-            "ruined_portal",
+            "natural",
             "nether_structures",
-            "natural"
+            "ruined_portal"
         ],
         "moves": {
             "levelup": [
@@ -125989,9 +125989,9 @@
             "speed": 85
         },
         "presets": [
-            "ruined_portal",
+            "natural",
             "nether_structures",
-            "natural"
+            "ruined_portal"
         ],
         "moves": {
             "levelup": [
@@ -126419,9 +126419,9 @@
             "speed": 35
         },
         "presets": [
-            "ruined_portal",
+            "natural",
             "nether_structures",
-            "natural"
+            "ruined_portal"
         ],
         "moves": {
             "levelup": [
@@ -126519,8 +126519,8 @@
             "speed": 20
         },
         "presets": [
-            "underwater",
-            "natural"
+            "natural",
+            "underwater"
         ],
         "moves": {
             "levelup": [
@@ -126784,8 +126784,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -127069,8 +127069,8 @@
         },
         "presets": [
             "natural",
-            "village",
-            "urban"
+            "urban",
+            "village"
         ],
         "moves": {
             "levelup": [
@@ -127567,9 +127567,9 @@
             "speed": 35
         },
         "presets": [
+            "natural",
             "wild",
-            "salt",
-            "natural"
+            "salt"
         ],
         "moves": {
             "levelup": [
@@ -127934,8 +127934,8 @@
             "speed": 60
         },
         "presets": [
-            "gemstones",
-            "natural"
+            "natural",
+            "gemstones"
         ],
         "moves": {
             "levelup": [
@@ -128061,8 +128061,8 @@
             "speed": 86
         },
         "presets": [
-            "gemstones",
-            "natural"
+            "natural",
+            "gemstones"
         ],
         "moves": {
             "levelup": [
@@ -128469,9 +128469,9 @@
         "presets": [
             "natural",
             "village",
+            "mansion",
             "urban",
-            "pillager_outpost",
-            "mansion"
+            "pillager_outpost"
         ],
         "moves": {
             "levelup": [
@@ -128614,9 +128614,9 @@
         "presets": [
             "natural",
             "village",
+            "mansion",
             "urban",
-            "pillager_outpost",
-            "mansion"
+            "pillager_outpost"
         ],
         "moves": {
             "levelup": [
@@ -128746,11 +128746,11 @@
             "speed": 111
         },
         "presets": [
-            "wild",
             "natural",
             "village",
-            "urban",
-            "mansion"
+            "mansion",
+            "wild",
+            "urban"
         ],
         "moves": {
             "levelup": [
@@ -129063,9 +129063,9 @@
             "speed": 25
         },
         "presets": [
+            "natural",
             "wild",
-            "salt",
-            "natural"
+            "salt"
         ],
         "moves": {
             "levelup": [
@@ -129190,9 +129190,9 @@
             "speed": 35
         },
         "presets": [
+            "natural",
             "wild",
-            "salt",
-            "natural"
+            "salt"
         ],
         "moves": {
             "levelup": [
@@ -129452,8 +129452,8 @@
             "speed": 85
         },
         "presets": [
-            "river",
-            "natural"
+            "natural",
+            "river"
         ],
         "moves": {
             "levelup": [
@@ -129618,8 +129618,8 @@
             "speed": 50
         },
         "presets": [
-            "river",
-            "natural"
+            "natural",
+            "river"
         ],
         "moves": {
             "levelup": [
@@ -129733,8 +129733,8 @@
             "speed": 65
         },
         "presets": [
-            "river",
-            "natural"
+            "natural",
+            "river"
         ],
         "moves": {
             "levelup": [
@@ -130578,11 +130578,11 @@
             "speed": 75
         },
         "presets": [
-            "wild",
             "natural",
             "village",
-            "urban",
-            "mansion"
+            "mansion",
+            "wild",
+            "urban"
         ],
         "moves": {
             "levelup": [

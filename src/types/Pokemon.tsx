@@ -19,6 +19,7 @@ type Pokemon = {
         special_defence: number,
         speed: number
     },
+    presets: Array<string>,
     moves: {
         levelup: Array<
             {

@@ -17,6 +17,7 @@ const statsMap: {[key: string]: string} = {
 }
 
 export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
+    // console.log(pokemon)
     return (
         <Fragment>
             <TableRow>

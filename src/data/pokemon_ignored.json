@@ -1,7 +1,7 @@
 {
-    "Aerodactyl Mega": {
+    "aerodactylmega": {
         "name": "Aerodactyl Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4545.png",
+        "minisprite": "",
         "nationalPokedexNumber": 142,
         "typing": {
             "primaryType": "rock",
@@ -20,11 +20,12 @@
             "special_defence": 95,
             "speed": 150
         },
+        "presets": [],
         "moves": ""
     },
-    "Alakazam Mega": {
+    "alakazammega": {
         "name": "Alakazam Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s2081.png",
+        "minisprite": "",
         "nationalPokedexNumber": 65,
         "typing": {
             "primaryType": "psychic",
@@ -43,11 +44,12 @@
             "special_defence": 105,
             "speed": 150
         },
+        "presets": [],
         "moves": ""
     },
-    "Beedrill Mega": {
+    "beedrillmega": {
         "name": "Beedrill Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s481.png",
+        "minisprite": "",
         "nationalPokedexNumber": 15,
         "typing": {
             "primaryType": "bug",
@@ -66,11 +68,12 @@
             "special_defence": 80,
             "speed": 145
         },
+        "presets": [],
         "moves": ""
     },
-    "Blastoise Mega": {
+    "blastoisemega": {
         "name": "Blastoise Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s289.png",
+        "minisprite": "",
         "nationalPokedexNumber": 9,
         "typing": {
             "primaryType": "water",
@@ -89,9 +92,10 @@
             "special_defence": 115,
             "speed": 78
         },
+        "presets": [],
         "moves": ""
     },
-    "Blastoise Gmax": {
+    "blastoisegmax": {
         "name": "Blastoise Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 9,
@@ -112,9 +116,10 @@
             "special_defence": 105,
             "speed": 78
         },
+        "presets": [],
         "moves": ""
     },
-    "Butterfree Gmax": {
+    "butterfreegmax": {
         "name": "Butterfree Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 12,
@@ -135,11 +140,12 @@
             "special_defence": 80,
             "speed": 70
         },
+        "presets": [],
         "moves": ""
     },
-    "Charizard Mega-X": {
+    "charizardmegax": {
         "name": "Charizard Mega-X",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s193.png",
+        "minisprite": "",
         "nationalPokedexNumber": 6,
         "typing": {
             "primaryType": "fire",
@@ -158,11 +164,12 @@
             "special_defence": 85,
             "speed": 100
         },
+        "presets": [],
         "moves": ""
     },
-    "Charizard Mega-Y": {
+    "charizardmegay": {
         "name": "Charizard Mega-Y",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s194.png",
+        "minisprite": "",
         "nationalPokedexNumber": 6,
         "typing": {
             "primaryType": "fire",
@@ -181,9 +188,10 @@
             "special_defence": 115,
             "speed": 100
         },
+        "presets": [],
         "moves": ""
     },
-    "Charizard Gmax": {
+    "charizardgmax": {
         "name": "Charizard Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 6,
@@ -204,11 +212,12 @@
             "special_defence": 85,
             "speed": 100
         },
+        "presets": [],
         "moves": ""
     },
-    "Eevee Starter": {
+    "eeveestarter": {
         "name": "Eevee Starter",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4257.png",
+        "minisprite": "",
         "nationalPokedexNumber": 133,
         "typing": {
             "primaryType": "normal",
@@ -227,6 +236,7 @@
             "special_defence": 85,
             "speed": 75
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -324,7 +334,7 @@
             "egg": []
         }
     },
-    "Eevee Gmax": {
+    "eeveegmax": {
         "name": "Eevee Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 133,
@@ -345,9 +355,10 @@
             "special_defence": 65,
             "speed": 55
         },
+        "presets": [],
         "moves": ""
     },
-    "Exeggcute Alola Bias": {
+    "exeggcutealolabias": {
         "name": "Exeggcute Alola Bias",
         "minisprite": "",
         "nationalPokedexNumber": 102,
@@ -368,11 +379,12 @@
             "special_defence": 45,
             "speed": 40
         },
+        "presets": [],
         "moves": ""
     },
-    "Gengar Mega": {
+    "gengarmega": {
         "name": "Gengar Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s3009.png",
+        "minisprite": "",
         "nationalPokedexNumber": 94,
         "typing": {
             "primaryType": "ghost",
@@ -391,9 +403,10 @@
             "special_defence": 95,
             "speed": 130
         },
+        "presets": [],
         "moves": ""
     },
-    "Gengar Gmax": {
+    "gengargmax": {
         "name": "Gengar Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 94,
@@ -414,11 +427,12 @@
             "special_defence": 75,
             "speed": 110
         },
+        "presets": [],
         "moves": ""
     },
-    "Gyarados Mega": {
+    "gyaradosmega": {
         "name": "Gyarados Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4161.png",
+        "minisprite": "",
         "nationalPokedexNumber": 130,
         "typing": {
             "primaryType": "water",
@@ -437,11 +451,12 @@
             "special_defence": 130,
             "speed": 81
         },
+        "presets": [],
         "moves": ""
     },
-    "Kangaskhan Mega": {
+    "kangaskhanmega": {
         "name": "Kangaskhan Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s3681.png",
+        "minisprite": "",
         "nationalPokedexNumber": 115,
         "typing": {
             "primaryType": "normal",
@@ -460,9 +475,10 @@
             "special_defence": 100,
             "speed": 100
         },
+        "presets": [],
         "moves": ""
     },
-    "Kingler Gmax": {
+    "kinglergmax": {
         "name": "Kingler Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 99,
@@ -483,9 +499,10 @@
             "special_defence": 50,
             "speed": 75
         },
+        "presets": [],
         "moves": ""
     },
-    "Lapras Gmax": {
+    "laprasgmax": {
         "name": "Lapras Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 131,
@@ -506,9 +523,10 @@
             "special_defence": 95,
             "speed": 60
         },
+        "presets": [],
         "moves": ""
     },
-    "Machamp Gmax": {
+    "machampgmax": {
         "name": "Machamp Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 68,
@@ -529,11 +547,12 @@
             "special_defence": 85,
             "speed": 55
         },
+        "presets": [],
         "moves": ""
     },
-    "Marowak Alola-Totem": {
+    "marowakalolatotem": {
         "name": "Marowak Alola-Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s3362-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 105,
         "typing": {
             "primaryType": "fire",
@@ -552,6 +571,7 @@
             "special_defence": 80,
             "speed": 45
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -697,7 +717,7 @@
             "egg": []
         }
     },
-    "Meowth Gmax": {
+    "meowthgmax": {
         "name": "Meowth Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 52,
@@ -718,11 +738,12 @@
             "special_defence": 40,
             "speed": 90
         },
+        "presets": [],
         "moves": ""
     },
-    "Mewtwo Mega-X": {
+    "mewtwomegax": {
         "name": "Mewtwo Mega-X",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4801.png",
+        "minisprite": "",
         "nationalPokedexNumber": 150,
         "typing": {
             "primaryType": "psychic",
@@ -741,11 +762,12 @@
             "special_defence": 100,
             "speed": 130
         },
+        "presets": [],
         "moves": ""
     },
-    "Mewtwo Mega-Y": {
+    "mewtwomegay": {
         "name": "Mewtwo Mega-Y",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4802.png",
+        "minisprite": "",
         "nationalPokedexNumber": 150,
         "typing": {
             "primaryType": "psychic",
@@ -764,11 +786,12 @@
             "special_defence": 120,
             "speed": 140
         },
+        "presets": [],
         "moves": ""
     },
-    "Pidgeot Mega": {
+    "pidgeotmega": {
         "name": "Pidgeot Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s577.png",
+        "minisprite": "",
         "nationalPokedexNumber": 18,
         "typing": {
             "primaryType": "normal",
@@ -787,11 +810,12 @@
             "special_defence": 80,
             "speed": 121
         },
+        "presets": [],
         "moves": ""
     },
-    "Pikachu Cosplay": {
+    "pikachucosplay": {
         "name": "Pikachu Cosplay",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s815.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -810,6 +834,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -938,9 +963,9 @@
             "egg": []
         }
     },
-    "Pikachu Rock-Star": {
+    "pikachurockstar": {
         "name": "Pikachu Rock-Star",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s810.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -959,6 +984,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [],
             "tm": [],
@@ -966,9 +992,9 @@
             "egg": []
         }
     },
-    "Pikachu Belle": {
+    "pikachubelle": {
         "name": "Pikachu Belle",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s811.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -987,6 +1013,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [],
             "tm": [],
@@ -994,9 +1021,9 @@
             "egg": []
         }
     },
-    "Pikachu Pop-Star": {
+    "pikachupopstar": {
         "name": "Pikachu Pop-Star",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s812.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1015,6 +1042,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1022,9 +1050,9 @@
             "egg": []
         }
     },
-    "Pikachu PhD": {
+    "pikachuphd": {
         "name": "Pikachu PhD",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s813.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1043,6 +1071,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1050,9 +1079,9 @@
             "egg": []
         }
     },
-    "Pikachu Libre": {
+    "pikachulibre": {
         "name": "Pikachu Libre",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s814.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1071,6 +1100,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1078,9 +1108,9 @@
             "egg": []
         }
     },
-    "Pikachu Original": {
+    "pikachuoriginal": {
         "name": "Pikachu Original",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s801.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1099,6 +1129,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -1286,9 +1317,9 @@
             ]
         }
     },
-    "Pikachu Hoenn": {
+    "pikachuhoenn": {
         "name": "Pikachu Hoenn",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s802.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1307,6 +1338,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -1493,9 +1525,9 @@
             ]
         }
     },
-    "Pikachu Sinnoh": {
+    "pikachusinnoh": {
         "name": "Pikachu Sinnoh",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s803.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1514,6 +1546,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -1699,9 +1732,9 @@
             ]
         }
     },
-    "Pikachu Unova": {
+    "pikachuunova": {
         "name": "Pikachu Unova",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s804.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1720,6 +1753,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -1905,9 +1939,9 @@
             ]
         }
     },
-    "Pikachu Kalos": {
+    "pikachukalos": {
         "name": "Pikachu Kalos",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s805.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -1926,6 +1960,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -2112,9 +2147,9 @@
             ]
         }
     },
-    "Pikachu Partner": {
+    "pikachupartner": {
         "name": "Pikachu Partner",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s807.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -2133,6 +2168,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -2319,9 +2355,9 @@
             ]
         }
     },
-    "Pikachu Starter": {
+    "pikachustarter": {
         "name": "Pikachu Starter",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s808.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -2340,6 +2376,7 @@
             "special_defence": 60,
             "speed": 120
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -2448,7 +2485,7 @@
             "egg": []
         }
     },
-    "Pikachu Gmax": {
+    "pikachugmax": {
         "name": "Pikachu Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 25,
@@ -2469,11 +2506,12 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": ""
     },
-    "Pikachu World": {
+    "pikachuworld": {
         "name": "Pikachu World",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s809-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 25,
         "typing": {
             "primaryType": "electric",
@@ -2492,6 +2530,7 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -2649,7 +2688,7 @@
             ]
         }
     },
-    "Pikachu Alola Bias": {
+    "pikachualolabias": {
         "name": "Pikachu Alola Bias",
         "minisprite": "",
         "nationalPokedexNumber": 25,
@@ -2670,11 +2709,12 @@
             "special_defence": 50,
             "speed": 90
         },
+        "presets": [],
         "moves": ""
     },
-    "Pinsir Mega": {
+    "pinsirmega": {
         "name": "Pinsir Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4065.png",
+        "minisprite": "",
         "nationalPokedexNumber": 127,
         "typing": {
             "primaryType": "bug",
@@ -2693,11 +2733,12 @@
             "special_defence": 90,
             "speed": 105
         },
+        "presets": [],
         "moves": ""
     },
-    "Raticate Alola-Totem": {
+    "raticatealolatotem": {
         "name": "Raticate Alola-Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s642-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 20,
         "typing": {
             "primaryType": "dark",
@@ -2716,6 +2757,7 @@
             "special_defence": 80,
             "speed": 77
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -2841,9 +2883,9 @@
             "egg": []
         }
     },
-    "Slowbro Mega": {
+    "slowbromega": {
         "name": "Slowbro Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s2561.png",
+        "minisprite": "",
         "nationalPokedexNumber": 80,
         "typing": {
             "primaryType": "water",
@@ -2862,9 +2904,10 @@
             "special_defence": 80,
             "speed": 30
         },
+        "presets": [],
         "moves": ""
     },
-    "Snorlax Gmax": {
+    "snorlaxgmax": {
         "name": "Snorlax Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 143,
@@ -2885,11 +2928,12 @@
             "special_defence": 110,
             "speed": 30
         },
+        "presets": [],
         "moves": ""
     },
-    "Tauros Paldea-Combat": {
+    "taurospaldeacombat": {
         "name": "Tauros Paldea-Combat",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4097-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 128,
         "typing": {
             "primaryType": "fighting",
@@ -2908,6 +2952,7 @@
             "special_defence": 70,
             "speed": 100
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -3017,9 +3062,9 @@
             ]
         }
     },
-    "Tauros Paldea-Blaze": {
+    "taurospaldeablaze": {
         "name": "Tauros Paldea-Blaze",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4098-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 128,
         "typing": {
             "primaryType": "fighting",
@@ -3038,6 +3083,7 @@
             "special_defence": 70,
             "speed": 100
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -3153,9 +3199,9 @@
             ]
         }
     },
-    "Tauros Paldea-Aqua": {
+    "taurospaldeaaqua": {
         "name": "Tauros Paldea-Aqua",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s4099-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 128,
         "typing": {
             "primaryType": "fighting",
@@ -3174,6 +3220,7 @@
             "special_defence": 70,
             "speed": 100
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -3286,9 +3333,9 @@
             ]
         }
     },
-    "Venusaur Mega": {
+    "venusaurmega": {
         "name": "Venusaur Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s97.png",
+        "minisprite": "",
         "nationalPokedexNumber": 3,
         "typing": {
             "primaryType": "grass",
@@ -3307,9 +3354,10 @@
             "special_defence": 120,
             "speed": 80
         },
+        "presets": [],
         "moves": ""
     },
-    "Venusaur Gmax": {
+    "venusaurgmax": {
         "name": "Venusaur Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 3,
@@ -3330,11 +3378,12 @@
             "special_defence": 100,
             "speed": 80
         },
+        "presets": [],
         "moves": ""
     },
-    "Ampharos Mega": {
+    "ampharosmega": {
         "name": "Ampharos Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s5793.png",
+        "minisprite": "",
         "nationalPokedexNumber": 181,
         "typing": {
             "primaryType": "electric",
@@ -3353,9 +3402,10 @@
             "special_defence": 110,
             "speed": 45
         },
+        "presets": [],
         "moves": ""
     },
-    "Cyndaquil Hisui Bias": {
+    "cyndaquilhisuibias": {
         "name": "Cyndaquil Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 155,
@@ -3376,6 +3426,7 @@
             "special_defence": 50,
             "speed": 65
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -3563,9 +3614,9 @@
             ]
         }
     },
-    "Heracross Mega": {
+    "heracrossmega": {
         "name": "Heracross Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s6849.png",
+        "minisprite": "",
         "nationalPokedexNumber": 214,
         "typing": {
             "primaryType": "bug",
@@ -3584,11 +3635,12 @@
             "special_defence": 105,
             "speed": 75
         },
+        "presets": [],
         "moves": ""
     },
-    "Pichu Spiky-eared": {
+    "pichuspikyeared": {
         "name": "Pichu Spiky-eared",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s5505-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 172,
         "typing": {
             "primaryType": "electric",
@@ -3607,6 +3659,7 @@
             "special_defence": 35,
             "speed": 60
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -3680,7 +3733,7 @@
             "egg": []
         }
     },
-    "Quilava Hisui Bias": {
+    "quilavahisuibias": {
         "name": "Quilava Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 156,
@@ -3701,6 +3754,7 @@
             "special_defence": 65,
             "speed": 80
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -3876,9 +3930,9 @@
             "egg": []
         }
     },
-    "Scizor Mega": {
+    "scizormega": {
         "name": "Scizor Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s6785.png",
+        "minisprite": "",
         "nationalPokedexNumber": 212,
         "typing": {
             "primaryType": "bug",
@@ -3897,11 +3951,12 @@
             "special_defence": 100,
             "speed": 75
         },
+        "presets": [],
         "moves": ""
     },
-    "Steelix Mega": {
+    "steelixmega": {
         "name": "Steelix Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s6657.png",
+        "minisprite": "",
         "nationalPokedexNumber": 208,
         "typing": {
             "primaryType": "steel",
@@ -3920,11 +3975,12 @@
             "special_defence": 95,
             "speed": 30
         },
+        "presets": [],
         "moves": ""
     },
-    "Tyranitar Mega": {
+    "tyranitarmega": {
         "name": "Tyranitar Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s7937.png",
+        "minisprite": "",
         "nationalPokedexNumber": 248,
         "typing": {
             "primaryType": "rock",
@@ -3943,11 +3999,12 @@
             "special_defence": 120,
             "speed": 71
         },
+        "presets": [],
         "moves": ""
     },
-    "Aggron Mega": {
+    "aggronmega": {
         "name": "Aggron Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s9793.png",
+        "minisprite": "",
         "nationalPokedexNumber": 306,
         "typing": {
             "primaryType": "steel",
@@ -3966,11 +4023,12 @@
             "special_defence": 80,
             "speed": 50
         },
+        "presets": [],
         "moves": ""
     },
-    "Blaziken Mega": {
+    "blazikenmega": {
         "name": "Blaziken Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s8225.png",
+        "minisprite": "",
         "nationalPokedexNumber": 257,
         "typing": {
             "primaryType": "fire",
@@ -3989,11 +4047,12 @@
             "special_defence": 80,
             "speed": 100
         },
+        "presets": [],
         "moves": ""
     },
-    "Camerupt Mega": {
+    "cameruptmega": {
         "name": "Camerupt Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s10337.png",
+        "minisprite": "",
         "nationalPokedexNumber": 323,
         "typing": {
             "primaryType": "fire",
@@ -4012,11 +4071,12 @@
             "special_defence": 105,
             "speed": 20
         },
+        "presets": [],
         "moves": ""
     },
-    "Gardevoir Mega": {
+    "gardevoirmega": {
         "name": "Gardevoir Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s9025.png",
+        "minisprite": "",
         "nationalPokedexNumber": 282,
         "typing": {
             "primaryType": "psychic",
@@ -4035,11 +4095,12 @@
             "special_defence": 135,
             "speed": 100
         },
+        "presets": [],
         "moves": ""
     },
-    "Mawile Mega": {
+    "mawilemega": {
         "name": "Mawile Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s9697.png",
+        "minisprite": "",
         "nationalPokedexNumber": 303,
         "typing": {
             "primaryType": "steel",
@@ -4058,11 +4119,12 @@
             "special_defence": 95,
             "speed": 50
         },
+        "presets": [],
         "moves": ""
     },
-    "Metagross Mega": {
+    "metagrossmega": {
         "name": "Metagross Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s12033.png",
+        "minisprite": "",
         "nationalPokedexNumber": 376,
         "typing": {
             "primaryType": "steel",
@@ -4081,11 +4143,12 @@
             "special_defence": 110,
             "speed": 110
         },
+        "presets": [],
         "moves": ""
     },
-    "Rayquaza Mega": {
+    "rayquazamega": {
         "name": "Rayquaza Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s12289.png",
+        "minisprite": "",
         "nationalPokedexNumber": 384,
         "typing": {
             "primaryType": "dragon",
@@ -4104,11 +4167,12 @@
             "special_defence": 100,
             "speed": 115
         },
+        "presets": [],
         "moves": ""
     },
-    "Sableye Mega": {
+    "sableyemega": {
         "name": "Sableye Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s9665.png",
+        "minisprite": "",
         "nationalPokedexNumber": 302,
         "typing": {
             "primaryType": "dark",
@@ -4127,11 +4191,12 @@
             "special_defence": 115,
             "speed": 20
         },
+        "presets": [],
         "moves": ""
     },
-    "Sceptile Mega": {
+    "sceptilemega": {
         "name": "Sceptile Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s8129.png",
+        "minisprite": "",
         "nationalPokedexNumber": 254,
         "typing": {
             "primaryType": "grass",
@@ -4150,11 +4215,12 @@
             "special_defence": 85,
             "speed": 145
         },
+        "presets": [],
         "moves": ""
     },
-    "Sharpedo Mega": {
+    "sharpedomega": {
         "name": "Sharpedo Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s10209.png",
+        "minisprite": "",
         "nationalPokedexNumber": 319,
         "typing": {
             "primaryType": "water",
@@ -4173,11 +4239,12 @@
             "special_defence": 65,
             "speed": 105
         },
+        "presets": [],
         "moves": ""
     },
-    "Swampert Mega": {
+    "swampertmega": {
         "name": "Swampert Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s8321.png",
+        "minisprite": "",
         "nationalPokedexNumber": 260,
         "typing": {
             "primaryType": "water",
@@ -4196,11 +4263,12 @@
             "special_defence": 110,
             "speed": 70
         },
+        "presets": [],
         "moves": ""
     },
-    "Gallade Mega": {
+    "gallademega": {
         "name": "Gallade Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s15201.png",
+        "minisprite": "",
         "nationalPokedexNumber": 475,
         "typing": {
             "primaryType": "psychic",
@@ -4219,11 +4287,12 @@
             "special_defence": 115,
             "speed": 110
         },
+        "presets": [],
         "moves": ""
     },
-    "Garchomp Mega": {
+    "garchompmega": {
         "name": "Garchomp Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s14241.png",
+        "minisprite": "",
         "nationalPokedexNumber": 445,
         "typing": {
             "primaryType": "dragon",
@@ -4242,11 +4311,12 @@
             "special_defence": 95,
             "speed": 92
         },
+        "presets": [],
         "moves": ""
     },
-    "Lopunny Mega": {
+    "lopunnymega": {
         "name": "Lopunny Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s13697.png",
+        "minisprite": "",
         "nationalPokedexNumber": 428,
         "typing": {
             "primaryType": "normal",
@@ -4265,11 +4335,12 @@
             "special_defence": 96,
             "speed": 135
         },
+        "presets": [],
         "moves": ""
     },
-    "Lucario Mega": {
+    "lucariomega": {
         "name": "Lucario Mega",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s14337.png",
+        "minisprite": "",
         "nationalPokedexNumber": 448,
         "typing": {
             "primaryType": "fighting",
@@ -4288,11 +4359,12 @@
             "special_defence": 70,
             "speed": 112
         },
+        "presets": [],
         "moves": ""
     },
-    "Basculin Blue-Striped": {
+    "basculinbluestriped": {
         "name": "Basculin Blue-Striped",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s17601.png",
+        "minisprite": "",
         "nationalPokedexNumber": 550,
         "typing": {
             "primaryType": "water",
@@ -4311,11 +4383,12 @@
             "special_defence": 55,
             "speed": 98
         },
+        "presets": [],
         "moves": ""
     },
-    "Basculin White-Striped": {
+    "basculinwhitestriped": {
         "name": "Basculin White-Striped",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s17602-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 550,
         "typing": {
             "primaryType": "water",
@@ -4334,6 +4407,7 @@
             "special_defence": 55,
             "speed": 98
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -4444,9 +4518,9 @@
             ]
         }
     },
-    "Darmanitan Zen": {
+    "darmanitanzen": {
         "name": "Darmanitan Zen",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s17761.png",
+        "minisprite": "",
         "nationalPokedexNumber": 555,
         "typing": {
             "primaryType": "fire",
@@ -4465,11 +4539,12 @@
             "special_defence": 105,
             "speed": 55
         },
+        "presets": [],
         "moves": ""
     },
-    "Darmanitan Galar-Zen": {
+    "darmanitangalarzen": {
         "name": "Darmanitan Galar-Zen",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s17763-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 555,
         "typing": {
             "primaryType": "ice",
@@ -4488,9 +4563,10 @@
             "special_defence": 55,
             "speed": 135
         },
+        "presets": [],
         "moves": ""
     },
-    "Dewott Hisui Bias": {
+    "dewotthisuibias": {
         "name": "Dewott Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 502,
@@ -4511,6 +4587,7 @@
             "special_defence": 60,
             "speed": 60
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -4654,7 +4731,7 @@
             "egg": []
         }
     },
-    "Oshawott Hisui Bias": {
+    "oshawotthisuibias": {
         "name": "Oshawott Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 501,
@@ -4675,6 +4752,7 @@
             "special_defence": 45,
             "speed": 45
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -4828,7 +4906,7 @@
             ]
         }
     },
-    "Petilil Hisui Bias": {
+    "petililhisuibias": {
         "name": "Petilil Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 548,
@@ -4849,6 +4927,7 @@
             "special_defence": 50,
             "speed": 30
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -4991,9 +5070,9 @@
             ]
         }
     },
-    "Aegislash Blade": {
+    "aegislashblade": {
         "name": "Aegislash Blade",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s21793.png",
+        "minisprite": "",
         "nationalPokedexNumber": 681,
         "typing": {
             "primaryType": "steel",
@@ -5012,11 +5091,12 @@
             "special_defence": 50,
             "speed": 60
         },
+        "presets": [],
         "moves": ""
     },
-    "Floette Eternal": {
+    "floetteeternal": {
         "name": "Floette Eternal",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s21445.png",
+        "minisprite": "",
         "nationalPokedexNumber": 670,
         "typing": {
             "primaryType": "fairy",
@@ -5035,6 +5115,7 @@
             "special_defence": 128,
             "speed": 92
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -5144,7 +5225,7 @@
             "egg": []
         }
     },
-    "Goomy Hisui Bias": {
+    "goomyhisuibias": {
         "name": "Goomy Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 704,
@@ -5165,6 +5246,7 @@
             "special_defence": 75,
             "speed": 40
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -5287,9 +5369,9 @@
             ]
         }
     },
-    "Gourgeist Small": {
+    "gourgeistsmall": {
         "name": "Gourgeist Small",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s22753-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 711,
         "typing": {
             "primaryType": "ghost",
@@ -5308,11 +5390,12 @@
             "special_defence": 75,
             "speed": 99
         },
+        "presets": [],
         "moves": ""
     },
-    "Gourgeist Large": {
+    "gourgeistlarge": {
         "name": "Gourgeist Large",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s22754-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 711,
         "typing": {
             "primaryType": "ghost",
@@ -5331,11 +5414,12 @@
             "special_defence": 75,
             "speed": 69
         },
+        "presets": [],
         "moves": ""
     },
-    "Gourgeist Super": {
+    "gourgeistsuper": {
         "name": "Gourgeist Super",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s22755-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 711,
         "typing": {
             "primaryType": "ghost",
@@ -5354,11 +5438,12 @@
             "special_defence": 75,
             "speed": 54
         },
+        "presets": [],
         "moves": ""
     },
-    "Greninja Ash": {
+    "greninjaash": {
         "name": "Greninja Ash",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s21058.png",
+        "minisprite": "",
         "nationalPokedexNumber": 658,
         "typing": {
             "primaryType": "water",
@@ -5377,6 +5462,7 @@
             "special_defence": 71,
             "speed": 132
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -5559,9 +5645,9 @@
             ]
         }
     },
-    "Pumpkaboo Small": {
+    "pumpkaboosmall": {
         "name": "Pumpkaboo Small",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s22721-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 710,
         "typing": {
             "primaryType": "ghost",
@@ -5580,11 +5666,12 @@
             "special_defence": 55,
             "speed": 56
         },
+        "presets": [],
         "moves": ""
     },
-    "Pumpkaboo Large": {
+    "pumpkaboolarge": {
         "name": "Pumpkaboo Large",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s22722-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 710,
         "typing": {
             "primaryType": "ghost",
@@ -5603,11 +5690,12 @@
             "special_defence": 55,
             "speed": 46
         },
+        "presets": [],
         "moves": ""
     },
-    "Pumpkaboo Super": {
+    "pumpkaboosuper": {
         "name": "Pumpkaboo Super",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s22723-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 710,
         "typing": {
             "primaryType": "ghost",
@@ -5626,6 +5714,7 @@
             "special_defence": 55,
             "speed": 41
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -5766,9 +5855,9 @@
             ]
         }
     },
-    "Vivillon Fancy": {
+    "vivillonfancy": {
         "name": "Vivillon Fancy",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s21330.png",
+        "minisprite": "",
         "nationalPokedexNumber": 666,
         "typing": {
             "primaryType": "bug",
@@ -5787,6 +5876,7 @@
             "special_defence": 50,
             "speed": 89
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -5876,9 +5966,9 @@
             "egg": []
         }
     },
-    "Vivillon Pokeball": {
+    "vivillonpokeball": {
         "name": "Vivillon Pokeball",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s21331.png",
+        "minisprite": "",
         "nationalPokedexNumber": 666,
         "typing": {
             "primaryType": "bug",
@@ -5897,6 +5987,7 @@
             "special_defence": 50,
             "speed": 89
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -5986,9 +6077,9 @@
             "egg": []
         }
     },
-    "Xerneas Neutral": {
+    "xerneasneutral": {
         "name": "Xerneas Neutral",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s22912.png",
+        "minisprite": "",
         "nationalPokedexNumber": 716,
         "typing": {
             "primaryType": "fairy",
@@ -6007,9 +6098,10 @@
             "special_defence": 98,
             "speed": 99
         },
+        "presets": [],
         "moves": ""
     },
-    "Dartrix Hisui Bias": {
+    "dartrixhisuibias": {
         "name": "Dartrix Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 723,
@@ -6030,6 +6122,7 @@
             "special_defence": 70,
             "speed": 52
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -6177,9 +6270,9 @@
             "egg": []
         }
     },
-    "Kommo-o Totem": {
+    "kommoototem": {
         "name": "Kommo-o Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s25089-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 784,
         "typing": {
             "primaryType": "dragon",
@@ -6198,6 +6291,7 @@
             "special_defence": 105,
             "speed": 85
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -6354,9 +6448,9 @@
             "egg": []
         }
     },
-    "Lurantis Totem": {
+    "lurantistotem": {
         "name": "Lurantis Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s24129-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 754,
         "typing": {
             "primaryType": "grass",
@@ -6375,6 +6469,7 @@
             "special_defence": 90,
             "speed": 45
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -6488,9 +6583,9 @@
             "egg": []
         }
     },
-    "Mimikyu Busted": {
+    "mimikyubusted": {
         "name": "Mimikyu Busted",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s24897-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 778,
         "typing": {
             "primaryType": "ghost",
@@ -6509,11 +6604,12 @@
             "special_defence": 105,
             "speed": 96
         },
+        "presets": [],
         "moves": ""
     },
-    "Mimikyu Totem": {
+    "mimikyutotem": {
         "name": "Mimikyu Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s24898-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 778,
         "typing": {
             "primaryType": "ghost",
@@ -6532,6 +6628,7 @@
             "special_defence": 105,
             "speed": 96
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -6663,9 +6760,9 @@
             "egg": []
         }
     },
-    "Mimikyu Busted-Totem": {
+    "mimikyubustedtotem": {
         "name": "Mimikyu Busted-Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s24899-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 778,
         "typing": {
             "primaryType": "ghost",
@@ -6684,11 +6781,12 @@
             "special_defence": 105,
             "speed": 96
         },
+        "presets": [],
         "moves": ""
     },
-    "Ribombee Totem": {
+    "ribombeetotem": {
         "name": "Ribombee Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s23777-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 743,
         "typing": {
             "primaryType": "bug",
@@ -6707,6 +6805,7 @@
             "special_defence": 70,
             "speed": 124
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -6817,7 +6916,7 @@
             "egg": []
         }
     },
-    "Rowlet Hisui Bias": {
+    "rowlethisuibias": {
         "name": "Rowlet Hisui Bias",
         "minisprite": "",
         "nationalPokedexNumber": 722,
@@ -6838,6 +6937,7 @@
             "special_defence": 50,
             "speed": 42
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -6994,9 +7094,9 @@
             ]
         }
     },
-    "Salazzle Totem": {
+    "salazzletotem": {
         "name": "Salazzle Totem",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s24257-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 758,
         "typing": {
             "primaryType": "poison",
@@ -7015,6 +7115,7 @@
             "special_defence": 60,
             "speed": 117
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -7149,9 +7250,9 @@
             "egg": []
         }
     },
-    "Wishiwashi School": {
+    "wishiwashischool": {
         "name": "Wishiwashi School",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s23873.png",
+        "minisprite": "",
         "nationalPokedexNumber": 746,
         "typing": {
             "primaryType": "water",
@@ -7170,9 +7271,10 @@
             "special_defence": 135,
             "speed": 30
         },
+        "presets": [],
         "moves": ""
     },
-    "Alcremie Gmax": {
+    "alcremiegmax": {
         "name": "Alcremie Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 869,
@@ -7193,11 +7295,12 @@
             "special_defence": 121,
             "speed": 64
         },
+        "presets": [],
         "moves": ""
     },
-    "Basculegion F": {
+    "basculegionf": {
         "name": "Basculegion F",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s28865-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 902,
         "typing": {
             "primaryType": "water",
@@ -7216,6 +7319,7 @@
             "special_defence": 75,
             "speed": 78
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -7344,7 +7448,7 @@
             ]
         }
     },
-    "Centiskorch Gmax": {
+    "centiskorchgmax": {
         "name": "Centiskorch Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 851,
@@ -7365,9 +7469,10 @@
             "special_defence": 90,
             "speed": 65
         },
+        "presets": [],
         "moves": ""
     },
-    "Cinderace Gmax": {
+    "cinderacegmax": {
         "name": "Cinderace Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 815,
@@ -7388,9 +7493,10 @@
             "special_defence": 75,
             "speed": 119
         },
+        "presets": [],
         "moves": ""
     },
-    "Copperajah Gmax": {
+    "copperajahgmax": {
         "name": "Copperajah Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 879,
@@ -7411,9 +7517,10 @@
             "special_defence": 69,
             "speed": 30
         },
+        "presets": [],
         "moves": ""
     },
-    "Corviknight Gmax": {
+    "corviknightgmax": {
         "name": "Corviknight Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 823,
@@ -7434,11 +7541,12 @@
             "special_defence": 85,
             "speed": 67
         },
+        "presets": [],
         "moves": ""
     },
-    "Eiscue Noice": {
+    "eiscuenoice": {
         "name": "Eiscue Noice",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s28001-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 875,
         "typing": {
             "primaryType": "ice",
@@ -7457,9 +7565,10 @@
             "special_defence": 50,
             "speed": 130
         },
+        "presets": [],
         "moves": ""
     },
-    "Grimmsnarl Gmax": {
+    "grimmsnarlgmax": {
         "name": "Grimmsnarl Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 861,
@@ -7480,9 +7589,10 @@
             "special_defence": 75,
             "speed": 60
         },
+        "presets": [],
         "moves": ""
     },
-    "Inteleon Gmax": {
+    "inteleongmax": {
         "name": "Inteleon Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 818,
@@ -7503,9 +7613,10 @@
             "special_defence": 65,
             "speed": 120
         },
+        "presets": [],
         "moves": ""
     },
-    "Rillaboom Gmax": {
+    "rillaboomgmax": {
         "name": "Rillaboom Gmax",
         "minisprite": "",
         "nationalPokedexNumber": 812,
@@ -7526,11 +7637,12 @@
             "special_defence": 70,
             "speed": 85
         },
+        "presets": [],
         "moves": ""
     },
-    "Ursaluna Bloodmoon": {
+    "ursalunabloodmoon": {
         "name": "Ursaluna Bloodmoon",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s28833-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 901,
         "typing": {
             "primaryType": "ground",
@@ -7549,6 +7661,7 @@
             "special_defence": 65,
             "speed": 52
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -7694,9 +7807,9 @@
             ]
         }
     },
-    "Maushold Four": {
+    "mausholdfour": {
         "name": "Maushold Four",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s29601-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 925,
         "typing": {
             "primaryType": "normal",
@@ -7715,6 +7828,7 @@
             "special_defence": 75,
             "speed": 111
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -7826,7 +7940,7 @@
             "egg": []
         }
     },
-    "Oinkologne female": {
+    "oinkolognefemale": {
         "name": "Oinkologne female",
         "minisprite": "",
         "nationalPokedexNumber": 916,
@@ -7847,6 +7961,7 @@
             "special_defence": 90,
             "speed": 65
         },
+        "presets": [],
         "moves": {
             "levelup": [
                 {
@@ -7955,9 +8070,9 @@
             "egg": []
         }
     },
-    "Squawkabilly Blue": {
+    "squawkabillyblue": {
         "name": "Squawkabilly Blue",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s29793-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 931,
         "typing": {
             "primaryType": "normal",
@@ -7976,11 +8091,12 @@
             "special_defence": 51,
             "speed": 92
         },
+        "presets": [],
         "moves": ""
     },
-    "Squawkabilly Yellow": {
+    "squawkabillyyellow": {
         "name": "Squawkabilly Yellow",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s29794-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 931,
         "typing": {
             "primaryType": "normal",
@@ -7999,11 +8115,12 @@
             "special_defence": 51,
             "speed": 92
         },
+        "presets": [],
         "moves": ""
     },
-    "Squawkabilly White": {
+    "squawkabillywhite": {
         "name": "Squawkabilly White",
-        "minisprite": "https://raw.githubusercontent.com/smogon/sprites/master/src/minisprites/pokemon/gen6/s29795-vsmogon.png",
+        "minisprite": "",
         "nationalPokedexNumber": 931,
         "typing": {
             "primaryType": "normal",
@@ -8022,6 +8139,7 @@
             "special_defence": 51,
             "speed": 92
         },
+        "presets": [],
         "moves": ""
     }
 }

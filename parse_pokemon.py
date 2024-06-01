@@ -53,7 +53,7 @@ def parse_pokemon():
     add_icons(implemented_pokemon)
 
     with open(implemented_pokemon_output_file, "w") as write_file:
-        json.dump(implemented_pokemon, write_file) if reduced_json_size else json.dump(implemented_pokemon, write_file, indent=4)
+        json.dump(implemented_pokemon, write_file, sort_keys=True) if reduced_json_size else json.dump(implemented_pokemon, write_file, indent=4, sort_keys=True)
 
     with open(unimplemented_pokemon_output_file, "w") as write_file:
         json.dump(unimplemented_pokemon, write_file) if reduced_json_size else json.dump(unimplemented_pokemon, write_file, indent=4)

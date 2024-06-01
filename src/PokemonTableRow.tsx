@@ -5,6 +5,8 @@ import { CellStyle, TypographyStyle } from "./styles/PokemonTableStyles"
 import Ability from "./types/Ability"
 import abilitiesJSON from "./data/abilities.json"
 import { Fragment } from "react/jsx-runtime"
+import presetMap from "./PresetMap"
+
 const listOfAbilities = abilitiesJSON as Record<string, Ability>
 
 const statsMap: {[key: string]: string} = {
@@ -15,6 +17,7 @@ const statsMap: {[key: string]: string} = {
     "special_defence": "SpD",
     "speed": "Spe"
 }
+    
 
 export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
     // console.log(pokemon)
@@ -100,7 +103,13 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                         {(pokemon.presets.length > 0) 
                         ?
                             <div style={{margin: "auto"}}>
-                                {pokemon.presets.map((preset) => preset + " ")}
+                                {pokemon.presets.map((preset) => {
+                                    return (
+                                        <>
+                                        <img src={presetMap[preset]} style={{width:"24px", height:"24px"}} title={preset}/>
+                                        </>
+                                    )
+                                })}
                             </div>
                         : 
                             ""

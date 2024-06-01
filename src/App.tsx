@@ -30,7 +30,7 @@ function App() {
             {/* ========== COLUMN 2 ==========*/}
             <Box display={"flex"} width={"100%"}>
                 {/* ========== LEFT ========== */}
-                <Box display={"flex"} flexDirection={"column"}>
+                <Box display={"flex"} flexDirection={"column"} width={"100%"}>
                     {/* ========== UPPER ========== */}
                     <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 

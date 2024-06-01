@@ -30,7 +30,7 @@ function App() {
             {/* ========== COLUMN 2 ==========*/}
             <Box display={"flex"} width={"100%"}>
                 {/* ========== LEFT ========== */}
-                <Box display={"flex"} flexDirection={"column"} width={"50%"} >
+                <Box display={"flex"} flexDirection={"column"}>
                     {/* ========== UPPER ========== */}
                     <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
@@ -44,17 +44,17 @@ function App() {
                 </Box>
                 
                 {/* ========== RIGHT ========== */}
-                <Box display={"flex"} flexDirection={"column"} width={"50%"} >
+                {/* <Box display={"flex"} flexDirection={"column"} width={"50%"} > */}
                     {/* ========== UPPER ========== */}
-                    <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
+                    {/* <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}> */}
 
-                    </Box>
+                    {/* </Box> */}
 
                     {/* ========== LOWER ========== */}
-                    <Box margin={"auto"}>
+                    {/* <Box margin={"auto"}> */}
                         {/* <PokemonTable listOfPokemon={displayedPokemon}/> */}
-                    </Box>
-                </Box>
+                    {/* </Box> */}
+                {/* </Box> */}
             </Box>
 
 

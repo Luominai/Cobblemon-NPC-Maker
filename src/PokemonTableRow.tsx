@@ -86,13 +86,27 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                 {Object.entries(pokemon.baseStats).map(([stat, value]) => {
                     return (
                         <Fragment key={statsMap[stat]}>
-                            <TableCell sx={CellStyle}>
+                            <TableCell sx={CellStyle} width={"25px"}>
                                 <Typography fontSize={10} color={"lightgray"}>{statsMap[stat]}</Typography>
                                 <Typography fontSize={settings.smallFont}>{value}</Typography>
                             </TableCell>
                         </Fragment>
                     )
                 })}
+
+                {/* presets */}
+                <TableCell sx={CellStyle}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle}>
+                        {(pokemon.presets.length > 0) 
+                        ?
+                            <div style={{margin: "auto"}}>
+                                {pokemon.presets.map((preset) => preset + " ")}
+                            </div>
+                        : 
+                            ""
+                        }
+                    </Typography>
+                </TableCell>
             </TableRow>
         </Fragment>
     )

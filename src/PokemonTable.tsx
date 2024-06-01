@@ -20,7 +20,7 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
                 {/* The labels for the table columns */}
                 <TableHead>
                     <TableRow>
-                        {["Name", "Type", "Ability", "Hidden Ability", "Hp", "Atk", "Def", "SpA", "SpD", "Spe"].map((field) => {
+                        {["Name", "Type", "Ability", "Hidden Ability", "Hp", "Atk", "Def", "SpA", "SpD", "Spe", "Presets"].map((field) => {
                             return (
                             <Fragment key={field}>
                                 <TableCell sx={CellStyle}>

@@ -13,7 +13,7 @@ function App() {
     return (
         <Box height={"100vh"} width={"100vw"} display={"flex"}>
             {/*========== COLUMN 1 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} width={"256px"} height={"100%"}>
+            <Box display={"flex"} flexDirection={"column"} width={"256px"} height={"100%"} flexShrink={0}>
                 {/* ========== UPPER ========== */}
                 <Box height={"48px"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
 
@@ -48,15 +48,15 @@ function App() {
 
 
             {/*========== COLUMN 3 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} height={"80%"} flexGrow={1} sx={{overflow:"scroll", scrollbarWidth:"none"}}>
+            <Box display={"flex"} flexDirection={"column"} height={"100%"} flexGrow={1} sx={{overflow:"hidden"}}>
                 {/* ========== UPPER ========== */}
                 <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
                 </Box>
 
                 {/* ========== LOWER ========== */}
-                <Box>
-                    <pre style={{margin: "0px", borderLeft:"1px solid gray"}}>
+                <Box sx={{overflow:"scroll", borderLeft:"1px solid gray"}}>
+                    <pre style={{margin: "0px"}}>
                         {JSON.stringify(exampleTrainerData, null, 2)}
                     </pre>
                 </Box>

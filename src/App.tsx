@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import pokedex from "./data/pokemon_implemented.json"
 import PokemonTable from './PokemonTable'
-import Filter from './Filter'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
-import { GridStyle } from './styles/Grid'
+import exampleTrainerData from './other/ExampleTrainerData'
 
 const listOfPokemon = Object.values(pokedex)
 
@@ -16,60 +15,52 @@ function App() {
             {/*========== COLUMN 1 ==========*/}
             <Box display={"flex"} flexDirection={"column"} width={"256px"} height={"100%"}>
                 {/* ========== UPPER ========== */}
-                <Box height={"50%"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
+                <Box height={"48px"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
+
+                </Box>
+                <Box flexGrow={1} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
 
                 </Box>
 
                 {/* ========== LOWER ========== */}
-                <Box height={"50%"} width={"100%"} borderRight={"1px solid gray"}>
+                <Box height={"48px"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
+
+                </Box>
+                <Box flexGrow={1} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
 
                 </Box>
             </Box>
 
 
             {/* ========== COLUMN 2 ==========*/}
-            <Box display={"flex"} width={"100%"}>
-                {/* ========== LEFT ========== */}
-                <Box display={"flex"} flexDirection={"column"} width={"100%"}>
-                    {/* ========== UPPER ========== */}
-                    <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
+            <Box display={"flex"} flexDirection={"column"}>
+                {/* ========== UPPER ========== */}
+                <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
-                    </Box>
-
-                    {/* ========== LOWER ========== */}
-                    <Box>
-                        <PokemonCard pokemon={null}/>
-                        <PokemonTable listOfPokemon={displayedPokemon}/>
-                    </Box>
                 </Box>
-                
-                {/* ========== RIGHT ========== */}
-                {/* <Box display={"flex"} flexDirection={"column"} width={"50%"} > */}
-                    {/* ========== UPPER ========== */}
-                    {/* <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}> */}
 
-                    {/* </Box> */}
-
-                    {/* ========== LOWER ========== */}
-                    {/* <Box margin={"auto"}> */}
-                        {/* <PokemonTable listOfPokemon={displayedPokemon}/> */}
-                    {/* </Box> */}
-                {/* </Box> */}
+                {/* ========== LOWER ========== */}
+                <Box display={"flex"} flexDirection={"column"}>
+                    <PokemonCard pokemon={null}/>
+                    <PokemonTable listOfPokemon={displayedPokemon}/>
+                </Box>
             </Box>
 
 
             {/*========== COLUMN 3 ==========*/}
-            {/* <Box display={"flex"} flexDirection={"column"} width={"192px"} height={"100%"}> */}
+            <Box display={"flex"} flexDirection={"column"} height={"80%"} flexGrow={1} sx={{overflow:"scroll", scrollbarWidth:"none"}}>
                 {/* ========== UPPER ========== */}
-                {/* <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
+                <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
-                </Box> */}
+                </Box>
 
                 {/* ========== LOWER ========== */}
-                {/* <Box height={"100%"} borderLeft={"1px solid gray"}>
-
-                </Box> */}
-            {/* </Box> */}
+                <Box>
+                    <pre style={{margin: "0px", borderLeft:"1px solid gray"}}>
+                        {JSON.stringify(exampleTrainerData, null, 2)}
+                    </pre>
+                </Box>
+            </Box>
         </Box>
     )
 }

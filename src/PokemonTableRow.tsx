@@ -79,7 +79,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                             <div style={{margin: "auto"}}>
                                 {listOfAbilities[pokemon.abilities.hiddenAbility].name}
                             </div>
-                        : 
+                        :
                             ""
                         }
                     </Typography>
@@ -89,9 +89,13 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                 {Object.entries(pokemon.baseStats).map(([stat, value]) => {
                     return (
                         <Fragment key={statsMap[stat]}>
-                            <TableCell sx={CellStyle} width={"25px"}>
-                                <Typography fontSize={10} color={"lightgray"}>{statsMap[stat]}</Typography>
-                                <Typography fontSize={settings.smallFont}>{value}</Typography>
+                            <TableCell sx={CellStyle}>
+                                <Typography fontSize={"10px"} color={"lightgray"} width={"25px"} textAlign={"center"}>
+                                    {statsMap[stat]}
+                                </Typography>
+                                <Typography fontSize={settings.smallFont} width={"25px"} textAlign={"center"}>
+                                    {value}
+                                </Typography>
                             </TableCell>
                         </Fragment>
                     )
@@ -99,7 +103,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
 
                 {/* presets */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} sx={TypographyStyle}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"168px"}>
                         {(pokemon.presets.length > 0) 
                         ?
                             <div style={{margin: "auto"}}>

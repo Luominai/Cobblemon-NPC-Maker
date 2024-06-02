@@ -15,8 +15,8 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
     }, [listOfPokemon])
     
     return (
-        <Box>
-            <Table sx={{width: "100%", margin: "auto"}}>
+        <Box display={"flex"} flexDirection={"column"}>
+            <Table>
                 {/* The labels for the table columns */}
                 <TableHead>
                     <TableRow>
@@ -35,15 +35,17 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
                 {/* Map each pokemon in the list to a TableCell containing the information */}
                 {pokemonOnThisPage.map((pokemon) => <PokemonTableRow pokemon={pokemon} key={pokemon.name}/>)}
             </Table>
-            <Pagination 
-            count={Math.ceil(listOfPokemon.length / pokemonPerPage)}
-            onChange={(event, value) => {
-                setPage(value)
-            }}
-            page={page}
-            siblingCount={4}
-            sx={{"button:focus": {outline: "none"}, padding: "auto"}}
-            />
+            <Box margin={"auto"}>
+                <Pagination 
+                count={Math.ceil(listOfPokemon.length / pokemonPerPage)}
+                onChange={(event, value) => {
+                    setPage(value)
+                }}
+                page={page}
+                siblingCount={6}
+                sx={{"button:focus": {outline: "none"}, margin: "auto", width:"100%"}}
+                />
+            </Box>
         </Box>
     )
 }

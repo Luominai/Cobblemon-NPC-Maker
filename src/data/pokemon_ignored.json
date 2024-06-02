@@ -21,6 +21,7 @@
             "speed": 150
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "alakazammega": {
@@ -45,6 +46,7 @@
             "speed": 150
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "beedrillmega": {
@@ -69,6 +71,7 @@
             "speed": 145
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "blastoisemega": {
@@ -93,6 +96,7 @@
             "speed": 78
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "blastoisegmax": {
@@ -117,6 +121,7 @@
             "speed": 78
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "butterfreegmax": {
@@ -141,6 +146,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "charizardmegax": {
@@ -165,6 +171,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "charizardmegay": {
@@ -189,6 +196,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "charizardgmax": {
@@ -213,6 +221,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "eeveestarter": {
@@ -237,6 +246,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -356,6 +366,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "exeggcutealolabias": {
@@ -380,6 +391,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "gengarmega": {
@@ -404,6 +416,7 @@
             "speed": 130
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "gengargmax": {
@@ -428,6 +441,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "gyaradosmega": {
@@ -452,6 +466,7 @@
             "speed": 81
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "kangaskhanmega": {
@@ -476,6 +491,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "kinglergmax": {
@@ -500,6 +516,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "laprasgmax": {
@@ -524,6 +541,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "machampgmax": {
@@ -548,6 +566,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "marowakalolatotem": {
@@ -572,6 +591,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -739,6 +759,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "mewtwomegax": {
@@ -763,6 +784,7 @@
             "speed": 130
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "mewtwomegay": {
@@ -787,6 +809,7 @@
             "speed": 140
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "pidgeotmega": {
@@ -811,6 +834,7 @@
             "speed": 121
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "pikachucosplay": {
@@ -835,6 +859,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -985,6 +1010,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1014,6 +1040,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1043,6 +1070,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1072,6 +1100,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1101,6 +1130,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [],
             "tm": [],
@@ -1130,6 +1160,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1339,6 +1370,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1547,6 +1579,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1754,6 +1787,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1961,6 +1995,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2169,6 +2204,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2377,6 +2413,7 @@
             "speed": 120
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2507,6 +2544,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "pikachuworld": {
@@ -2531,6 +2569,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2710,6 +2749,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "pinsirmega": {
@@ -2734,6 +2774,7 @@
             "speed": 105
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "raticatealolatotem": {
@@ -2758,6 +2799,7 @@
             "speed": 77
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2905,6 +2947,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "snorlaxgmax": {
@@ -2929,6 +2972,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "taurospaldeacombat": {
@@ -2953,6 +2997,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3084,6 +3129,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3221,6 +3267,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3355,6 +3402,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "venusaurgmax": {
@@ -3379,6 +3427,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "ampharosmega": {
@@ -3403,6 +3452,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "cyndaquilhisuibias": {
@@ -3427,6 +3477,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3636,6 +3687,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "pichuspikyeared": {
@@ -3660,6 +3712,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3755,6 +3808,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3952,6 +4006,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "steelixmega": {
@@ -3976,6 +4031,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "tyranitarmega": {
@@ -4000,6 +4056,7 @@
             "speed": 71
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "aggronmega": {
@@ -4024,6 +4081,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "blazikenmega": {
@@ -4048,6 +4106,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "cameruptmega": {
@@ -4072,6 +4131,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "gardevoirmega": {
@@ -4096,6 +4156,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "mawilemega": {
@@ -4120,6 +4181,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "metagrossmega": {
@@ -4144,6 +4206,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "rayquazamega": {
@@ -4168,6 +4231,7 @@
             "speed": 115
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "sableyemega": {
@@ -4192,6 +4256,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "sceptilemega": {
@@ -4216,6 +4281,7 @@
             "speed": 145
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "sharpedomega": {
@@ -4240,6 +4306,7 @@
             "speed": 105
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "swampertmega": {
@@ -4264,6 +4331,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "gallademega": {
@@ -4288,6 +4356,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "garchompmega": {
@@ -4312,6 +4381,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "lopunnymega": {
@@ -4336,6 +4406,7 @@
             "speed": 135
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "lucariomega": {
@@ -4360,6 +4431,7 @@
             "speed": 112
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "basculinbluestriped": {
@@ -4384,6 +4456,7 @@
             "speed": 98
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "basculinwhitestriped": {
@@ -4408,6 +4481,7 @@
             "speed": 98
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4540,6 +4614,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "darmanitangalarzen": {
@@ -4564,6 +4639,7 @@
             "speed": 135
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "dewotthisuibias": {
@@ -4588,6 +4664,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4753,6 +4830,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4928,6 +5006,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5092,6 +5171,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "floetteeternal": {
@@ -5116,6 +5196,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5247,6 +5328,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5391,6 +5473,7 @@
             "speed": 99
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "gourgeistlarge": {
@@ -5415,6 +5498,7 @@
             "speed": 69
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "gourgeistsuper": {
@@ -5439,6 +5523,7 @@
             "speed": 54
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "greninjaash": {
@@ -5463,6 +5548,7 @@
             "speed": 132
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5667,6 +5753,7 @@
             "speed": 56
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "pumpkaboolarge": {
@@ -5691,6 +5778,7 @@
             "speed": 46
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "pumpkaboosuper": {
@@ -5715,6 +5803,7 @@
             "speed": 41
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5877,6 +5966,7 @@
             "speed": 89
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5988,6 +6078,7 @@
             "speed": 89
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6099,6 +6190,7 @@
             "speed": 99
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "dartrixhisuibias": {
@@ -6123,6 +6215,7 @@
             "speed": 52
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6292,6 +6385,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6470,6 +6564,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6605,6 +6700,7 @@
             "speed": 96
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "mimikyutotem": {
@@ -6629,6 +6725,7 @@
             "speed": 96
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6782,6 +6879,7 @@
             "speed": 96
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "ribombeetotem": {
@@ -6806,6 +6904,7 @@
             "speed": 124
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6938,6 +7037,7 @@
             "speed": 42
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7116,6 +7216,7 @@
             "speed": 117
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7272,6 +7373,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "alcremiegmax": {
@@ -7296,6 +7398,7 @@
             "speed": 64
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "basculegionf": {
@@ -7320,6 +7423,7 @@
             "speed": 78
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7470,6 +7574,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "cinderacegmax": {
@@ -7494,6 +7599,7 @@
             "speed": 119
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "copperajahgmax": {
@@ -7518,6 +7624,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "corviknightgmax": {
@@ -7542,6 +7649,7 @@
             "speed": 67
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "eiscuenoice": {
@@ -7566,6 +7674,7 @@
             "speed": 130
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "grimmsnarlgmax": {
@@ -7590,6 +7699,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "inteleongmax": {
@@ -7614,6 +7724,7 @@
             "speed": 120
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "rillaboomgmax": {
@@ -7638,6 +7749,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "ursalunabloodmoon": {
@@ -7662,6 +7774,7 @@
             "speed": 52
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7829,6 +7942,7 @@
             "speed": 111
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7962,6 +8076,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -8092,6 +8207,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "squawkabillyyellow": {
@@ -8116,6 +8232,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     },
     "squawkabillywhite": {
@@ -8140,6 +8257,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": ""
     }
 }

@@ -7,7 +7,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
     if (pokemon == null) {
         return (
             <Box display={"flex"} justifyContent={"space-evenly"} alignItems={"center"}>
-                <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"30%"}>
+                <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"25%"}>
                     {/* <Input placeholder="name"/> */}
                     <Box height={"128px"}>
 
@@ -15,7 +15,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                     <Input placeholder="name"/>
                 </Box>
 
-                <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"30%"}>
+                <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"25%"}>
                     <Input placeholder="move1" />
                     <Input placeholder="move2" />
                     <Input placeholder="move3" />

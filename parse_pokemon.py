@@ -48,12 +48,12 @@ def parse_pokemon():
     # add_icons(unimplemented_pokemon)
     # add_icons(ignored_pokemon)
 
-    add_presets(implemented_pokemon, unimplemented_pokemon, ignored_pokemon)
+    add_presets(implemented_pokemon)
     remove_unimplemented_forms(implemented_pokemon, unimplemented_pokemon)
     add_icons(implemented_pokemon)
 
     with open(implemented_pokemon_output_file, "w") as write_file:
-        json.dump(implemented_pokemon, write_file, sort_keys=True) if reduced_json_size else json.dump(implemented_pokemon, write_file, indent=4, sort_keys=True)
+        json.dump(implemented_pokemon, write_file) if reduced_json_size else json.dump(implemented_pokemon, write_file, indent=4)
 
     with open(unimplemented_pokemon_output_file, "w") as write_file:
         json.dump(unimplemented_pokemon, write_file) if reduced_json_size else json.dump(unimplemented_pokemon, write_file, indent=4)
@@ -93,6 +93,7 @@ def add_pokemon(pokemon, dict, base_form=None):
         },  
         "baseStats": base_stats,
         "presets": [],
+        "minSpawnLevel": None,
         "moves": add_moves(pokemon) if "moves" in pokemon.keys() else ""
     }
 
@@ -144,51 +145,31 @@ def add_icons(dict):
                     dict[name]["minisprite"] = img_link
     # print("===================icons done===================")
                         
-def add_presets(implemented, unimplemented, ignored):
-    keys_implemented = implemented.keys()
-    keys_unimplemented = unimplemented.keys()
-    keys_ignored = ignored.keys()
-    keys_forms = forms_map.keys()
+def add_presets(dict):
+    keys = dict.keys()
 
     for root, dirs, files in os.walk(cobblemon_spawns_data_folder):
         for file in files:
             with open(f"{root}/{file}", "r", encoding="utf8") as read_file:
                 spawn_data = json.load(read_file) 
                 for spawn in spawn_data["spawns"]:
-                    pokemon_name = spawn["pokemon"]
+                    # if this pokemon has no presets, skip it
                     if "presets" not in spawn.keys():
                         print("skipped " + id)
                         continue
                     presets = spawn["presets"]
                     id = spawn["id"]
+                    min_spawn_level = spawn["level"]
+                    min_spawn_level = int(min_spawn_level[:min_spawn_level.index("-")])
                     
                     # process the pokemon name to make it match the keys
-                    pokemon_name = pokemon_name.split(" ")
-                    processed_parts = []
-                    for part in pokemon_name:
-                        if "=" in part:
-                            if any(form.lower() in part for form in accepted_forms):
-                                removed_part = part[:part.index("=")+1]
-                                part = part[part.index("=")+1:]
-                                print("removed " + removed_part + " from " + str(pokemon_name))
-                            else:
-                                print("ignoring " + part + " from " + str(pokemon_name))
-                                continue
-                        if part in keys_forms:
-                            part = forms_map[part]
-                        part = "".join(char.lower() for char in part if char.isalnum())
-                        processed_parts.append(part)
-                    pokemon_name = "".join(processed_parts)
+                    pokemon_name = spawn["pokemon"] 
+                    pokemon_name = name_to_key(pokemon_name)
 
-                    # put the biome data in the right place
-                    # print(pokemon_name)
-                    if pokemon_name in keys_implemented:
-                        implemented[pokemon_name]["presets"] = list(set(implemented[pokemon_name]["presets"]).union(set(presets)))
-                        # print(pokemon_name + " has presets " + str(implemented[pokemon_name]["presets"]))
-                    elif pokemon_name in keys_unimplemented:
-                        unimplemented[pokemon_name]["presets"] = list(set(unimplemented[pokemon_name]["presets"]).union(set(presets)))
-                    elif pokemon_name in keys_ignored:
-                        ignored[pokemon_name]["presets"] = list(set(ignored[pokemon_name]["presets"]).union(set(presets)))
+                    # put the biome data if the pokemon is in the list
+                    if pokemon_name in keys:
+                        dict[pokemon_name]["presets"] = list(set(dict[pokemon_name]["presets"]).union(set(presets)))
+                        dict[pokemon_name]["minSpawnLevel"] = min_spawn_level
 
            
 def remove_unimplemented_forms(implemented, unimplemented):
@@ -197,6 +178,40 @@ def remove_unimplemented_forms(implemented, unimplemented):
             unimplemented[key] = value
             del implemented[key]
             print("deleted " + value["name"] + " because its presets are empty")
+
+def name_to_key(pokemon_name):
+    keys_forms = forms_map.keys()
+    pokemon_name = pokemon_name.split(" ")
+    processed_parts = []
+    for part in pokemon_name:
+        if "=" in part:
+            # ignore forms such as vivillon_wings=modern
+            continue
+        if part in keys_forms:
+            # ex: map hisuian -> hisui
+            part = forms_map[part]
+        # remove non-alphanumeric characters
+        part = "".join(char.lower() for char in part if char.isalnum())
+        processed_parts.append(part)
+    # join the name
+    pokemon_name = "".join(processed_parts)
+    print(pokemon_name)
+    return pokemon_name
+
+
+# def add_min_level(dict):
+#     for (root, dirs, files) in os.walk(cobblemon_species_data_folder):
+#         for file in files:
+#             with open(f"{root}/{file}", "r", encoding="utf8") as read_file:
+#                 pokemon = json.load(read_file)
+#                 key_name = name_to_key(pokemon["name"])
+
+#                 # if the pokemon has a levelup preevolution, min_level is when it evolves
+#                 if "preEvolution" in pokemon.keys():
+#                     preevolution = pokemon["preEvolution"]
+#                 # if no preevolution, min_level is 1 (not accurate in all cases, ex: legendaries)
+#                 else:
+#                     dict[pokemon["name"]]
 
                 
         

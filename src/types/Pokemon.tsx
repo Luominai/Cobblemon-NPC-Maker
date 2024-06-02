@@ -31,6 +31,7 @@ type Pokemon = {
         tutor: Array<string>,
         egg: Array<string>
     },
+    minSpawnLevel: number | null
     // form: string
 }
 

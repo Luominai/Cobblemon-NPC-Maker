@@ -13,7 +13,7 @@ function App() {
     return (
         <Box height={"100vh"} width={"100vw"} display={"flex"}>
             {/*========== COLUMN 1 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} width={"256px"} height={"100%"} flexShrink={0}>
+            <Box display={"flex"} flexDirection={"column"} width={"192px"} height={"100%"} flexShrink={0}>
                 {/* ========== UPPER ========== */}
                 <Box height={"48px"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
 

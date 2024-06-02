@@ -24,6 +24,13 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
     return (
         <Fragment>
             <TableRow>
+                {/* spawn lvl */}
+                <TableCell sx={CellStyle}>
+                    <Typography fontSize={settings.smallFont} width={"40px"} textAlign={"center"}>
+                        {pokemon.minSpawnLevel?? "n/a"}
+                    </Typography>
+                </TableCell>
+
                 {/* name */}
                 <TableCell sx={CellStyle}>
                     <Typography fontSize={settings.smallFont} sx={TypographyStyle} height={"50px"} width={"120px"}>
@@ -116,7 +123,9 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                                 })}
                             </div>
                         : 
-                            ""
+                            <div style={{margin: "auto"}}>
+                                n/a
+                            </div>
                         }
                     </Typography>
                 </TableCell>

@@ -21,6 +21,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -264,6 +265,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -505,6 +507,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -756,6 +759,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -942,6 +946,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1236,6 +1241,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1469,6 +1475,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1738,6 +1745,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -1999,6 +2007,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2226,6 +2235,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2465,6 +2475,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2715,6 +2726,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -2924,6 +2936,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3108,6 +3121,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3304,6 +3318,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3585,6 +3600,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -3823,6 +3839,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4088,6 +4105,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4303,6 +4321,7 @@
             "speed": 115
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4530,6 +4549,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4732,6 +4752,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -4936,6 +4957,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5172,6 +5194,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5373,6 +5396,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5568,6 +5592,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -5819,6 +5844,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6081,6 +6107,7 @@
             "speed": 48
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6119,6 +6146,7 @@
             "speed": 33
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6193,6 +6221,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6454,6 +6483,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6688,6 +6718,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -6848,6 +6879,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7030,6 +7062,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7246,6 +7279,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7388,6 +7422,7 @@
             "speed": 15
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7427,6 +7462,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7585,6 +7621,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7787,6 +7824,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -7999,6 +8037,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -8131,6 +8170,7 @@
             "speed": 150
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -8449,6 +8489,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -8592,6 +8633,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -8765,6 +8807,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -8883,6 +8926,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -9075,6 +9119,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -9302,6 +9347,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -9543,6 +9589,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -9748,6 +9795,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -10002,6 +10050,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -10233,6 +10282,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -10418,6 +10468,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -10683,6 +10734,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -10946,6 +10998,7 @@
             "speed": 105
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -11125,6 +11178,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -11377,6 +11431,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -11625,6 +11680,7 @@
             "speed": 81
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -11845,6 +11901,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -12050,6 +12107,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -12262,6 +12320,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -12484,6 +12543,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -12720,6 +12780,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -12884,6 +12945,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -13117,6 +13179,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -13289,6 +13352,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -13508,6 +13572,7 @@
             "speed": 15
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -13547,6 +13612,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -13751,6 +13817,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -13989,6 +14056,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -14186,6 +14254,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -14363,6 +14432,7 @@
             "speed": 25
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -14541,6 +14611,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -14756,6 +14827,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -14964,6 +15036,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -15167,6 +15240,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -15370,6 +15444,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -15562,6 +15637,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -15614,6 +15690,7 @@
             "speed": 23
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -15686,6 +15763,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -15991,6 +16069,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -16215,6 +16294,7 @@
             "speed": 120
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -16504,6 +16584,7 @@
             "speed": 115
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -16822,6 +16903,7 @@
             "speed": 33
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -17128,6 +17210,7 @@
             "speed": 23
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -17399,6 +17482,7 @@
             "speed": 36
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -17454,6 +17538,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -17637,6 +17722,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -17818,6 +17904,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -18071,6 +18158,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -18375,6 +18463,7 @@
             "speed": 125
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -18582,6 +18671,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -18838,6 +18928,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -19150,6 +19241,7 @@
             "speed": 66
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -19329,6 +19421,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -19627,6 +19720,7 @@
             "speed": 39
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -19820,6 +19914,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -20049,6 +20144,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -20215,6 +20311,7 @@
             "speed": 77
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -20475,6 +20572,7 @@
             "speed": 91
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -20651,6 +20749,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -20835,6 +20934,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -21081,6 +21181,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -21385,6 +21486,7 @@
             "speed": 66
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -21551,6 +21653,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -21812,6 +21915,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -21966,6 +22070,7 @@
             "speed": 112
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -22129,6 +22234,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -22402,6 +22508,7 @@
             "speed": 91
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -22627,6 +22734,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -22819,6 +22927,7 @@
             "speed": 34
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -23016,6 +23125,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -23309,6 +23419,7 @@
             "speed": 84
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -23616,6 +23727,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -23822,6 +23934,7 @@
             "speed": 74
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -24133,6 +24246,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -24370,6 +24484,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -24652,6 +24767,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -24959,6 +25075,7 @@
             "speed": 36
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -25117,6 +25234,7 @@
             "speed": 145
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -25298,6 +25416,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -25450,6 +25569,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -25693,6 +25813,7 @@
             "speed": 57
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -25907,6 +26028,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -26104,6 +26226,7 @@
             "speed": 76
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -26254,6 +26377,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -26435,6 +26559,7 @@
             "speed": 115
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -26611,6 +26736,7 @@
             "speed": 108
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -26789,6 +26915,7 @@
             "speed": 68
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -26958,6 +27085,7 @@
             "speed": 48
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -27170,6 +27298,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -27331,6 +27460,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -27531,6 +27661,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -27682,6 +27813,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -27858,6 +27990,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -28045,6 +28178,7 @@
             "speed": 88
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -28224,6 +28358,7 @@
             "speed": 15
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -28376,6 +28511,7 @@
             "speed": 67
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -28572,6 +28708,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -28747,6 +28884,7 @@
             "speed": 99
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -28947,6 +29085,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -29152,6 +29291,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -29357,6 +29497,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -29558,6 +29699,7 @@
             "speed": 97
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -29768,6 +29910,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -29928,6 +30071,7 @@
             "speed": 108
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -30113,6 +30257,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -30309,6 +30454,7 @@
             "speed": 101
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -30517,6 +30663,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -30690,6 +30837,7 @@
             "speed": 106
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -30870,6 +31018,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -31075,6 +31224,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -31289,6 +31439,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -31482,6 +31633,7 @@
             "speed": 105
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -31681,6 +31833,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -31867,6 +32020,7 @@
             "speed": 24
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -32062,6 +32216,7 @@
             "speed": 29
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -32239,6 +32394,7 @@
             "speed": 69
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -32384,6 +32540,7 @@
             "speed": 64
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -32553,6 +32710,7 @@
             "speed": 64
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -32725,6 +32883,7 @@
             "speed": 64
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -32893,6 +33052,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -33091,6 +33251,7 @@
             "speed": 66
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -33272,6 +33433,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -33472,6 +33634,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -33700,6 +33863,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -33864,6 +34028,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -34029,6 +34194,7 @@
             "speed": 58
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -34257,6 +34423,7 @@
             "speed": 48
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -34492,6 +34659,7 @@
             "speed": 74
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -34673,6 +34841,7 @@
             "speed": 42
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -34814,6 +34983,7 @@
             "speed": 25
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -34971,6 +35141,7 @@
             "speed": 101
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -35084,6 +35255,7 @@
             "speed": 101
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -35194,6 +35366,7 @@
             "speed": 101
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -35309,6 +35482,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -35516,6 +35690,7 @@
             "speed": 32
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -35708,6 +35883,7 @@
             "speed": 42
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -35842,6 +36018,7 @@
             "speed": 98
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -35998,6 +36175,7 @@
             "speed": 108
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -36170,6 +36348,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -36338,6 +36517,7 @@
             "speed": 111
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -36564,6 +36744,7 @@
             "speed": 111
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -36771,6 +36952,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -36933,6 +37115,7 @@
             "speed": 64
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -37085,6 +37268,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -37139,6 +37323,7 @@
             "speed": 59
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -37279,6 +37464,7 @@
             "speed": 44
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -37428,6 +37614,7 @@
             "speed": 79
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -37581,6 +37768,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -37803,6 +37991,7 @@
             "speed": 108
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -37988,6 +38177,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -38180,6 +38370,7 @@
             "speed": 116
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -38332,6 +38523,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -38539,6 +38731,7 @@
             "speed": 29
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -38717,6 +38910,7 @@
             "speed": 68
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -38914,6 +39108,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -39093,6 +39288,7 @@
             "speed": 44
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -39260,6 +39456,7 @@
             "speed": 59
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -39439,6 +39636,7 @@
             "speed": 101
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -39619,6 +39817,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -39827,6 +40026,7 @@
             "speed": 68
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -39985,6 +40185,7 @@
             "speed": 102
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -40117,6 +40318,7 @@
             "speed": 68
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -40291,6 +40493,7 @@
             "speed": 118
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -40525,6 +40728,7 @@
             "speed": 109
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -40697,6 +40901,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -40847,6 +41052,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -41075,6 +41281,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -41270,6 +41477,7 @@
             "speed": 72
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -41432,6 +41640,7 @@
             "speed": 73
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -41632,6 +41841,7 @@
             "speed": 104
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -41862,6 +42072,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -42046,6 +42257,7 @@
             "speed": 123
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -42250,6 +42462,7 @@
             "speed": 43
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -42445,6 +42658,7 @@
             "speed": 58
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -42664,6 +42878,7 @@
             "speed": 106
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -42831,6 +43046,7 @@
             "speed": 52
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -42993,6 +43209,7 @@
             "speed": 72
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -43150,6 +43367,7 @@
             "speed": 23
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -43308,6 +43526,7 @@
             "speed": 49
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -43461,6 +43680,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -43663,6 +43883,7 @@
             "speed": 99
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -43849,6 +44070,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -44048,6 +44270,7 @@
             "speed": 42
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -44213,6 +44436,7 @@
             "speed": 107
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -44385,6 +44609,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -44554,6 +44779,7 @@
             "speed": 79
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -44738,6 +44964,7 @@
             "speed": 61
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -44914,6 +45141,7 @@
             "speed": 36
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -45056,6 +45284,7 @@
             "speed": 37
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -45096,6 +45325,7 @@
             "speed": 37
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -45137,6 +45367,7 @@
             "speed": 27
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -45300,6 +45531,7 @@
             "speed": 36
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -45489,6 +45721,7 @@
             "speed": 46
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -45620,6 +45853,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -45802,6 +46036,7 @@
             "speed": 43
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -46002,6 +46237,7 @@
             "speed": 109
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -46156,6 +46392,7 @@
             "speed": 97
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -46356,6 +46593,7 @@
             "speed": 112
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -46539,6 +46777,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -46773,6 +47012,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -46934,6 +47174,7 @@
             "speed": 125
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -47141,6 +47382,7 @@
             "speed": 34
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -47296,6 +47538,7 @@
             "speed": 34
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -47384,6 +47627,7 @@
             "speed": 120
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -47541,6 +47785,7 @@
             "speed": 79
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -47756,6 +48001,7 @@
             "speed": 103
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -47941,6 +48187,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -48140,6 +48387,7 @@
             "speed": 93
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -48309,6 +48557,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -48475,6 +48724,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -48673,6 +48923,7 @@
             "speed": 151
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -48853,6 +49104,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -48999,6 +49251,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -49166,6 +49419,7 @@
             "speed": 15
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -49334,6 +49588,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -49557,6 +49812,7 @@
             "speed": 97
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -49760,6 +50016,7 @@
             "speed": 13
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -49934,6 +50191,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -50124,6 +50382,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -50309,6 +50568,7 @@
             "speed": 130
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -50497,6 +50757,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -50671,6 +50932,7 @@
             "speed": 96
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -50840,6 +51102,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -51000,6 +51263,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -51165,6 +51429,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -51309,6 +51574,7 @@
             "speed": 59
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -51470,6 +51736,7 @@
             "speed": 43
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -51657,6 +51924,7 @@
             "speed": 83
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -51822,6 +52090,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -51991,6 +52260,7 @@
             "speed": 143
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52181,6 +52451,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52329,6 +52600,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52379,6 +52651,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52418,6 +52691,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52582,6 +52856,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52712,6 +52987,7 @@
             "speed": 44
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52820,6 +53096,7 @@
             "speed": 32
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -52933,6 +53210,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -53075,6 +53353,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -53214,6 +53493,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -53359,6 +53639,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -53433,6 +53714,7 @@
             "speed": 74
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -53584,6 +53866,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -53729,6 +54012,7 @@
             "speed": 106
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -53868,6 +54152,7 @@
             "speed": 130
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54022,6 +54307,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54163,6 +54449,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54316,6 +54603,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54454,6 +54742,7 @@
             "speed": 42
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54579,6 +54868,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54713,6 +55003,7 @@
             "speed": 39
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54841,6 +55132,7 @@
             "speed": 29
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -54989,6 +55281,7 @@
             "speed": 49
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -55112,6 +55405,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -55254,6 +55548,7 @@
             "speed": 72
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -55392,6 +55687,7 @@
             "speed": 97
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -55547,6 +55843,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -55770,6 +56067,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -55911,6 +56209,7 @@
             "speed": 15
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56050,6 +56349,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56186,6 +56486,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56317,6 +56618,7 @@
             "speed": 200
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56449,6 +56751,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56561,6 +56864,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56717,6 +57021,7 @@
             "speed": 71
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56849,6 +57154,7 @@
             "speed": 46
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -56971,6 +57277,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -57095,6 +57402,7 @@
             "speed": 25
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -57217,6 +57525,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -57280,6 +57589,7 @@
             "speed": 130
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -57414,6 +57724,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -57492,6 +57803,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -57687,6 +57999,7 @@
             "speed": 97
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -57852,6 +58165,7 @@
             "speed": 138
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58004,6 +58318,7 @@
             "speed": 138
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58160,6 +58475,7 @@
             "speed": 105
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58336,6 +58652,7 @@
             "speed": 39
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58472,6 +58789,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58605,6 +58923,7 @@
             "speed": 62
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58714,6 +59033,7 @@
             "speed": 87
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58858,6 +59178,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -58979,6 +59300,7 @@
             "speed": 82
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -59126,6 +59448,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -59250,6 +59573,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -59377,6 +59701,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -59510,6 +59835,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -59623,6 +59949,7 @@
             "speed": 135
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -59763,6 +60090,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -59901,6 +60229,7 @@
             "speed": 121
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60038,6 +60367,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60160,6 +60490,7 @@
             "speed": 33
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60267,6 +60598,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60403,6 +60735,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60576,6 +60909,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60735,6 +61069,7 @@
             "speed": 99
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60872,6 +61207,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -60992,6 +61328,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -61127,6 +61464,7 @@
             "speed": 135
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -61268,6 +61606,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -61382,6 +61721,7 @@
             "speed": 91
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -61540,6 +61880,7 @@
             "speed": 87
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -61690,6 +62031,7 @@
             "speed": 34
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -61828,6 +62170,7 @@
             "speed": 68
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -61966,6 +62309,7 @@
             "speed": 44
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -62112,6 +62456,7 @@
             "speed": 124
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -62249,6 +62594,7 @@
             "speed": 136
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -62376,6 +62722,7 @@
             "speed": 98
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -62516,6 +62863,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -62664,6 +63012,7 @@
             "speed": 108
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -62814,6 +63163,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -62962,6 +63312,7 @@
             "speed": 72
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -63137,6 +63488,7 @@
             "speed": 106
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -63278,6 +63630,7 @@
             "speed": 116
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -63451,6 +63804,7 @@
             "speed": 125
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -63577,6 +63931,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -63723,6 +64078,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -63865,6 +64221,7 @@
             "speed": 135
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64027,6 +64384,7 @@
             "speed": 92
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64172,6 +64530,7 @@
             "speed": 135
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64316,6 +64675,7 @@
             "speed": 106
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64449,6 +64809,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64556,6 +64917,7 @@
             "speed": 110
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64708,6 +65070,7 @@
             "speed": 80
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64845,6 +65208,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -64973,6 +65337,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -65123,6 +65488,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -65254,6 +65620,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -65391,6 +65758,7 @@
             "speed": 105
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -65560,6 +65928,7 @@
             "speed": 88
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -65678,6 +66047,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -65791,6 +66161,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -65955,6 +66326,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -66103,6 +66475,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -66205,6 +66578,7 @@
             "speed": 119
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -66378,6 +66752,7 @@
             "speed": 101
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -66526,6 +66901,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -66664,6 +67040,7 @@
             "speed": 111
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -66834,6 +67211,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -66948,6 +67326,7 @@
             "speed": 81
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -67098,6 +67477,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -67210,6 +67590,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -67345,6 +67726,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -67462,6 +67844,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -67585,6 +67968,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -67716,6 +68100,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -67857,6 +68242,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68006,6 +68392,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68153,6 +68540,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68275,6 +68663,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68396,6 +68785,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68508,6 +68898,7 @@
             "speed": 70
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68655,6 +69046,7 @@
             "speed": 120
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68771,6 +69163,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -68928,6 +69321,7 @@
             "speed": 85
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -69158,6 +69552,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -69312,6 +69707,7 @@
             "speed": 20
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -69513,6 +69909,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -69725,6 +70122,7 @@
             "speed": 35
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -69923,6 +70321,7 @@
             "speed": 25
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -70146,6 +70545,7 @@
             "speed": 55
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -70287,6 +70687,7 @@
             "speed": 45
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -70539,6 +70940,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -71135,6 +71537,7 @@
             "speed": 130
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -71500,6 +71903,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -71733,6 +72137,7 @@
             "speed": 90
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -71880,6 +72285,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -72095,6 +72501,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -72298,6 +72705,215 @@
             "egg": []
         }
     },
+    "pikachualola": {
+        "name": "Pikachu Alola",
+        "minisprite": "",
+        "nationalPokedexNumber": 25,
+        "typing": {
+            "primaryType": "electric",
+            "secondaryType": ""
+        },
+        "abilities": {
+            "primaryAbility": "static",
+            "secondaryAbility": "",
+            "hiddenAbility": "lightningrod"
+        },
+        "baseStats": {
+            "hp": 35,
+            "attack": 55,
+            "defence": 40,
+            "special_attack": 50,
+            "special_defence": 50,
+            "speed": 90
+        },
+        "presets": [],
+        "minSpawnLevel": null,
+        "moves": {
+            "levelup": [
+                {
+                    "name": "charm",
+                    "level": 1
+                },
+                {
+                    "name": "growl",
+                    "level": 1
+                },
+                {
+                    "name": "nastyplot",
+                    "level": 1
+                },
+                {
+                    "name": "nuzzle",
+                    "level": 1
+                },
+                {
+                    "name": "playnice",
+                    "level": 1
+                },
+                {
+                    "name": "quickattack",
+                    "level": 1
+                },
+                {
+                    "name": "sweetkiss",
+                    "level": 1
+                },
+                {
+                    "name": "tailwhip",
+                    "level": 1
+                },
+                {
+                    "name": "thundershock",
+                    "level": 1
+                },
+                {
+                    "name": "thunderwave",
+                    "level": 4
+                },
+                {
+                    "name": "doubleteam",
+                    "level": 8
+                },
+                {
+                    "name": "electroball",
+                    "level": 12
+                },
+                {
+                    "name": "feint",
+                    "level": 16
+                },
+                {
+                    "name": "spark",
+                    "level": 20
+                },
+                {
+                    "name": "agility",
+                    "level": 24
+                },
+                {
+                    "name": "irontail",
+                    "level": 28
+                },
+                {
+                    "name": "slam",
+                    "level": 28
+                },
+                {
+                    "name": "discharge",
+                    "level": 32
+                },
+                {
+                    "name": "thunderbolt",
+                    "level": 36
+                },
+                {
+                    "name": "lightscreen",
+                    "level": 40
+                },
+                {
+                    "name": "thunder",
+                    "level": 44
+                },
+                {
+                    "name": "wildcharge",
+                    "level": 50
+                }
+            ],
+            "tm": [
+                "agility",
+                "alluringvoice",
+                "attract",
+                "bodyslam",
+                "brickbreak",
+                "charge",
+                "chargebeam",
+                "charm",
+                "confide",
+                "dig",
+                "disarmingvoice",
+                "doubleteam",
+                "drainingkiss",
+                "echoedvoice",
+                "eerieimpulse",
+                "electricterrain",
+                "electroball",
+                "electroweb",
+                "encore",
+                "endeavor",
+                "endure",
+                "facade",
+                "faketears",
+                "fling",
+                "focuspunch",
+                "frustration",
+                "grassknot",
+                "helpinghand",
+                "hiddenpower",
+                "irontail",
+                "knockoff",
+                "lightscreen",
+                "megakick",
+                "megapunch",
+                "nastyplot",
+                "payday",
+                "playrough",
+                "protect",
+                "raindance",
+                "reflect",
+                "rest",
+                "return",
+                "reversal",
+                "round",
+                "sleeptalk",
+                "snore",
+                "substitute",
+                "surf",
+                "swagger",
+                "swift",
+                "takedown",
+                "terablast",
+                "thief",
+                "thunder",
+                "thunderbolt",
+                "thunderpunch",
+                "thunderwave",
+                "toxic",
+                "trailblaze",
+                "upperhand",
+                "uproar",
+                "voltswitch",
+                "wildcharge"
+            ],
+            "tutor": [
+                "covet",
+                "electroball",
+                "electroweb",
+                "focuspunch",
+                "helpinghand",
+                "irontail",
+                "knockoff",
+                "laserfocus",
+                "magnetrise",
+                "quickattack",
+                "risingvoltage",
+                "shockwave",
+                "signalbeam",
+                "snore",
+                "thunderbolt",
+                "thunderpunch",
+                "volttackle"
+            ],
+            "egg": [
+                "charge",
+                "disarmingvoice",
+                "fakeout",
+                "flail",
+                "present",
+                "tickle",
+                "wish"
+            ]
+        }
+    },
     "sandshrewalola": {
         "name": "Sandshrew Alola",
         "minisprite": "",
@@ -72320,6 +72936,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -72556,6 +73173,7 @@
             "speed": 65
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -72788,6 +73406,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -72993,6 +73612,7 @@
             "speed": 15
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -73164,6 +73784,7 @@
             "speed": 60
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -73344,6 +73965,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -73566,6 +74188,7 @@
             "speed": 100
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -73721,6 +74344,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -73948,6 +74572,7 @@
             "speed": 75
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -73993,6 +74618,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -74226,6 +74852,7 @@
             "speed": 95
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -74373,6 +75000,7 @@
             "speed": 50
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -74512,6 +75140,7 @@
             "speed": 30
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -74648,6 +75277,7 @@
             "speed": 38
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -74798,6 +75428,7 @@
             "speed": 99
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -74980,6 +75611,7 @@
             "speed": 121
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -75160,6 +75792,7 @@
             "speed": 73
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -75293,6 +75926,7 @@
             "speed": 40
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -75441,6 +76075,7 @@
             "speed": 104
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {
@@ -75593,6 +76228,7 @@
             "speed": 109
         },
         "presets": [],
+        "minSpawnLevel": null,
         "moves": {
             "levelup": [
                 {

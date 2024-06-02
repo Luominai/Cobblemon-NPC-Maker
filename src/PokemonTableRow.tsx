@@ -5,7 +5,7 @@ import { CellStyle, TypographyStyle } from "./styles/PokemonTableStyles"
 import Ability from "./types/Ability"
 import abilitiesJSON from "./data/abilities.json"
 import { Fragment } from "react/jsx-runtime"
-import presetMap from "./PresetMap"
+import presetMap from "./other/PresetMap"
 
 const listOfAbilities = abilitiesJSON as Record<string, Ability>
 

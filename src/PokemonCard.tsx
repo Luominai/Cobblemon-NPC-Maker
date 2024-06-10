@@ -3,6 +3,9 @@ import Pokemon from "./types/Pokemon";
 import { Box, Grid, Input, Stack, TextField, Typography } from "@mui/material";
 import { TypographyStyle } from "./styles/PokemonTableStyles";
 import presetMap from "./other/PresetMap";
+import PokemonCardInput from "./PokemonCardInput";
+import FilterContext from "./FilterContext";
+import { useContext } from "react";
 
 
 function CustomInput({placeholder}: {placeholder: string}) {
@@ -10,6 +13,7 @@ function CustomInput({placeholder}: {placeholder: string}) {
 }
 
 function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
+    const filters = useContext(FilterContext)
     // if no pokemon is selected
     if (pokemon == null) {
         return (
@@ -19,7 +23,8 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                     <Box height={"144px"}>
 
                     </Box>
-                    <CustomInput placeholder={"name"}/>
+                    <PokemonCardInput placeholder="name" setStateFunction={filters.setName} filterType="name"/>
+                    {/* <CustomInput placeholder={"name"}/> */}
                 </Box>
 
                 {/* Characteristics */}

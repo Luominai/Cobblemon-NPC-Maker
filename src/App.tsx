@@ -1,16 +1,47 @@
-import { useState } from 'react'
+import { useState, useEffect, useContext, createContext} from 'react'
 import pokedex from "./data/pokemon_implemented.json"
 import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
 import exampleTrainerData from './other/ExampleTrainerData'
+import { applyNameFilter } from './FilterFunctions'
+import Pokemon from './types/Pokemon'
+import FilterContext from './FilterContext'
 
 const listOfPokemon = Object.values(pokedex)
 
 function App() {
-    const [displayedPokemon, setDisplayedPokemon] = useState(listOfPokemon)
+    const [nameFilter, setNameFilter] = useState<string>("")
+    const [typeFilter, setTypeFilter] = useState<string>("")
+    const [abilityFilter, setAbilityFilter] = useState<string>("")
+    const [presetFilter, setPresetFilter] = useState<string>("")
+    const [levelFilter, setLevelFilter] = useState<string>("")
+    const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
+
+    useEffect(() => {
+        let matchingPokemon = applyNameFilter(nameFilter, listOfPokemon)
+        // displayedPokemon = applyTypeFilter(typeFilter, listOfPokemon)
+        // displayedPokemon = applyAbilityFilter(abilityFilter, listOfPokemon)
+        // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)
+        // displayedPokemon = applyLevelFilter(levelFilter, listOfPokemon)
+
+        setDisplayedPokemon(matchingPokemon)
+        
+    }, [nameFilter, typeFilter, abilityFilter])
 
     return (
+        <FilterContext.Provider value={{
+            name: nameFilter,
+            type: typeFilter,
+            ability: abilityFilter,
+            preset: presetFilter,
+            level: levelFilter,
+            setName: setNameFilter,
+            setType: setTypeFilter,
+            setAbility: setAbilityFilter,
+            setPreset: setPresetFilter,
+            setLevel: setLevelFilter
+        }}>
         <Box height={"100vh"} width={"100vw"} display={"flex"}>
             {/*========== COLUMN 1 ==========*/}
             <Box display={"flex"} flexDirection={"column"} width={"192px"} height={"100%"} flexShrink={0}>
@@ -62,6 +93,7 @@ function App() {
                 </Box>
             </Box>
         </Box>
+        </FilterContext.Provider>
     )
 }
 

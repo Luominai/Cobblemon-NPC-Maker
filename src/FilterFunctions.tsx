@@ -59,4 +59,4 @@ function applyNameFilter(name: string, listOfPokemon: Array<Pokemon>) {
     return matchFirstPart.concat(matchOtherParts)
 }
 
-export default Filter
+export {applyNameFilter}

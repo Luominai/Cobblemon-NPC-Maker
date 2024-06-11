@@ -4,7 +4,7 @@ import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
 import exampleTrainerData from './other/ExampleTrainerData.tsx'
-import { applyNameFilter } from './FilterFunctions'
+import { applyNameFilter, applyTypeFilter } from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './FilterContext'
 
@@ -13,7 +13,9 @@ const listOfPokemon = Object.values(implemented_pokemon)
 
 function App() {
     const [nameFilter, setNameFilter] = useState<string>("")
-    const [typeFilter, setTypeFilter] = useState<string>("")
+    const [primaryTypeFilter, setPrimaryTypeFilter] = useState<string>("")
+    const [secondaryTypeFilter, setSecondaryTypeFilter] = useState<string>("")
+    // const [typeFilter, setTypeFilter] = useState<string>("")
     const [abilityFilter, setAbilityFilter] = useState<string>("")
     const [presetFilter, setPresetFilter] = useState<string>("")
     const [levelFilter, setLevelFilter] = useState<string>("")
@@ -21,24 +23,26 @@ function App() {
 
     useEffect(() => {
         let matchingPokemon = applyNameFilter(nameFilter, implemented_pokemon)
-        // displayedPokemon = applyTypeFilter(typeFilter, listOfPokemon)
+        matchingPokemon = applyTypeFilter(primaryTypeFilter, secondaryTypeFilter, matchingPokemon)
         // displayedPokemon = applyAbilityFilter(abilityFilter, listOfPokemon)
         // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)
         // displayedPokemon = applyLevelFilter(levelFilter, listOfPokemon)
 
-        setDisplayedPokemon(matchingPokemon)
+        setDisplayedPokemon(Object.values(matchingPokemon))
         
-    }, [nameFilter, typeFilter, abilityFilter])
+    }, [nameFilter, primaryTypeFilter, secondaryTypeFilter, abilityFilter, presetFilter, levelFilter])
 
     return (
         <FilterContext.Provider value={{
             name: nameFilter,
-            type: typeFilter,
+            primaryType: primaryTypeFilter,
+            secondaryType: secondaryTypeFilter,
             ability: abilityFilter,
             preset: presetFilter,
             level: levelFilter,
             setName: setNameFilter,
-            setType: setTypeFilter,
+            setPrimaryType: setPrimaryTypeFilter,
+            setSecondaryType: setSecondaryTypeFilter,
             setAbility: setAbilityFilter,
             setPreset: setPresetFilter,
             setLevel: setLevelFilter

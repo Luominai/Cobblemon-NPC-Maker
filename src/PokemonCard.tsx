@@ -1,126 +1,148 @@
 import { Fragment } from "react/jsx-runtime";
 import Pokemon from "./types/Pokemon";
-import { Box, Grid, Input, Stack, TextField, Typography } from "@mui/material";
+import { Box, Grid, Input, Select, Stack, TextField, Typography, MenuItem, Autocomplete } from "@mui/material";
 import { TypographyStyle } from "./styles/PokemonTableStyles";
 import presetMap from "./other/PresetMap";
 import PokemonCardInput from "./PokemonCardInput";
+import PokemonCardSelect from "./PokemonCardSelect";
 import FilterContext from "./FilterContext";
 import { useContext } from "react";
 
 
 function CustomInput({placeholder}: {placeholder: string}) {
-    return <Input placeholder={placeholder} sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
+    return <Input placeholder={placeholder} sx={{height: "24px", fontSize:"14px"}}/>
 }
+
+const CustomInputStyle = {height: "24px", fontSize:"14px"}
 
 function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
     const filters = useContext(FilterContext)
     // if no pokemon is selected
     if (pokemon == null) {
         return (
-            <Box display={"flex"} justifyContent={"space-evenly"} alignItems={"center"} marginTop={"10px"} marginBottom={"10px"}>
+            <Box display={"flex"} justifyContent={"space-evenly"} alignItems={"center"} margin={"3px"}>
                 {/* Name and Image */}
                 <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"}>
                     <Box height={"144px"}>
 
                     </Box>
-                    <PokemonCardInput placeholder="name" setStateFunction={filters.setName} filterType="name"/>
-                    {/* <CustomInput placeholder={"name"}/> */}
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}} onChange={(event) => {
+                        if (filters.setName) {
+                            filters.setName(event.target.value)
+                        }
+                    }}/>
                 </Box>
 
                 {/* Characteristics */}
                 <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"}>
-                    <CustomInput placeholder={"level"}/>
-                    <CustomInput placeholder={"gender"}/>
-                    <CustomInput placeholder={"shiny"}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
 
-                    <Box display={"flex"} padding={"auto"} justifyContent={"right"} height={"72px"}>
-                        <Input placeholder="type1" sx={{height: "24px", fontSize:"14px", width: "30%", marginRight:"5px"}}/>
-                        <Input placeholder="type2" sx={{height: "24px", fontSize:"14px", width: "30%"}}/>
+                    <Box display={"flex"} padding={"auto"} justifyContent={"space-around"} height={"72px"} >
+                        <Autocomplete
+                        size="small"
+                        renderInput={(params) => 
+                        <TextField 
+                            variant="standard" 
+                            placeholder="typing" {...params}
+                            inputProps={{
+                                style: {
+                                    fontSize:"14px"
+                                }
+                            }}
+                        />}
+                        options={[
+                            { label: 'The Shawshank Redemption', year: 1994 },
+                        ]}
+                        >
+                        </Autocomplete>
                     </Box>
-                    <Input placeholder="ability" sx={{height: "24px", fontSize:"14px"}}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
                 </Box>
 
                 {/* Moves */}
                 <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"}>
-                    <CustomInput placeholder={"move"}/>
-                    <CustomInput placeholder={"move"}/>
-                    <CustomInput placeholder={"move"}/>
-                    <CustomInput placeholder={"move"}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
 
                     <Box display={"flex"} padding={"auto"} justifyContent={"right"} height={"48px"}>
                     </Box>
-                    <Input placeholder="item" sx={{height: "24px", fontSize:"14px"}}/>
+                    <Input placeholder="name" size="small" sx={{fontSize:"14px"}}/>
                 </Box>
 
                 {/* Stats */}
-                <Box display={"flex"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"} justifyContent={"space-around"}>
-                    <Box display={"flex"} flexDirection={"column"} marginLeft={"2px"} marginRight={"2px"}>
-                        <Box height={"24px"} textAlign={"center"}>
+                <Box display={"flex"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"} justifyContent={"space-evenly"}>
+                    <Box display={"flex"} flexDirection={"column"} width={"20%"} marginLeft={"2px"} marginRight={"2px"} justifyContent={"space-between"}> 
+                        <Box textAlign={"center"} fontSize={"14px"} flexBasis={1} flexGrow={1}>
+                            
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1}flexGrow={1}>
                             Hp
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1}flexGrow={1}>
                             Atk
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1}flexGrow={1}>
                             Def
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
-                            SpA
+                        <Box  textAlign={"center"} fontSize={"14px"}flexBasis={1}flexGrow={1}>
+                            SpA    
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
-                            SpD
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1}flexGrow={1}>
+                            SpD  
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
-                            Spe
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1}flexGrow={1}>
+                            Spe  
                         </Box>
                     </Box>
 
                     <Box display={"flex"} flexDirection={"column"} width={"20%"} marginLeft={"2px"} marginRight={"2px"}>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}>
                             EVs
                         </Box>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
                     </Box>
 
                     <Box display={"flex"} flexDirection={"column"} width={"20%"} marginLeft={"2px"} marginRight={"2px"}> 
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}>
                             IVs
                         </Box>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
-                        <CustomInput placeholder={""}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
+                        <Input placeholder="" size="small" sx={{fontSize:"14px"}}/>
                     </Box>
 
-                    <Box display={"flex"} flexDirection={"column"} width={"20%"} marginLeft={"2px"} marginRight={"2px"}> 
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                    <Box display={"flex"} flexDirection={"column"} width={"20%"} marginLeft={"2px"} marginRight={"2px"} justifyContent={"space-evenly"}> 
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1} flexGrow={1}>
                             
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1} flexGrow={1}>
                             306
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1} flexGrow={1}>
                             306
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1} flexGrow={1}>
                             306
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box  textAlign={"center"} fontSize={"14px"}flexBasis={1} flexGrow={1}>
                             306    
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1} flexGrow={1}>
                             306  
                         </Box>
-                        <Box height={"24px"} textAlign={"center"} fontSize={"14px"}>
+                        <Box textAlign={"center"} fontSize={"14px"}flexBasis={1} flexGrow={1}>
                             306  
                         </Box>
                     </Box>

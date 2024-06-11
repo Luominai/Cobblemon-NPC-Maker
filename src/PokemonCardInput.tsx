@@ -1,8 +1,14 @@
-import { Input } from "@mui/material"
+import { Input, styled } from "@mui/material"
 import React, { useContext } from "react"
 import FilterContext from "./FilterContext"
 
-function PokemonCardInput({placeholder, setStateFunction, filterType}: {placeholder: string, setStateFunction: Function | null, filterType: string}) {
+interface PokemonCardInputProps {
+    placeholder: string, 
+    setStateFunction: Function | null, 
+    filterType: string, 
+    sx?: Record<any, any>}
+
+function PokemonCardInput({placeholder, setStateFunction, filterType, sx={height: "24px", fontSize:"14px", paddingLeft:"3px"}}: PokemonCardInputProps) {
     const filters = useContext(FilterContext)
     return (
         <>
@@ -13,9 +19,17 @@ function PokemonCardInput({placeholder, setStateFunction, filterType}: {placehol
                 setStateFunction(event.target.value)
             }
         }}
-        sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
+        sx={sx}/>
         </>
     )
 }
+
+// const StyledInput = styled(Input, {
+//     shouldForwardProp: (prop) => prop !== "primary"
+// })({
+//     height: "24px",
+//     fontSize: "14px",
+//     paddingLeft: "3px"
+// })
 
 export default PokemonCardInput

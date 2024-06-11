@@ -8,7 +8,7 @@ const memoized_pokemon: Record<string, Array<string>> = memoized_pokemon_json
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon: Array<Pokemon> = Object.values(implemented_pokemon)
 
-function applyNameFilter(name: string, listOfPokemon: Array<Pokemon>) {
+function applyNameFilter(name: string) {
     // if no name given, do nothing
     if (name.trim() == "") {
         return listOfPokemon
@@ -41,5 +41,7 @@ function applyNameFilter(name: string, listOfPokemon: Array<Pokemon>) {
 
     return matchingPokemon
 }
+
+
 
 export {applyNameFilter}

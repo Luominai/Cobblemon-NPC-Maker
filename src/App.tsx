@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext, createContext} from 'react'
-import implemented_pokemon from "./data/pokemon_implemented.json"
+import implemented_pokemon_json from "./data/pokemon_implemented.json"
 import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
@@ -8,6 +8,7 @@ import { applyNameFilter } from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './FilterContext'
 
+const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon = Object.values(implemented_pokemon)
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
 
     useEffect(() => {
-        let matchingPokemon = applyNameFilter(nameFilter, listOfPokemon)
+        let matchingPokemon = applyNameFilter(nameFilter)
         // displayedPokemon = applyTypeFilter(typeFilter, listOfPokemon)
         // displayedPokemon = applyAbilityFilter(abilityFilter, listOfPokemon)
         // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)

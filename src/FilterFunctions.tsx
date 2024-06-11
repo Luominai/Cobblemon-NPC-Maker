@@ -8,7 +8,7 @@ const memoized_pokemon: Record<string, Array<string>> = memoized_pokemon_json
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon: Array<Pokemon> = Object.values(implemented_pokemon)
 
-function applyNameFilter(name: string) {
+function applyNameFilter(name: string, dictOfPokemon: Record<string, Pokemon>) {
     // if no name given, do nothing
     if (name.trim() == "") {
         return listOfPokemon
@@ -35,7 +35,10 @@ function applyNameFilter(name: string) {
     for(let i = 0; i < secondPass.length; i++) {
         // conver the name to the corresponding key in implemented_pokemon
         const key = secondPass[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
-        matchingPokemon.push(implemented_pokemon[key])
+        // keep only the pokemon if they are in the pokemonDict passed into this function
+        if (dictOfPokemon[key]) {
+            matchingPokemon.push(dictOfPokemon[key])
+        }
     }
     console.log(matchingPokemon)
 

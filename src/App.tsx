@@ -20,7 +20,7 @@ function App() {
     const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
 
     useEffect(() => {
-        let matchingPokemon = applyNameFilter(nameFilter)
+        let matchingPokemon = applyNameFilter(nameFilter, implemented_pokemon)
         // displayedPokemon = applyTypeFilter(typeFilter, listOfPokemon)
         // displayedPokemon = applyAbilityFilter(abilityFilter, listOfPokemon)
         // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)

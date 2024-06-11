@@ -1,14 +1,14 @@
 import { useState, useEffect, useContext, createContext} from 'react'
-import pokedex from "./data/pokemon_implemented.json"
+import implemented_pokemon from "./data/pokemon_implemented.json"
 import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
-import exampleTrainerData from './other/ExampleTrainerData'
+import exampleTrainerData from './other/ExampleTrainerData.tsx'
 import { applyNameFilter } from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './FilterContext'
 
-const listOfPokemon = Object.values(pokedex)
+const listOfPokemon = Object.values(implemented_pokemon)
 
 function App() {
     const [nameFilter, setNameFilter] = useState<string>("")

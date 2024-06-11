@@ -1,62 +1,45 @@
 import { TextField } from "@mui/material";
 import Pokemon from "./types/Pokemon";
 import { Fragment, useEffect, useState } from "react";
+import memoized_pokemon_json from "./data/memoized_pokemon.json"
+import implemented_pokemon_json from "./data/pokemon_implemented.json"
 
-function Filter({listOfPokemon, setDisplayedPokemon}: {listOfPokemon: Array<Pokemon>, setDisplayedPokemon: Function}) {
-    const [nameFilter, setNameFilter] = useState<string>("")
-    const [typeFilter, setTypeFilter] = useState<string>("")
-    const [abilityFilter, setAbilityFilter] = useState<string>("")
-
-    useEffect(() => {
-        let matchingPokemon = applyNameFilter(nameFilter, listOfPokemon)
-        setDisplayedPokemon(matchingPokemon)
-        
-    }, [nameFilter, typeFilter, abilityFilter])
-    
-    return (
-        <Fragment>
-            <TextField 
-            onChange={(event) => {
-                setNameFilter(event.target.value)
-            }}/>
-            <TextField 
-            onChange={(event) => {
-                setTypeFilter(event.target.value)
-            }}/>
-            <TextField 
-            onChange={(event) => {
-                setAbilityFilter(event.target.value)
-            }}/>
-        </Fragment>
-    )
-}
+const memoized_pokemon: Record<string, Array<string>> = memoized_pokemon_json
+const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
+const listOfPokemon: Array<Pokemon> = Object.values(implemented_pokemon)
 
 function applyNameFilter(name: string, listOfPokemon: Array<Pokemon>) {
-    // if no filter, do nothing
+    // if no name given, do nothing
     if (name.trim() == "") {
         return listOfPokemon
     }
 
-    let matchFirstPart = []
-    let matchOtherParts = []
-    for (let i = 0; i < listOfPokemon.length; i++) {
-        const pokemon = listOfPokemon[i]
-        const searchName = name.toLowerCase().replace(/[^a-z0-9]/gi, '')
-        const parts = pokemon.name.split(" ")
+    // first, get the first character of the input string and return the list of pokemon memoized under that letter
+    const firstLetter = name.toLowerCase().replace(/[^a-z0-9]/gi, '').substring(0,1)
+    const firstPass = memoized_pokemon[firstLetter]
 
-        for (let j = 0; j < parts.length; j++) {
-            const part = parts[j].toLowerCase().replace(/[^a-z0-9]/gi, '')
-            if (part.startsWith(searchName)) {
-                if (j == 0) {
-                    matchFirstPart.push(pokemon)
-                } else {
-                    matchOtherParts.push(pokemon)
-                }
-                break
+    // now search for pokemon matching the rest of the input substring
+    const input = name.toLowerCase().replace(/[^a-z0-9]/gi, '')
+    const secondPass = firstPass.filter((pokemonName) => {
+        const parts = pokemonName.split(" ")
+        for (let i = 0; i < parts.length; i++) {
+            const part = parts[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
+            if (part.startsWith(input)) {
+                return true
             }
         }
+        return false
+    })
+
+    let matchingPokemon = []
+    for(let i = 0; i < secondPass.length; i++) {
+        // conver the name to the corresponding key in implemented_pokemon
+        const key = secondPass[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
+        matchingPokemon.push(implemented_pokemon[key])
     }
-    return matchFirstPart.concat(matchOtherParts)
+    console.log(matchingPokemon)
+
+    return matchingPokemon
 }
 
 export {applyNameFilter}

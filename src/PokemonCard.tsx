@@ -1,11 +1,32 @@
 import { Fragment } from "react/jsx-runtime";
 import Pokemon from "./types/Pokemon";
-import { Box, Grid, Input, Stack, TextField, Typography } from "@mui/material";
+import { Autocomplete, Box, Grid, Input, Stack, TextField, Typography } from "@mui/material";
 import { TypographyStyle } from "./styles/PokemonTableStyles";
 import presetMap from "./other/PresetMap";
 import PokemonCardInput from "./PokemonCardInput";
 import FilterContext from "./FilterContext";
 import { useContext } from "react";
+
+
+const top100Films = [
+    { title: 'The Shawshank Redemption', year: 1994 },
+    { title: 'The Godfather', year: 1972 },
+    { title: 'The Godfather: Part II', year: 1974 },
+  ];
+
+  interface FilmOptionType {
+    title: string;
+    year: number;
+  }
+
+const defaultProps = {
+    options: top100Films,
+    getOptionLabel: (option: FilmOptionType) => option.title,
+  };
+  const flatProps = {
+    options: top100Films.map((option) => option.title),
+  };
+
 
 
 function CustomInput({placeholder}: {placeholder: string}) {
@@ -33,9 +54,20 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                     <CustomInput placeholder={"gender"}/>
                     <CustomInput placeholder={"shiny"}/>
 
-                    <Box display={"flex"} padding={"auto"} justifyContent={"right"} height={"72px"}>
-                        <Input placeholder="type1" sx={{height: "24px", fontSize:"14px", width: "30%", marginRight:"5px"}}/>
-                        <Input placeholder="type2" sx={{height: "24px", fontSize:"14px", width: "30%"}}/>
+                    <Box display={"flex"} padding={"auto"} justifyContent={"center"} height={"72px"}>
+                        <Autocomplete
+                        sx={{
+                            width: "100%",
+                            '& .MuiInputBase-root': {
+                                height: "24px"
+                            },
+                            fontSize: "14px"
+                        }}
+                        renderInput={(params) => <TextField {...params} variant="standard"/>}
+                        options={[
+                            {label: "label"}
+                        ]}
+                        />
                     </Box>
                     <Input placeholder="ability" sx={{height: "24px", fontSize:"14px"}}/>
                 </Box>

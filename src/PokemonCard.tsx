@@ -3,7 +3,6 @@ import Pokemon from "./types/Pokemon";
 import { Autocomplete, Box, Grid, Input, Stack, TextField, Typography } from "@mui/material";
 import { TypographyStyle } from "./styles/PokemonTableStyles";
 import presetMap from "./other/PresetMap";
-import PokemonCardInput from "./PokemonCardInput";
 import FilterContext from "./FilterContext";
 import { useContext } from "react";
 
@@ -44,7 +43,12 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                     <Box height={"144px"}>
 
                     </Box>
-                    <PokemonCardInput placeholder="name" setStateFunction={filters.setName} filterType="name"/>
+                    <Input placeholder="name" sx={{height: "24px", fontSize:"14px"}} onChange={(event) => {
+                        if (filters.setName) {
+                            filters.setName(event.target.value)
+                        }
+                    }}/>
+                    {/* <PokemonCardInput placeholder="name" setStateFunction={filters.setName} filterType="name"/> */}
                     {/* <CustomInput placeholder={"name"}/> */}
                 </Box>
 

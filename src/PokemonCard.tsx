@@ -59,14 +59,31 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                         sx={{
                             width: "100%",
                             '& .MuiInputBase-root': {
-                                height: "24px"
+                                height: "24px",
+                                fontSize: "14px"
                             },
                             fontSize: "14px"
                         }}
                         renderInput={(params) => <TextField {...params} variant="standard"/>}
                         options={[
-                            {label: "label"}
+                            {label: "fire"},
+                            {label: "flying"},
+                            {label: "ghost"},
+                            {label: "c"},
+                            {label: "d"}
                         ]}
+                        ListboxProps={{
+                            style: {
+                                maxHeight: "100px"
+                            }
+                        }}
+                        slotProps={{
+                            paper: {
+                                style: {
+                                    fontSize: "14px"
+                                }
+                            }
+                        }}
                         />
                     </Box>
                     <Input placeholder="ability" sx={{height: "24px", fontSize:"14px"}}/>

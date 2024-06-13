@@ -4,7 +4,7 @@ import { Autocomplete, Box, Grid, Input, Stack, TextField, Typography } from "@m
 import { TypographyStyle } from "./styles/PokemonTableStyles";
 import presetMap from "./other/PresetMap";
 import FilterContext from "./FilterContext";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 
 const top100Films = [
@@ -33,6 +33,8 @@ function CustomInput({placeholder}: {placeholder: string}) {
 }
 
 function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
+    // const [selectedTypes, setSelectedTypes] = useState<Array<Record<any, string>>>([])
+
     const filters = useContext(FilterContext)
     // if no pokemon is selected
     if (pokemon == null) {
@@ -67,16 +69,19 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                                 height: "24px",
                                 fontSize: "14px"
                             },
-                            fontSize: "14px"
+                            fontSize: "14px",
+                            overflow: "hidden"
                         }}
-                        renderInput={(params) => <TextField {...params} variant="standard"/>} 
+                        renderInput={(params) => 
+                            <TextField {...params} sx={{overflow:"hidden"}} variant="standard"/>
+                        } // the params thing is passing on props from Input to the rendered Component
                         renderTags={(values) => 
                             values.map(value => value.label).join(' / ') // this renders the tags as a comma separated string rather than using chips
                         }
                         options={[
-                            {label: "fire"},
-                            {label: "flying"},
-                            {label: "ghost"},
+                            {label: "fire"},{label: "flying"},{label: "ghost"},{label: "bug"},{label: "dark"},{label: "dragon"},
+                            {label: "electric"},{label: "fairy"},{label: "fighting"},{label: "grass"},{label: "ground"},{label: "ice"},
+                            {label: "normal"},{label: "poison"},{label: "psychic"},{label: "rock"},{label: "steel"},{label: "water"},
                         ]}
                         ListboxProps={{
                             style: {
@@ -89,6 +94,18 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                                     fontSize: "14px"
                                 }
                             }
+                        }}
+                        getOptionDisabled={(option) => {
+                            // console.log(option)
+                            return (filters.type.length >= 2 || filters.type.includes(option.label))
+                        }}
+                        onChange={(event, value) => {
+                            if (filters.setType) {
+                                filters.setType( value.map((type) => type.label))
+                            }
+                        }}
+                        isOptionEqualToValue={(value1, value2) => {
+                            return value1.label == value2.label
                         }}
                         />
                     </Box>
@@ -196,7 +213,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                     <Box display={"flex"} justifyContent={"center"} height={"96px"} flexWrap={"wrap"}>
                         {["natural", "wild", "ancient_city", "trail_ruins", "pink_flowers"].map((preset) => {
                             return (
-                                <img src={presetMap[preset]} style={{width:"24px", height:"24px"}} title={preset}/>
+                                <img src={presetMap[preset]} style={{width:"24px", height:"24px"}} title={preset} key={preset}/>
                             )
                         })}
                     </Box>

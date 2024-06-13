@@ -116,9 +116,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                             <div style={{margin: "auto"}}>
                                 {pokemon.presets.map((preset) => {
                                     return (
-                                        <>
-                                        <img src={presetMap[preset]} style={{width:"24px", height:"24px"}} title={preset}/>
-                                        </>
+                                        <img src={presetMap[preset]} style={{width:"24px", height:"24px"}} title={preset} key={preset}/>
                                     )
                                 })}
                             </div>

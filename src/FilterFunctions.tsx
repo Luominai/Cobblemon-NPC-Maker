@@ -45,9 +45,9 @@ function applyNameFilter(name: string, dictOfPokemon: Record<string, Pokemon>) {
     return matchingPokemon
 }
 
-function applyTypeFilter(primaryType: string, secondaryType: string, dictOfPokemon: Record<string, Pokemon>) {
+function applyTypeFilter(type: Array<string>, dictOfPokemon: Record<string, Pokemon>) {
     // if no filter given, do nothing
-    if (primaryType.trim() == "" && secondaryType.trim() == "") {
+    if (type.length === 0) {
         return dictOfPokemon
     }
 
@@ -55,19 +55,15 @@ function applyTypeFilter(primaryType: string, secondaryType: string, dictOfPokem
     // check the typing of every pokemon in dict
     for (let [key, value] of Object.entries(dictOfPokemon)) {
         // if there are 2 input types, look for exact type matches
-        if (primaryType && secondaryType) {
-            if (value.typing.primaryType == primaryType && value.typing.secondaryType == secondaryType || value.typing.primaryType == secondaryType && value.typing.secondaryType == primaryType) {
+        if (type[0] && type[1]) {
+            if (value.typing.primaryType == type[0] && value.typing.secondaryType == type[1] || 
+                value.typing.primaryType == type[1] && value.typing.secondaryType == type[0]) {
                 matchingPokemon[key] = value
             }
         }
         // if there is only 1 input type, look for all pokemon that include the type
-        else if (primaryType) {
-            if (value.typing.primaryType == primaryType || value.typing.secondaryType == primaryType) {
-                matchingPokemon[key] = value
-            }
-        }
-        else if (secondaryType) {
-            if (value.typing.primaryType == secondaryType || value.typing.secondaryType == secondaryType) {
+        else if (type[0]) {
+            if (value.typing.primaryType == type[0] || value.typing.secondaryType == type[0]) {
                 matchingPokemon[key] = value
             }
         }

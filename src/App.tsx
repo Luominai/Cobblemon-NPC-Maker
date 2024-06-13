@@ -13,9 +13,9 @@ const listOfPokemon = Object.values(implemented_pokemon)
 
 function App() {
     const [nameFilter, setNameFilter] = useState<string>("")
-    const [primaryTypeFilter, setPrimaryTypeFilter] = useState<string>("")
-    const [secondaryTypeFilter, setSecondaryTypeFilter] = useState<string>("")
-    // const [typeFilter, setTypeFilter] = useState<string>("")
+    // const [primaryTypeFilter, setPrimaryTypeFilter] = useState<string>("")
+    // const [secondaryTypeFilter, setSecondaryTypeFilter] = useState<string>("")
+    const [typeFilter, setTypeFilter] = useState<Array<string>>([])
     const [abilityFilter, setAbilityFilter] = useState<string>("")
     const [presetFilter, setPresetFilter] = useState<string>("")
     const [levelFilter, setLevelFilter] = useState<string>("")
@@ -23,26 +23,28 @@ function App() {
 
     useEffect(() => {
         let matchingPokemon = applyNameFilter(nameFilter, implemented_pokemon)
-        matchingPokemon = applyTypeFilter(primaryTypeFilter, secondaryTypeFilter, matchingPokemon)
+        matchingPokemon = applyTypeFilter(typeFilter, matchingPokemon)
         // displayedPokemon = applyAbilityFilter(abilityFilter, listOfPokemon)
         // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)
         // displayedPokemon = applyLevelFilter(levelFilter, listOfPokemon)
 
         setDisplayedPokemon(Object.values(matchingPokemon))
         
-    }, [nameFilter, primaryTypeFilter, secondaryTypeFilter, abilityFilter, presetFilter, levelFilter])
+    }, [nameFilter, typeFilter, abilityFilter, presetFilter, levelFilter])
 
     return (
         <FilterContext.Provider value={{
             name: nameFilter,
-            primaryType: primaryTypeFilter,
-            secondaryType: secondaryTypeFilter,
+            type: typeFilter,
+            // primaryType: primaryTypeFilter,
+            // secondaryType: secondaryTypeFilter,
             ability: abilityFilter,
             preset: presetFilter,
             level: levelFilter,
             setName: setNameFilter,
-            setPrimaryType: setPrimaryTypeFilter,
-            setSecondaryType: setSecondaryTypeFilter,
+            setType: setTypeFilter,
+            // setPrimaryType: setPrimaryTypeFilter,
+            // setSecondaryType: setSecondaryTypeFilter,
             setAbility: setAbilityFilter,
             setPreset: setPresetFilter,
             setLevel: setLevelFilter

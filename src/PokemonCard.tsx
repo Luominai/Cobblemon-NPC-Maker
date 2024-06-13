@@ -60,6 +60,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
 
                     <Box display={"flex"} padding={"auto"} justifyContent={"center"} height={"72px"}>
                         <Autocomplete
+                        multiple
                         sx={{
                             width: "100%",
                             '& .MuiInputBase-root': {
@@ -68,13 +69,14 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                             },
                             fontSize: "14px"
                         }}
-                        renderInput={(params) => <TextField {...params} variant="standard"/>}
+                        renderInput={(params) => <TextField {...params} variant="standard"/>} 
+                        renderTags={(values) => 
+                            values.map(value => value.label).join(' / ') // this renders the tags as a comma separated string rather than using chips
+                        }
                         options={[
                             {label: "fire"},
                             {label: "flying"},
                             {label: "ghost"},
-                            {label: "c"},
-                            {label: "d"}
                         ]}
                         ListboxProps={{
                             style: {

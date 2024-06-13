@@ -5,28 +5,12 @@ import { TypographyStyle } from "./styles/PokemonTableStyles";
 import presetMap from "./other/PresetMap";
 import FilterContext from "./FilterContext";
 import { useContext, useState } from "react";
+import abilitiesJson from "./data/abilities.json"
+import Ability from "./types/Ability";
 
-
-const top100Films = [
-    { title: 'The Shawshank Redemption', year: 1994 },
-    { title: 'The Godfather', year: 1972 },
-    { title: 'The Godfather: Part II', year: 1974 },
-  ];
-
-  interface FilmOptionType {
-    title: string;
-    year: number;
-  }
-
-const defaultProps = {
-    options: top100Films,
-    getOptionLabel: (option: FilmOptionType) => option.title,
-  };
-  const flatProps = {
-    options: top100Films.map((option) => option.title),
-  };
-
-
+const abilities = abilitiesJson as Record<string, Ability>
+const listOfAbilities = Object.entries(abilities).map(([key, value]) => value)
+// console.log(listOfAbilities[5])
 
 function CustomInput({placeholder}: {placeholder: string}) {
     return <Input placeholder={placeholder} sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
@@ -60,8 +44,11 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                     <CustomInput placeholder={"gender"}/>
                     <CustomInput placeholder={"shiny"}/>
 
-                    <Box display={"flex"} padding={"auto"} justifyContent={"center"} height={"72px"}>
+                    <Box display={"flex"} padding={"auto"} justifyContent={"center"} height={"24px"} marginBottom={"48px"}>
                         <Autocomplete
+                        disableClearable
+                        autoHighlight
+                        filterSelectedOptions
                         multiple
                         sx={{
                             width: "100%",
@@ -73,10 +60,10 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                             overflow: "hidden"
                         }}
                         renderInput={(params) => 
-                            <TextField {...params} sx={{overflow:"hidden"}} variant="standard"/>
+                            <TextField {...params} variant="standard"/>
                         } // the params thing is passing on props from Input to the rendered Component
                         renderTags={(values) => 
-                            values.map(value => value.label).join(' / ') // this renders the tags as a comma separated string rather than using chips
+                            values.map(value => value.label).join(' ') // this renders the tags as a space separated string rather than using chips
                         }
                         options={[
                             {label: "fire"},{label: "flying"},{label: "ghost"},{label: "bug"},{label: "dark"},{label: "dragon"},
@@ -109,7 +96,42 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                         }}
                         />
                     </Box>
-                    <Input placeholder="ability" sx={{height: "24px", fontSize:"14px"}}/>
+                    <Autocomplete
+                    sx={{
+                        width: "100%",
+                        '& .MuiInputBase-root': {
+                            height: "24px",
+                            fontSize: "14px"
+                        },
+                        fontSize: "14px",
+                        overflow: "hidden"
+                    }}
+                    renderInput={(params) => 
+                        <TextField {...params} sx={{overflow:"hidden"}} variant="standard"/>
+                    } // the params thing is passing on props from Input to the rendered Component
+                    renderTags={(values) => 
+                        values.map(value => value.name).join(' / ') // this renders the tags as a comma separated string rather than using chips
+                    }
+                    options={listOfAbilities}
+                    getOptionLabel={(option) => option.name}
+                    ListboxProps={{
+                        style: {
+                            maxHeight: "100px"
+                        }
+                    }}
+                    slotProps={{
+                        paper: {
+                            style: {
+                                fontSize: "14px"
+                            }
+                        }
+                    }}
+                    onChange={(event, value) => {
+                        if (filters.setAbility) {
+                            filters.setAbility(value?.name?? "")
+                        }
+                    }}
+                    />
                 </Box>
 
                 {/* Moves */}

@@ -4,7 +4,7 @@ import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
 import exampleTrainerData from './other/ExampleTrainerData.tsx'
-import { applyNameFilter, applyTypeFilter } from './FilterFunctions'
+import { applyNameFilter, applyTypeFilter, applyAbilityFilter } from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './FilterContext'
 
@@ -24,7 +24,7 @@ function App() {
     useEffect(() => {
         let matchingPokemon = applyNameFilter(nameFilter, implemented_pokemon)
         matchingPokemon = applyTypeFilter(typeFilter, matchingPokemon)
-        // displayedPokemon = applyAbilityFilter(abilityFilter, listOfPokemon)
+        matchingPokemon = applyAbilityFilter(abilityFilter, matchingPokemon)
         // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)
         // displayedPokemon = applyLevelFilter(levelFilter, listOfPokemon)
 
@@ -50,26 +50,6 @@ function App() {
             setLevel: setLevelFilter
         }}>
         <Box height={"100vh"} width={"100vw"} display={"flex"}>
-            {/*========== COLUMN 1 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} width={"192px"} height={"100%"} flexShrink={0}>
-                {/* ========== UPPER ========== */}
-                <Box height={"48px"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
-
-                </Box>
-                <Box flexGrow={1} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
-
-                </Box>
-
-                {/* ========== LOWER ========== */}
-                <Box height={"48px"} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
-
-                </Box>
-                <Box flexGrow={1} width={"100%"} borderRight={"1px solid gray"} borderBottom={"1px solid gray"}>
-
-                </Box>
-            </Box>
-
-
             {/* ========== COLUMN 2 ==========*/}
             <Box display={"flex"} flexDirection={"column"}>
                 {/* ========== UPPER ========== */}

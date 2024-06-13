@@ -8,6 +8,19 @@ const memoized_pokemon: Record<string, Array<string>> = memoized_pokemon_json
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon: Array<Pokemon> = Object.values(implemented_pokemon)
 
+function partsContain(string: string, substring: string) {
+    const parts = string.split(" ")
+    for (let i = 0; i < parts.length; i++) {
+        const part = parts[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
+        const substringToSearchFor = substring.toLowerCase().replace(/[^a-z0-9]/gi, '')
+
+        if (part.startsWith(substringToSearchFor)) {
+            return true
+        }
+    }
+    return false
+}
+
 function applyNameFilter(name: string, dictOfPokemon: Record<string, Pokemon>) {
     // if no name given, do nothing
     if (name.trim() == "") {
@@ -19,16 +32,21 @@ function applyNameFilter(name: string, dictOfPokemon: Record<string, Pokemon>) {
     const firstPass = memoized_pokemon[firstLetter]
 
     // now filter using the rest of the input substring
-    const input = name.toLowerCase().replace(/[^a-z0-9]/gi, '')
+    // const input = name.toLowerCase().replace(/[^a-z0-9]/gi, '')
+    // const secondPass = firstPass.filter((pokemonName) => {
+    //     const parts = pokemonName.split(" ")
+    //     for (let i = 0; i < parts.length; i++) {
+    //         const part = parts[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
+    //         if (part.startsWith(input)) {
+    //             return true
+    //         }
+    //     }
+    //     return false
+    // })
+
+    // now filter using the rest of the input substring
     const secondPass = firstPass.filter((pokemonName) => {
-        const parts = pokemonName.split(" ")
-        for (let i = 0; i < parts.length; i++) {
-            const part = parts[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
-            if (part.startsWith(input)) {
-                return true
-            }
-        }
-        return false
+        return partsContain(pokemonName, name)
     })
 
     let matchingPokemon: Record<string, Pokemon> = {}
@@ -74,6 +92,25 @@ function applyTypeFilter(type: Array<string>, dictOfPokemon: Record<string, Poke
     
 }
 
+function applyAbilityFilter(ability: string, dictOfPokemon: Record<string, Pokemon>) {
+    // if no name given, do nothing
+    if (ability.trim() == "") {
+        return dictOfPokemon
+    }
+
+    ability = ability.toLowerCase().replace(/[^a-z0-9]/gi, '')
+
+    const firstPass = Object.fromEntries(Object.entries(dictOfPokemon).filter(([key, value]) => {
+        return (
+            ability == value.abilities?.primaryAbility || 
+            ability == value.abilities?.secondaryAbility || 
+            ability == value.abilities?.hiddenAbility
+        )
+    }))
+
+    return firstPass
+}
 
 
-export {applyNameFilter, applyTypeFilter}
+
+export {applyNameFilter, applyTypeFilter, applyAbilityFilter}

@@ -4,7 +4,7 @@ import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
 import exampleTrainerData from './other/ExampleTrainerData.tsx'
-import { applyNameFilter, applyTypeFilter, applyAbilityFilter } from './FilterFunctions'
+import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter } from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './FilterContext'
 
@@ -17,20 +17,24 @@ function App() {
     // const [secondaryTypeFilter, setSecondaryTypeFilter] = useState<string>("")
     const [typeFilter, setTypeFilter] = useState<Array<string>>([])
     const [abilityFilter, setAbilityFilter] = useState<string>("")
+    const [movesFilter, setMovesFilter] = useState<Array<string>>(["", "", "", ""])
     const [presetFilter, setPresetFilter] = useState<string>("")
     const [levelFilter, setLevelFilter] = useState<string>("")
     const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
+
+    // console.log("rendering")
 
     useEffect(() => {
         let matchingPokemon = applyNameFilter(nameFilter, implemented_pokemon)
         matchingPokemon = applyTypeFilter(typeFilter, matchingPokemon)
         matchingPokemon = applyAbilityFilter(abilityFilter, matchingPokemon)
+        matchingPokemon = applyMovesFilter(movesFilter, matchingPokemon)
         // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)
         // displayedPokemon = applyLevelFilter(levelFilter, listOfPokemon)
 
         setDisplayedPokemon(Object.values(matchingPokemon))
         
-    }, [nameFilter, typeFilter, abilityFilter, presetFilter, levelFilter])
+    }, [nameFilter, typeFilter, abilityFilter, movesFilter, presetFilter, levelFilter])
 
     return (
         <FilterContext.Provider value={{
@@ -39,6 +43,7 @@ function App() {
             // primaryType: primaryTypeFilter,
             // secondaryType: secondaryTypeFilter,
             ability: abilityFilter,
+            moves: movesFilter,
             preset: presetFilter,
             level: levelFilter,
             setName: setNameFilter,
@@ -46,6 +51,7 @@ function App() {
             // setPrimaryType: setPrimaryTypeFilter,
             // setSecondaryType: setSecondaryTypeFilter,
             setAbility: setAbilityFilter,
+            setMoves: setMovesFilter,
             setPreset: setPresetFilter,
             setLevel: setLevelFilter
         }}>

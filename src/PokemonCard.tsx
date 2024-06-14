@@ -7,10 +7,13 @@ import FilterContext from "./FilterContext";
 import { useContext, useState } from "react";
 import abilitiesJson from "./data/abilities.json"
 import Ability from "./types/Ability";
+import movesJson from "./data/moves.json"
+import Move from "./types/Move";
 
 const abilities = abilitiesJson as Record<string, Ability>
 const listOfAbilities = Object.entries(abilities).map(([key, value]) => value)
-// console.log(listOfAbilities[5])
+
+const moves = movesJson as Record<string, Move>
 
 function CustomInput({placeholder}: {placeholder: string}) {
     return <Input placeholder={placeholder} sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
@@ -46,7 +49,6 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
 
                     <Box display={"flex"} padding={"auto"} justifyContent={"center"} height={"24px"} marginBottom={"48px"}>
                         <Autocomplete
-                        disableClearable
                         autoHighlight
                         filterSelectedOptions
                         multiple
@@ -59,9 +61,10 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                             fontSize: "14px",
                             overflow: "hidden"
                         }}
-                        renderInput={(params) => 
-                            <TextField {...params} variant="standard"/>
-                        } // the params thing is passing on props from Input to the rendered Component
+                        renderInput={(params) => {
+                            const placeholder = (filters.type.length === 0) ? "type" : ""
+                            return <TextField {...params} variant="standard" placeholder={placeholder}/> // the params thing is passing on props from Input to the rendered Component
+                        }} 
                         renderTags={(values) => 
                             values.map(value => value.label).join(' ') // this renders the tags as a space separated string rather than using chips
                         }
@@ -70,6 +73,11 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                             {label: "electric"},{label: "fairy"},{label: "fighting"},{label: "grass"},{label: "ground"},{label: "ice"},
                             {label: "normal"},{label: "poison"},{label: "psychic"},{label: "rock"},{label: "steel"},{label: "water"},
                         ]}
+                        getOptionLabel={(option) => {
+                            // adding a space to the option means you can enter whitespace and still have options show up, ex: " fire" still shows the option for fire
+                            // the whitespace also doesn't shift the label over
+                            return " " + option.label 
+                        }} 
                         ListboxProps={{
                             style: {
                                 maxHeight: "100px"
@@ -88,7 +96,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                         }}
                         onChange={(event, value) => {
                             if (filters.setType) {
-                                filters.setType( value.map((type) => type.label))
+                                filters.setType(value.map((type) => type.label))
                             }
                         }}
                         isOptionEqualToValue={(value1, value2) => {
@@ -97,6 +105,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                         />
                     </Box>
                     <Autocomplete
+                    autoHighlight
                     sx={{
                         width: "100%",
                         '& .MuiInputBase-root': {
@@ -106,9 +115,10 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                         fontSize: "14px",
                         overflow: "hidden"
                     }}
-                    renderInput={(params) => 
-                        <TextField {...params} sx={{overflow:"hidden"}} variant="standard"/>
-                    } // the params thing is passing on props from Input to the rendered Component
+                    renderInput={(params) => {
+                        const placeholder = (filters.ability === "") ? "ability" : ""
+                        return <TextField {...params} variant="standard" placeholder={placeholder}/> // the params thing is passing on props from Input to the rendered Component
+                    }} 
                     renderTags={(values) => 
                         values.map(value => value.name).join(' / ') // this renders the tags as a comma separated string rather than using chips
                     }
@@ -136,10 +146,61 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
 
                 {/* Moves */}
                 <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"}>
-                    <CustomInput placeholder={"move"}/>
-                    <CustomInput placeholder={"move"}/>
-                    <CustomInput placeholder={"move"}/>
-                    <CustomInput placeholder={"move"}/>
+                    {[0, 1, 2, 3].map((number) => {
+                        return (
+                            <Autocomplete
+                            autoHighlight
+                            sx={{
+                                width: "100%",
+                                '& .MuiInputBase-root': {
+                                    height: "24px",
+                                    fontSize: "14px"
+                                },
+                                fontSize: "14px",
+                                overflow: "hidden"
+                            }}
+                            renderInput={(params) => {
+                                const placeholder = (filters.ability === "") ? "ability" : ""
+                                return <TextField {...params} variant="standard" placeholder={placeholder}/> // the params thing is passing on props from Input to the rendered Component
+                            }} 
+                            renderTags={(values) => 
+                                values.map(value => value.name).join(' / ') // this renders the tags as a comma separated string rather than using chips
+                            }
+                            options={listOfAbilities}
+                            getOptionLabel={(option) => option.name}
+                            ListboxProps={{
+                                style: {
+                                    maxHeight: "100px"
+                                }
+                            }}
+                            slotProps={{
+                                paper: {
+                                    style: {
+                                        fontSize: "14px"
+                                    }
+                                }
+                            }}
+                            onChange={(event, value) => {
+                                if (filters.setMoves) {
+                                    let currentMovesFilter = (filters.moves).map((move) => move)
+                                    currentMovesFilter[number] = value ? value.name : ""
+                                    console.log(currentMovesFilter)
+                                    filters.setMoves(currentMovesFilter)
+                                }
+                            }}
+                            />
+                            // <Input key={number} placeholder="move" sx={{height: "24px", fontSize:"14px"}} onChange={(event) => {
+                            //     if (filters.setMoves) {
+                            //         let currentMovesFilter = (filters.moves).map((move) => move)
+                            //         currentMovesFilter[number] = event.target.value
+                            //         // console.log(currentMovesFilter)
+                            //         filters.setMoves(currentMovesFilter)
+                            //     }
+                            // }}/>
+                        )
+                    })}
+
+                    
 
                     <Box display={"flex"} padding={"auto"} justifyContent={"right"} height={"48px"}>
                     </Box>

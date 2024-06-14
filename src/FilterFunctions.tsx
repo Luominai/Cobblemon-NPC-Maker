@@ -3,8 +3,11 @@ import Pokemon from "./types/Pokemon";
 import { Fragment, useEffect, useState } from "react";
 import memoized_pokemon_json from "./data/memoized_pokemon.json"
 import implemented_pokemon_json from "./data/pokemon_implemented.json"
+import memoized_moves_json from "./data/moves_memoized.json"
 
 const memoized_pokemon: Record<string, Array<string>> = memoized_pokemon_json
+const memoized_moves: Record<string, Array<string>> = memoized_moves_json
+
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon: Array<Pokemon> = Object.values(implemented_pokemon)
 
@@ -30,19 +33,6 @@ function applyNameFilter(name: string, dictOfPokemon: Record<string, Pokemon>) {
     // first, get the first character of the input string and return the list of pokemon memoized under that letter
     const firstLetter = name.toLowerCase().replace(/[^a-z0-9]/gi, '').substring(0,1)
     const firstPass = memoized_pokemon[firstLetter]
-
-    // now filter using the rest of the input substring
-    // const input = name.toLowerCase().replace(/[^a-z0-9]/gi, '')
-    // const secondPass = firstPass.filter((pokemonName) => {
-    //     const parts = pokemonName.split(" ")
-    //     for (let i = 0; i < parts.length; i++) {
-    //         const part = parts[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
-    //         if (part.startsWith(input)) {
-    //             return true
-    //         }
-    //     }
-    //     return false
-    // })
 
     // now filter using the rest of the input substring
     const secondPass = firstPass.filter((pokemonName) => {
@@ -111,6 +101,46 @@ function applyAbilityFilter(ability: string, dictOfPokemon: Record<string, Pokem
     return firstPass
 }
 
+function applyMovesFilter(moves: Array<string>, dictOfPokemon: Record<string, Pokemon>) {
+    // if no filter given, do nothing
+    let emptyFilter = true
+    for (let i = 0; i < moves.length; i++) {
+        if (moves[i].trim() !== "") {
+            emptyFilter = false
+        }
+    }
+    if (emptyFilter) {
+        return dictOfPokemon
+    }
 
 
-export {applyNameFilter, applyTypeFilter, applyAbilityFilter}
+
+    // get the list of pokemon memoized under the moves
+    let firstPass: Array<string> = []
+    let firstPassInitialized = false
+    for (let i = 0; i < moves.length; i++) {
+        const move_name_key = moves[i].toLowerCase().replace(/[^a-z0-9]/gi, '')
+        if (memoized_moves[move_name_key] != null && move_name_key != "") {
+            const pokemon_that_learn_this_move = memoized_moves[move_name_key]
+
+            if (!firstPassInitialized) {
+                firstPass = pokemon_that_learn_this_move
+                firstPassInitialized = true
+            }
+            else {
+                // get the intersection
+                firstPass = firstPass.filter(value => pokemon_that_learn_this_move.includes(value));
+            }
+        }
+    }
+
+    const secondPass = Object.fromEntries(Object.entries(dictOfPokemon).filter(([key, value]) => {
+        return firstPass.includes(key)
+    }))
+
+    return secondPass
+    
+}
+
+
+export {applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter}

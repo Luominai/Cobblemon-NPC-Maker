@@ -6,6 +6,7 @@ const FilterContext = createContext<{
     // primaryType: string,
     // secondaryType: string,
     ability: string,
+    moves: Array<string>
     preset: string,
     level: string,
     setName: Function | null,
@@ -13,6 +14,7 @@ const FilterContext = createContext<{
     // setPrimaryType: Function | null,
     // setSecondaryType: Function | null,
     setAbility: Function | null,
+    setMoves: Function | null
     setPreset: Function | null,
     setLevel: Function | null
 }>({
@@ -21,12 +23,14 @@ const FilterContext = createContext<{
     // primaryType: "",
     // secondaryType: "",
     ability: "",
+    moves: ["", "", "", ""],
     preset: "",
     level: "",
     setName: null,
     setType: null,
     // setPrimaryType: null,
     // setSecondaryType: null,
+    setMoves: null,
     setAbility: null,
     setPreset: null,
     setLevel: null

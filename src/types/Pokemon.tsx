@@ -32,7 +32,6 @@ type Pokemon = {
         egg: Array<string>
     },
     minSpawnLevel: number | null
-    // form: string
 }
 
 export default Pokemon

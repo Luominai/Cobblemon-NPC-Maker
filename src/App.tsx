@@ -6,7 +6,7 @@ import { Box, Grid, Stack, TextField, styled} from '@mui/material'
 import exampleTrainerData from './other/ExampleTrainerData.tsx'
 import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter } from './FilterFunctions'
 import Pokemon from './types/Pokemon'
-import FilterContext from './FilterContext'
+import FilterContext from './context/FilterContext.tsx'
 
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon = Object.values(implemented_pokemon)

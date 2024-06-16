@@ -22,8 +22,6 @@ function App() {
     const [levelFilter, setLevelFilter] = useState<string>("")
     const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
 
-    // console.log("rendering")
-
     useEffect(() => {
         let matchingPokemon = applyNameFilter(nameFilter, implemented_pokemon)
         matchingPokemon = applyTypeFilter(typeFilter, matchingPokemon)

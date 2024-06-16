@@ -7,13 +7,15 @@ import FilterContext from "./FilterContext";
 import { useContext, useState } from "react";
 import abilitiesJson from "./data/abilities.json"
 import Ability from "./types/Ability";
-import movesJson from "./data/moves.json"
-import Move from "./types/Move";
+import {Moves} from "./data/showdown/moves"
+// import movesJson from "./data/moves.json"
+// import Move from "./types/Move";
 
 const abilities = abilitiesJson as Record<string, Ability>
 const listOfAbilities = Object.entries(abilities).map(([key, value]) => value)
 
-const moves = movesJson as Record<string, Move>
+const listOfMoves = Object.entries(Moves).map(([key, value]) => value)
+// const moves = movesJson as Record<string, Move>
 
 function CustomInput({placeholder}: {placeholder: string}) {
     return <Input placeholder={placeholder} sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
@@ -166,7 +168,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                             renderTags={(values) => 
                                 values.map(value => value.name).join(' / ') // this renders the tags as a comma separated string rather than using chips
                             }
-                            options={listOfAbilities}
+                            options={listOfMoves}
                             getOptionLabel={(option) => option.name}
                             ListboxProps={{
                                 style: {

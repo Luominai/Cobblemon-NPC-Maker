@@ -47,7 +47,7 @@ function PokemonCardLevelGenderShinyTypeAbilty() {
                 }} 
                 ListboxProps={{
                     style: {
-                        maxHeight: "100px"
+                        maxHeight: "200px"
                     }
                 }}
                 slotProps={{
@@ -93,7 +93,7 @@ function PokemonCardLevelGenderShinyTypeAbilty() {
             getOptionLabel={(option) => option.name}
             ListboxProps={{
                 style: {
-                    maxHeight: "100px"
+                    maxHeight: "200px"
                 }
             }}
             slotProps={{

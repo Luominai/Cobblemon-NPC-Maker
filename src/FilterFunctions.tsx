@@ -113,8 +113,6 @@ function applyMovesFilter(moves: Array<string>, dictOfPokemon: Record<string, Po
         return dictOfPokemon
     }
 
-
-
     // get the list of pokemon memoized under the moves
     let firstPass: Array<string> = []
     let firstPassInitialized = false
@@ -142,5 +140,29 @@ function applyMovesFilter(moves: Array<string>, dictOfPokemon: Record<string, Po
     
 }
 
+function applyPresetsFilter(presets: Array<string>, dictOfPokemon: Record<string, Pokemon>) {
+    // if no filter given, do nothing
+    let emptyFilter = true
+    for (let i = 0; i < presets.length; i++) {
+        if (presets[i].trim() !== "") {
+            emptyFilter = false
+        }
+    }
+    if (emptyFilter) {
+        return dictOfPokemon
+    }
 
-export {applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter}
+    console.log(presets)
+
+    const firstPass = Object.fromEntries(Object.entries(dictOfPokemon).filter(([key, value]) => {
+        return (
+            presets.every(preset => value.presets.includes(preset))
+        )
+    }))
+
+    return firstPass
+
+}
+
+
+export {applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter}

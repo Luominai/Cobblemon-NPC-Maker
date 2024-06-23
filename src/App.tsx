@@ -4,7 +4,7 @@ import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
 import exampleTrainerData from './other/ExampleTrainerData.tsx'
-import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter } from './FilterFunctions'
+import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter } from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './context/FilterContext.tsx'
 
@@ -18,7 +18,7 @@ function App() {
     const [typeFilter, setTypeFilter] = useState<Array<string>>([])
     const [abilityFilter, setAbilityFilter] = useState<string>("")
     const [movesFilter, setMovesFilter] = useState<Array<string>>(["", "", "", ""])
-    const [presetFilter, setPresetFilter] = useState<string>("")
+    const [presetFilter, setPresetFilter] = useState<Array<string>>([])
     const [levelFilter, setLevelFilter] = useState<string>("")
     const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
 
@@ -27,7 +27,7 @@ function App() {
         matchingPokemon = applyTypeFilter(typeFilter, matchingPokemon)
         matchingPokemon = applyAbilityFilter(abilityFilter, matchingPokemon)
         matchingPokemon = applyMovesFilter(movesFilter, matchingPokemon)
-        // displayedPokemon = applyPresetFilter(presetFilter, listOfPokemon)
+        matchingPokemon = applyPresetsFilter(presetFilter, matchingPokemon)
         // displayedPokemon = applyLevelFilter(levelFilter, listOfPokemon)
 
         setDisplayedPokemon(Object.values(matchingPokemon))
@@ -53,7 +53,7 @@ function App() {
             setPreset: setPresetFilter,
             setLevel: setLevelFilter
         }}>
-        <Box height={"100vh"} width={"100vw"} display={"flex"}>
+        <Box height={"100vh"} width={"100vw"} display={"flex"} justifyContent={"center"}>
             {/* ========== COLUMN 2 ==========*/}
             <Box display={"flex"} flexDirection={"column"}>
                 {/* ========== UPPER ========== */}
@@ -70,19 +70,19 @@ function App() {
 
 
             {/*========== COLUMN 3 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} height={"100%"} flexGrow={1} sx={{overflow:"hidden"}}>
-                {/* ========== UPPER ========== */}
+            {/* <Box display={"flex"} flexDirection={"column"} height={"100%"} flexGrow={1} sx={{overflow:"hidden"}}>
+                
                 <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
                 </Box>
 
-                {/* ========== LOWER ========== */}
+                
                 <Box sx={{overflow:"scroll", borderLeft:"1px solid gray"}}>
                     <pre style={{margin: "0px"}}>
                         {JSON.stringify(exampleTrainerData, null, 2)}
                     </pre>
                 </Box>
-            </Box>
+            </Box> */}
         </Box>
         </FilterContext.Provider>
     )

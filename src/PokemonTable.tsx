@@ -20,11 +20,13 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
                 {/* The labels for the table columns */}
                 <TableHead>
                     <TableRow>
-                        {["Level", "Name", "Type", "Ability", "Hidden Ability", "Hp", "Atk", "Def", "SpA", "SpD", "Spe", "Presets"].map((field) => {
+                        {[["Level", "40px"], ["Name", "120px"], ["Type", "60px"], ["Ability", "100px"], ["Hidden Ability", "100px"],
+                        ["Hp", "25px"], ["Atk", "25px"], ["Def", "25px"], ["SpA", "25px"], ["SpD", "25px"], ["Spe", "25px"], 
+                        ["Presets", "168px"]].map(([field, width]) => {
                             return (
                             <Fragment key={field}>
                                 <TableCell sx={CellStyle}>
-                                    <Typography sx={{fontSize: "12px"}} textAlign={"center"}>{field}</Typography>
+                                    <Typography sx={{fontSize: "12px"}} textAlign={"center"} width={width} margin={"auto"}>{field}</Typography>
                                 </TableCell>
                             </Fragment>
                             )

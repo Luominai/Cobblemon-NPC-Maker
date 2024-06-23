@@ -45,7 +45,7 @@ function PokemonCardMovesItem() {
                     }}
                     ListboxProps={{
                         style: {
-                            maxHeight: "100px",
+                            maxHeight: "200px",
                         }
                     }}
                     slotProps={{

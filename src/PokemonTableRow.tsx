@@ -26,14 +26,14 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
             <TableRow>
                 {/* spawn lvl */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} width={"40px"} textAlign={"center"}>
+                    <Typography fontSize={settings.smallFont} width={"40px"} textAlign={"center"} margin={"auto"}>
                         {pokemon.minSpawnLevel?? "n/a"}
                     </Typography>
                 </TableCell>
 
                 {/* name */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} height={"50px"} width={"120px"}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} height={"50px"} width={"120px"} margin={"auto"}>
                         <div style={{margin: "auto"}}>
                             <img src={pokemon.minisprite} style={{verticalAlign: "middle"}}/>
                         </div>
@@ -45,7 +45,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
 
                 {/* typing */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"60px"}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"60px"} margin={"auto"}>
                         <div style={{margin: "auto"}}>
                             {pokemon.typing.primaryType}
                         </div>
@@ -62,7 +62,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
 
                 {/* abilities */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"100px"}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"100px"} margin={"auto"}>
                         <div style={{margin: "auto"}}>
                             {listOfAbilities[pokemon.abilities.primaryAbility].name}
                         </div>
@@ -80,7 +80,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
 
                 {/* hidden ability */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"100px"}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"100px"} margin={"auto"}>
                         {(pokemon.abilities.hiddenAbility !=  "") 
                         ?
                             <div style={{margin: "auto"}}>
@@ -96,11 +96,11 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
                 {Object.entries(pokemon.baseStats).map(([stat, value]) => {
                     return (
                         <Fragment key={statsMap[stat]}>
-                            <TableCell sx={CellStyle}>
-                                <Typography fontSize={"10px"} color={"lightgray"} width={"25px"} textAlign={"center"}>
+                            <TableCell sx={CellStyle} >
+                                <Typography fontSize={"10px"} color={"lightgray"} width={"25px"} textAlign={"center"} margin={"auto"}>
                                     {statsMap[stat]}
                                 </Typography>
-                                <Typography fontSize={settings.smallFont} width={"25px"} textAlign={"center"}>
+                                <Typography fontSize={settings.smallFont} width={"25px"} textAlign={"center"} margin={"auto"}>
                                     {value}
                                 </Typography>
                             </TableCell>
@@ -110,7 +110,7 @@ export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
 
                 {/* presets */}
                 <TableCell sx={CellStyle}>
-                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"168px"}>
+                    <Typography fontSize={settings.smallFont} sx={TypographyStyle} width={"168px"} margin={"auto"}>
                         {(pokemon.presets.length > 0) 
                         ?
                             <div style={{margin: "auto"}}>

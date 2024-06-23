@@ -4,7 +4,7 @@ import { Box, Input } from "@mui/material";
 
 import PokemonCardNameAndImage from "./PokemonCardNameAndImage";
 import PokemonCardLevelGenderShinyTypeAbility from "./PokemonCardLevelGenderShinyTypeAbility";
-import PokemonCardMoves from "./PokemonCardMoves";
+import PokemonCardMovesItem from "./PokemonCardMovesItem";
 import PokemonCardStats from "./PokemonCardStats";
 import PokemonCardImportExportPresetsNature from "./PokemonCardImportExportPresetsNature";
 
@@ -21,7 +21,7 @@ function PokemonCard({pokemon}: {pokemon: Pokemon|null}) {
                 <PokemonCardLevelGenderShinyTypeAbility/>
 
                 {/* Moves */}
-                <PokemonCardMoves/>
+                <PokemonCardMovesItem/>
 
                 {/* Stats */}
                 <PokemonCardStats/>

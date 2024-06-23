@@ -1,11 +1,11 @@
-import { Box, Input, Autocomplete, TextField } from "@mui/material"
+import { Box, Input, Autocomplete, TextField, ListItemText } from "@mui/material"
 import FilterContext from "./context/FilterContext"
 import { useContext } from "react"
 import {Moves} from "./data/showdown/moves"
 
 const listOfMoves = Object.entries(Moves).map(([key, value]) => value)
 
-function PokemonCardMoves() {
+function PokemonCardMovesItem() {
     const filters = useContext(FilterContext)
     return (
         <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"}>
@@ -23,17 +23,29 @@ function PokemonCardMoves() {
                         overflow: "hidden"
                     }}
                     renderInput={(params) => {
-                        const placeholder = (filters.ability === "") ? "ability" : ""
-                        return <TextField {...params} variant="standard" placeholder={placeholder}/> // the params thing is passing on props from Input to the rendered Component
+                        const placeholder = "move"
+                        return (
+                            <TextField // the params thing is passing on props from Input to the rendered Component
+                            {...params} 
+                            variant="standard" 
+                            placeholder={placeholder}
+                            /> 
+                        )
                     }} 
                     renderTags={(values) => 
                         values.map(value => value.name).join(' / ') // this renders the tags as a comma separated string rather than using chips
                     }
                     options={listOfMoves}
                     getOptionLabel={(option) => option.name}
+                    renderOption={(props, option) => {
+                        const title = [option.category, option.type, option.basePower].join(" ")
+                        return (
+                            <li {...props} title={title}>{option.name}</li>
+                        )
+                    }}
                     ListboxProps={{
                         style: {
-                            maxHeight: "100px"
+                            maxHeight: "100px",
                         }
                     }}
                     slotProps={{
@@ -52,14 +64,6 @@ function PokemonCardMoves() {
                         }
                     }}
                     />
-                    // <Input key={number} placeholder="move" sx={{height: "24px", fontSize:"14px"}} onChange={(event) => {
-                    //     if (filters.setMoves) {
-                    //         let currentMovesFilter = (filters.moves).map((move) => move)
-                    //         currentMovesFilter[number] = event.target.value
-                    //         // console.log(currentMovesFilter)
-                    //         filters.setMoves(currentMovesFilter)
-                    //     }
-                    // }}/>
                 )
             })}
 
@@ -72,4 +76,4 @@ function PokemonCardMoves() {
     )
 }
 
-export default PokemonCardMoves
+export default PokemonCardMovesItem

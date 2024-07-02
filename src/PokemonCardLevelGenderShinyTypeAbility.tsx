@@ -18,8 +18,11 @@ function PokemonCardLevelGenderShinyTypeAbilty() {
             sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}} 
             type="number"
             onChange={(event) => {
+                console.log(event.target.value)
                 if (filters.setLevel) {
-                    filters.setLevel(event.target.value)
+                    const level = event.target.value.length > 0 ? event.target.value : 100
+                    console.log(level)
+                    filters.setLevel(level)
                 }
             }}
             />

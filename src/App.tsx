@@ -2,7 +2,7 @@ import { useState, useEffect} from 'react'
 import implemented_pokemon_json from "./data/pokemon_implemented.json"
 import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
-import { Box, Grid, Stack, TextField, styled} from '@mui/material'
+import { Box } from '@mui/material'
 import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter, applyLevelFilter} from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './context/FilterContext.tsx'

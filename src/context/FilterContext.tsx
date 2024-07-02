@@ -8,7 +8,7 @@ const FilterContext = createContext<{
     ability: string,
     moves: Array<string>
     preset: Array<string>,
-    level: string,
+    level: number,
     setName: Function | null,
     setType: Function | null
     // setPrimaryType: Function | null,
@@ -25,7 +25,7 @@ const FilterContext = createContext<{
     ability: "",
     moves: ["", "", "", ""],
     preset: [],
-    level: "",
+    level: 100,
     setName: null,
     setType: null,
     // setPrimaryType: null,

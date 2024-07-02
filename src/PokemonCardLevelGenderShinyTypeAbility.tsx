@@ -3,6 +3,9 @@ import FilterContext from "./context/FilterContext"
 import { useContext } from "react"
 import abilitiesJson from "./data/abilities.json"
 import Ability from "./types/Ability"
+import { Unstable_NumberInput as NumberInput } from '@mui/base/Unstable_NumberInput';
+
+
 const abilities = abilitiesJson as Record<string, Ability>
 const listOfAbilities = Object.entries(abilities).map(([key, value]) => value)
 
@@ -10,7 +13,16 @@ function PokemonCardLevelGenderShinyTypeAbilty() {
     const filters = useContext(FilterContext)
     return (
         <Box display={"flex"} flexDirection={"column"} paddingLeft={"2px"} paddingRight={"2px"} width={"20%"}>
-            <Input placeholder={"level"} sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
+            <Input 
+            placeholder={"level"} 
+            sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}} 
+            type="number"
+            onChange={(event) => {
+                if (filters.setLevel) {
+                    filters.setLevel(event.target.value)
+                }
+            }}
+            />
             <Input placeholder={"gender"} sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
             <Input placeholder={"shiny"} sx={{height: "24px", fontSize:"14px", paddingLeft:"3px"}}/>
 

@@ -1,6 +1,4 @@
-import { TextField } from "@mui/material";
 import Pokemon from "./types/Pokemon";
-import { Fragment, useEffect, useState } from "react";
 import memoized_pokemon_json from "./data/memoized_pokemon.json"
 import implemented_pokemon_json from "./data/pokemon_implemented.json"
 import memoized_moves_json from "./data/moves_memoized.json"
@@ -9,7 +7,6 @@ const memoized_pokemon: Record<string, Array<string>> = memoized_pokemon_json
 const memoized_moves: Record<string, Array<string>> = memoized_moves_json
 
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
-const listOfPokemon: Array<Pokemon> = Object.values(implemented_pokemon)
 
 function partsContain(string: string, substring: string) {
     const parts = string.split(" ")
@@ -152,7 +149,7 @@ function applyPresetsFilter(presets: Array<string>, dictOfPokemon: Record<string
         return dictOfPokemon
     }
 
-    console.log(presets)
+    // console.log(presets)
 
     const firstPass = Object.fromEntries(Object.entries(dictOfPokemon).filter(([key, value]) => {
         return (
@@ -164,5 +161,25 @@ function applyPresetsFilter(presets: Array<string>, dictOfPokemon: Record<string
 
 }
 
+function applyLevelFilter(level: number, dictOfPokemon: Record<string, Pokemon>) {
+    // if no name given, do nothing
+    if (level >= 100) {
+        return dictOfPokemon
+    }
 
-export {applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter}
+    if (level <= 0) {
+        return {}
+    }
+
+    const firstPass = Object.fromEntries(Object.entries(dictOfPokemon).filter(([key, value]) => {
+        return (
+            (value.minSpawnLevel != null) && (value.minSpawnLevel <= level)
+        )
+    }))
+
+    return firstPass
+
+}
+
+
+export {applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter, applyLevelFilter}

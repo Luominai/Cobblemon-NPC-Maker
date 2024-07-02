@@ -1,10 +1,9 @@
-import { useState, useEffect, useContext, createContext} from 'react'
+import { useState, useEffect} from 'react'
 import implemented_pokemon_json from "./data/pokemon_implemented.json"
 import PokemonTable from './PokemonTable'
 import PokemonCard from './PokemonCard'
 import { Box, Grid, Stack, TextField, styled} from '@mui/material'
-import exampleTrainerData from './other/ExampleTrainerData.tsx'
-import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter } from './FilterFunctions'
+import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter, applyLevelFilter} from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './context/FilterContext.tsx'
 
@@ -13,13 +12,12 @@ const listOfPokemon = Object.values(implemented_pokemon)
 
 function App() {
     const [nameFilter, setNameFilter] = useState<string>("")
-    // const [primaryTypeFilter, setPrimaryTypeFilter] = useState<string>("")
-    // const [secondaryTypeFilter, setSecondaryTypeFilter] = useState<string>("")
     const [typeFilter, setTypeFilter] = useState<Array<string>>([])
     const [abilityFilter, setAbilityFilter] = useState<string>("")
     const [movesFilter, setMovesFilter] = useState<Array<string>>(["", "", "", ""])
     const [presetFilter, setPresetFilter] = useState<Array<string>>([])
-    const [levelFilter, setLevelFilter] = useState<string>("")
+    const [levelFilter, setLevelFilter] = useState<number>(100)
+
     const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
 
     useEffect(() => {
@@ -28,7 +26,7 @@ function App() {
         matchingPokemon = applyAbilityFilter(abilityFilter, matchingPokemon)
         matchingPokemon = applyMovesFilter(movesFilter, matchingPokemon)
         matchingPokemon = applyPresetsFilter(presetFilter, matchingPokemon)
-        // displayedPokemon = applyLevelFilter(levelFilter, listOfPokemon)
+        matchingPokemon = applyLevelFilter(levelFilter, matchingPokemon)
 
         setDisplayedPokemon(Object.values(matchingPokemon))
         
@@ -38,16 +36,12 @@ function App() {
         <FilterContext.Provider value={{
             name: nameFilter,
             type: typeFilter,
-            // primaryType: primaryTypeFilter,
-            // secondaryType: secondaryTypeFilter,
             ability: abilityFilter,
             moves: movesFilter,
             preset: presetFilter,
             level: levelFilter,
             setName: setNameFilter,
             setType: setTypeFilter,
-            // setPrimaryType: setPrimaryTypeFilter,
-            // setSecondaryType: setSecondaryTypeFilter,
             setAbility: setAbilityFilter,
             setMoves: setMovesFilter,
             setPreset: setPresetFilter,
@@ -55,14 +49,14 @@ function App() {
         }}>
         <Box height={"100vh"} width={"100vw"} display={"flex"} justifyContent={"center"}>
             {/* ========== COLUMN 2 ==========*/}
-            <Box display={"flex"} flexDirection={"column"}>
+            <Box display={"flex"} flexDirection={"column"} width={"80%"}>
                 {/* ========== UPPER ========== */}
                 <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
                 </Box>
 
                 {/* ========== LOWER ========== */}
-                <Box display={"flex"} flexDirection={"column"}>
+                <Box display={"flex"} flexDirection={"column"} >
                     <PokemonCard pokemon={null}/>
                     <PokemonTable listOfPokemon={displayedPokemon}/>
                 </Box>

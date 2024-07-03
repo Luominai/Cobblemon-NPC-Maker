@@ -6,6 +6,8 @@ import Ability from "./types/Ability"
 import abilitiesJSON from "./data/abilities.json"
 import { Fragment } from "react/jsx-runtime"
 import presetMap from "./other/PresetMap"
+import SelectedPokemonContext from "./context/SelectedPokemonContext"
+import { useContext } from "react"
 
 const listOfAbilities = abilitiesJSON as Record<string, Ability>
 
@@ -20,10 +22,17 @@ const statsMap: {[key: string]: string} = {
     
 
 export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
-    // console.log(pokemon)
+    const selected = useContext(SelectedPokemonContext)
+
     return (
         <Fragment>
-            <TableRow>
+            <TableRow 
+            onClick = {()=> {
+                if (selected.setSelectedPokemon) {
+                    selected.setSelectedPokemon(pokemon)
+                }
+            }}
+            >
                 {/* spawn lvl */}
                 <TableCell sx={CellStyle}>
                     <Typography fontSize={settings.smallFont} width={"40px"} textAlign={"center"} margin={"auto"}>

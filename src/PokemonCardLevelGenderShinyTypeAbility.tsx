@@ -3,7 +3,6 @@ import FilterContext from "./context/FilterContext"
 import { useContext } from "react"
 import abilitiesJson from "./data/abilities.json"
 import Ability from "./types/Ability"
-import { Unstable_NumberInput as NumberInput } from '@mui/base/Unstable_NumberInput';
 
 
 const abilities = abilitiesJson as Record<string, Ability>

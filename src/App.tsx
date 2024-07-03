@@ -6,6 +6,7 @@ import { Box } from '@mui/material'
 import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter, applyPresetsFilter, applyLevelFilter} from './FilterFunctions'
 import Pokemon from './types/Pokemon'
 import FilterContext from './context/FilterContext.tsx'
+import SelectedPokemonContext from './context/SelectedPokemonContext.tsx'
 
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon = Object.values(implemented_pokemon)
@@ -19,6 +20,7 @@ function App() {
     const [levelFilter, setLevelFilter] = useState<number>(100)
 
     const [displayedPokemon, setDisplayedPokemon] = useState<Array<Pokemon>>(listOfPokemon)
+    const [selectedPokemon, setSelectedPokemon] = useState<Pokemon|null>(null)
 
     useEffect(() => {
         let matchingPokemon = applyNameFilter(nameFilter, implemented_pokemon)
@@ -47,37 +49,26 @@ function App() {
             setPreset: setPresetFilter,
             setLevel: setLevelFilter
         }}>
-        <Box height={"100vh"} width={"100vw"} display={"flex"} justifyContent={"center"}>
-            {/* ========== COLUMN 2 ==========*/}
-            <Box display={"flex"} flexDirection={"column"} width={"80%"}>
-                {/* ========== UPPER ========== */}
-                <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
+            <SelectedPokemonContext.Provider value={{
+                selectedPokemon: selectedPokemon,
+                setSelectedPokemon: setSelectedPokemon
+            }}>
+                <Box height={"100vh"} width={"100vw"} display={"flex"} justifyContent={"center"}>
+                    {/* ========== COLUMN 2 ==========*/}
+                    <Box display={"flex"} flexDirection={"column"} width={"80%"}>
+                        {/* ========== UPPER ========== */}
+                        <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
+                        </Box>
+
+                        {/* ========== LOWER ========== */}
+                        <Box display={"flex"} flexDirection={"column"} >
+                            <PokemonCard/>
+                            <PokemonTable listOfPokemon={displayedPokemon}/>
+                        </Box>
+                    </Box>
                 </Box>
-
-                {/* ========== LOWER ========== */}
-                <Box display={"flex"} flexDirection={"column"} >
-                    <PokemonCard pokemon={null}/>
-                    <PokemonTable listOfPokemon={displayedPokemon}/>
-                </Box>
-            </Box>
-
-
-            {/*========== COLUMN 3 ==========*/}
-            {/* <Box display={"flex"} flexDirection={"column"} height={"100%"} flexGrow={1} sx={{overflow:"hidden"}}>
-                
-                <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
-
-                </Box>
-
-                
-                <Box sx={{overflow:"scroll", borderLeft:"1px solid gray"}}>
-                    <pre style={{margin: "0px"}}>
-                        {JSON.stringify(exampleTrainerData, null, 2)}
-                    </pre>
-                </Box>
-            </Box> */}
-        </Box>
+            </SelectedPokemonContext.Provider>
         </FilterContext.Provider>
     )
 }

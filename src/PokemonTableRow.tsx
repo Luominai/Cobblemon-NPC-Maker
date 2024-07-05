@@ -7,7 +7,7 @@ import abilitiesJSON from "./data/abilities.json"
 import { Fragment } from "react/jsx-runtime"
 import presetMap from "./other/PresetMap"
 import SelectedPokemonContext from "./context/SelectedPokemonContext"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 
 const listOfAbilities = abilitiesJSON as Record<string, Ability>
 
@@ -23,14 +23,29 @@ const statsMap: {[key: string]: string} = {
 
 export default function PokemonTableRow({pokemon}: {pokemon: Pokemon}) {
     const selected = useContext(SelectedPokemonContext)
+    const [hover, setHover] = useState<boolean>(false)
+
+    const style = hover ? {
+        backgroundColor: "rgb(250,250,250)",
+        cursor: "pointer"
+    }: {
+        cursor: "pointer"
+    }
 
     return (
         <Fragment>
             <TableRow 
+            sx={style}
             onClick = {()=> {
                 if (selected.setSelectedPokemon) {
                     selected.setSelectedPokemon(pokemon)
                 }
+            }}
+            onMouseEnter = {() => {
+                setHover(true)
+            }}
+            onMouseLeave = {() => {
+                setHover(false)
             }}
             >
                 {/* spawn lvl */}

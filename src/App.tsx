@@ -7,6 +7,7 @@ import { applyNameFilter, applyTypeFilter, applyAbilityFilter, applyMovesFilter,
 import Pokemon from './types/Pokemon'
 import FilterContext from './context/FilterContext.tsx'
 import SelectedPokemonContext from './context/SelectedPokemonContext.tsx'
+import DisplayedPokemonContext from './context/DisplayedPokemonContext.tsx'
 
 const implemented_pokemon: Record<string, Pokemon> = implemented_pokemon_json
 const listOfPokemon = Object.values(implemented_pokemon)
@@ -53,21 +54,26 @@ function App() {
                 selectedPokemon: selectedPokemon,
                 setSelectedPokemon: setSelectedPokemon
             }}>
-                <Box height={"100vh"} width={"100vw"} display={"flex"} justifyContent={"center"}>
-                    {/* ========== COLUMN 2 ==========*/}
-                    <Box display={"flex"} flexDirection={"column"} width={"80%"}>
-                        {/* ========== UPPER ========== */}
-                        <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
+                <DisplayedPokemonContext.Provider value={{
+                    displayedPokemon: displayedPokemon,
+                    setDisplayedPokemon: setDisplayedPokemon
+                }}>
+                    <Box height={"100vh"} width={"100vw"} display={"flex"} justifyContent={"center"}>
+                        {/* ========== COLUMN 2 ==========*/}
+                        <Box display={"flex"} flexDirection={"column"} width={"80%"}>
+                            {/* ========== UPPER ========== */}
+                            <Box minHeight={"48px"} width={"100%"} borderBottom={"1px solid gray"}>
 
-                        </Box>
+                            </Box>
 
-                        {/* ========== LOWER ========== */}
-                        <Box display={"flex"} flexDirection={"column"} >
-                            <PokemonCard/>
-                            <PokemonTable listOfPokemon={displayedPokemon}/>
+                            {/* ========== LOWER ========== */}
+                            <Box display={"flex"} flexDirection={"column"} >
+                                <PokemonCard/>
+                                <PokemonTable listOfPokemon={displayedPokemon}/>
+                            </Box>
                         </Box>
                     </Box>
-                </Box>
+                </DisplayedPokemonContext.Provider>
             </SelectedPokemonContext.Provider>
         </FilterContext.Provider>
     )

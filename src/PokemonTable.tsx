@@ -1,8 +1,9 @@
 import { Box, Pagination, Table, TableCell, TableHead, TableRow, Typography } from "@mui/material"
 import PokemonTableRow from "./PokemonTableRow";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useContext, useEffect, useState } from "react";
 import { CellStyle } from "./styles/PokemonTableStyles";
 import Pokemon from "./types/Pokemon";
+import TableOrderContext from "./context/TableOrderContext";
 
 function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {   
     const [page, setPage] = useState<number>(1)
@@ -13,6 +14,8 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
     useEffect(() => {
         setPage(1)
     }, [listOfPokemon])
+
+    const tableOrder = useContext(TableOrderContext)
     
     return (
         <Box display={"flex"} flexDirection={"column"}>
@@ -25,7 +28,24 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
                         ["Presets", "168px"]].map(([field, width]) => {
                             return (
                             <Fragment key={field}>
-                                <TableCell sx={CellStyle}>
+                                <TableCell 
+                                sx={CellStyle} 
+                                onClick={() => {
+                                    // if this field is the current sortBy, update order
+                                    if (tableOrder.sortBy == field.toLowerCase()) {
+                                        if (tableOrder.setOrder) {
+                                            tableOrder.setOrder(((tableOrder.order + 2) % 3) - 1) // the order cycles between -1, 0, 1
+                                        }
+                                    }
+                                    // if this field is not the current sortBy, update sortBy
+                                    else {
+                                        if (tableOrder.setSortBy && tableOrder.setOrder) {
+                                            tableOrder.setSortBy(field.toLowerCase())
+                                            tableOrder.setOrder(1)
+                                        }
+                                    }
+                                }}
+                                >
                                     <Typography sx={{fontSize: "12px"}} textAlign={"center"} width={width} margin={"auto"}>{field}</Typography>
                                 </TableCell>
                             </Fragment>

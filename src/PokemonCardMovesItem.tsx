@@ -20,7 +20,7 @@ function PokemonCardMovesItem() {
         const levelup = selectedPokemon.selectedPokemon.moves.levelup.map((move) => move.name)
 
         // creates a new array of move names by spreading a set that is every array merged (this removes dupes), then maps each move name to its move
-        learnset = [... new Set([...tm, ...tutor])].map((moveName) => Moves[moveName]) 
+        learnset = [... new Set([...tm, ...tutor, ...egg, ...levelup])].map((moveName) => Moves[moveName]) 
 
     }
 

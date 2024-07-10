@@ -28,26 +28,7 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
                         ["Presets", "168px"]].map(([field, width]) => {
                             return (
                             <Fragment key={field}>
-                                <TableCell 
-                                sx={CellStyle} 
-                                onClick={() => {
-                                    // if this field is the current sortBy, update order
-                                    if (tableOrder.sortBy == field.toLowerCase()) {
-                                        if (tableOrder.setOrder) {
-                                            tableOrder.setOrder(((tableOrder.order + 2) % 3) - 1) // the order cycles between -1, 0, 1
-                                        }
-                                    }
-                                    // if this field is not the current sortBy, update sortBy
-                                    else {
-                                        if (tableOrder.setSortBy && tableOrder.setOrder) {
-                                            tableOrder.setSortBy(field.toLowerCase())
-                                            tableOrder.setOrder(1)
-                                        }
-                                    }
-                                }}
-                                >
-                                    <Typography sx={{fontSize: "12px"}} textAlign={"center"} width={width} margin={"auto"}>{field}</Typography>
-                                </TableCell>
+                                <PokemonTableCell field={field} width={width}/>
                             </Fragment>
                             )
                         })}
@@ -70,6 +51,35 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
             </Box>
         </Box>
     )
+}
+
+function PokemonTableCell({field, width}: {field: string, width: string}) {
+    const tableOrder = useContext(TableOrderContext)
+    const fontWeight = (tableOrder.sortBy == field.toLowerCase() && tableOrder.order != 0) ? "bold" : ""
+
+    return <>
+    <TableCell 
+    sx={CellStyle} 
+    onClick={(event) => {
+        // if this field is the current sortBy, update order
+        if (tableOrder.sortBy == field.toLowerCase()) {
+            if (tableOrder.setOrder) {
+                tableOrder.setOrder(((tableOrder.order + 3) % 3) - 1) // the order cycles between -1, 0, 1, we want the order to cycle -1, 1, 0
+            }
+        }
+        // if this field is not the current sortBy, update sortBy
+        else {
+            if (tableOrder.setSortBy && tableOrder.setOrder) {
+                tableOrder.setSortBy(field.toLowerCase())
+                tableOrder.setOrder(-1) // default order onclick is descending
+            }
+        }
+    }}
+    >
+        <Typography sx={{fontSize: "12px", userSelect: "none", cursor: "pointer"}} fontWeight={fontWeight} textAlign={"center"} width={width} margin={"auto"}>{field}</Typography>
+    </TableCell>
+    </>
+    
 }
 
 export default PokemonTable

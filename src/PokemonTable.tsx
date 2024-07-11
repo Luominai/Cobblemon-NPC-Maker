@@ -19,7 +19,7 @@ function PokemonTable({listOfPokemon}: {listOfPokemon: Array<Pokemon>}) {
     
     return (
         <Box display={"flex"} flexDirection={"column"}>
-            <Table>
+            <Table stickyHeader={true}>
                 {/* The labels for the table columns */}
                 <TableHead>
                     <TableRow>
